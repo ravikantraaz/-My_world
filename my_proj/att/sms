@@ -1,0 +1,9 @@
+#!/bin/bash
+TELFNUMB=$1
+SMSTEXT=$2
+MODEM="/dev/ttyUSB2"
+chat TIMEOUT 1 "" "AT" "OK" > $MODEM
+chat TIMEOUT 1 "" "AT+CMGF=1" "OK" > $MODEM
+chat TIMEOUT 1 "" "AT+CMGS=\"$TELFNUMB\"" "OK" > $MODEM
+chat TIMEOUT 1 "" "$SMSTEXT" "OK" > $MODEM
+chat TIMEOUT 1 "" "^Z" "OK" > $MODEM 
