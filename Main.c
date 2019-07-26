@@ -11,7 +11,6 @@ int main()
     int status;
     int mode = 1;
     FILE *fp;
-    printf("hello\n");
     char DatabaseFileName[] = "person.dat";
     sprintf(DBFILE, "%s", DatabaseFileName);
 
