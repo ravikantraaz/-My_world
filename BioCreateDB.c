@@ -67,7 +67,6 @@ int BioWriteDB(user_t *tmp, int mode)
             return -1;
         }
     }
-
     if(mode == 2)
         fp = fopen(DBFILE, "wb");
     else
@@ -78,7 +77,6 @@ int BioWriteDB(user_t *tmp, int mode)
         printf("File open error\n");
         return -2;
     }
-
     user_t *tmpdb;
     tmpdb = tmp;
     while(tmpdb != NULL)
