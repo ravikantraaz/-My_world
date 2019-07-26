@@ -13,7 +13,7 @@ int main()
     FILE *fp;
     char DatabaseFileName[] = "person.dat";
     sprintf(DBFILE, "%s", DatabaseFileName);
-
+    printf("Hello Folks !\n");
     bct_t CaptureFormat;
 
     device_open();
