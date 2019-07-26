@@ -1,0 +1,1860 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANSI_TEMPLATE	../inc/iengine_ansi_iso.h	/^	ANSI_TEMPLATE = 0,$/;"	e	enum:__anon1
+AntispoofingEnable	../inc/tfmtypes.h	/^  PT_BYTE AntispoofingEnable; 	\/\/\/< If PT_TRUE, antispoofing is enabled.$/;"	m	struct:pt_session_cfg_v5
+AntispoofingEnable	../inc/tfmtypes.h	/^  PT_WORD AntispoofingEnable; 	\/\/\/< If PT_TRUE, antispoofing is enabled.$/;"	m	struct:pt_session_cfg_v4
+AntispoofingLevel	../inc/tfmtypes.h	/^  PT_DWORD AntispoofingLevel; 	\/\/\/< Level of anti-spoofing security (see PT_ANTISPOOFING_xxxx values)$/;"	m	struct:pt_session_cfg_v1
+AntispoofingLevel	../inc/tfmtypes.h	/^  PT_DWORD AntispoofingLevel; 	\/\/\/< Level of anti-spoofing security (see PT_ANTISPOOFING_xxxx values)$/;"	m	struct:pt_session_cfg_v2
+AntispoofingLevel	../inc/tfmtypes.h	/^  PT_DWORD AntispoofingLevel; 	\/\/\/< Level of anti-spoofing security (see PT_ANTISPOOFING_xxxx values)$/;"	m	struct:pt_session_cfg_v3
+AntispoofingRejectsEnrollment	../inc/tfmtypes.h	/^  PT_BYTE AntispoofingRejectsEnrollment; 	\/\/\/< If PT_TRUE, antispoofing rejects even enrollment captures.$/;"	m	struct:pt_session_cfg_v5
+AntispoofingSecurityLevel	../inc/tfmtypes.h	/^  PT_BYTE AntispoofingSecurityLevel; 	\/\/\/< Level of anti-spoofing security (see PT_ANTISPOOFING_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+AntispoofingSecurityLevel	../inc/tfmtypes.h	/^  PT_WORD AntispoofingSecurityLevel; 	\/\/\/< Level of anti-spoofing security (see PT_ANTISPOOFING_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+ApiVersion	../inc/tfmtypes.h	/^  PT_DWORD ApiVersion; 	\/\/\/< Version of PTAPI. Highest byte = major version, second highest byte = minor version, low word = subversions$/;"	m	struct:pt_global_info
+Authenticate_iso	../src/enroll.c	/^int Authenticate_iso(USER *head)$/;"	f
+AuthentifyId	../inc/tfmtypes.h	/^  PT_DWORD AuthentifyId; 	\/\/\/< ID of the Authentify group, used in PTAuthentify, value 0 means that authentication is not required.$/;"	m	struct:pt_info
+BCERR_BAD_DATA_FORMAT	../inc/bclib.h	287;"	d
+BCERR_BAD_PARAMETER	../inc/bclib.h	244;"	d
+BCERR_BUFFER_TOO_SMALL	../inc/bclib.h	260;"	d
+BCERR_DECODING_INPUT	../inc/bclib.h	277;"	d
+BCERR_ENCODING_OUTPUT	../inc/bclib.h	282;"	d
+BCERR_ERROR	../inc/bclib.h	221;"	d
+BCERR_INCOMPATIBLE_DATA	../inc/bclib.h	299;"	d
+BCERR_INTERNAL	../inc/bclib.h	304;"	d
+BCERR_MEMORY_ALLOCATION	../inc/bclib.h	235;"	d
+BCERR_MISSING_INFORMATION	../inc/bclib.h	294;"	d
+BCERR_NOT_SUPPORTED	../inc/bclib.h	252;"	d
+BCERR_OK	../inc/bclib.h	212;"	d
+BCERR_STD_OFFSET	../inc/bclib.h	204;"	d
+BCERR_UNKNOWN_DATA	../inc/bclib.h	272;"	d
+BCERR_UNKNOWN_ENVELOPE	../inc/bclib.h	266;"	d
+BCIC_COMPRESSED_JPEG	../inc/bclib.h	/^     BCIC_COMPRESSED_JPEG =  3,    \/\/Compressed via JPEG - not supported.$/;"	e	enum:_tag_BCImageCompressionType
+BCIC_COMPRESSED_JPEG2000	../inc/bclib.h	/^     BCIC_COMPRESSED_JPEG2000 =  4,    \/\/Compressed via JPEG2000 - not supported in the light variant of the library$/;"	e	enum:_tag_BCImageCompressionType
+BCIC_COMPRESSED_PNG	../inc/bclib.h	/^     BCIC_COMPRESSED_PNG =  5   \/\/Compressed via PNG - not supported.$/;"	e	enum:_tag_BCImageCompressionType
+BCIC_COMPRESSED_WSQ	../inc/bclib.h	/^     BCIC_COMPRESSED_WSQ =  2,    \/\/Compressed via WSQ - not supported in the light variant of the library$/;"	e	enum:_tag_BCImageCompressionType
+BCIC_NOT_SPECIFIED	../inc/bclib.h	/^     BCIC_NOT_SPECIFIED =  -1,    \/\/Not specified$/;"	e	enum:_tag_BCImageCompressionType
+BCIC_UNCOMPRESSED	../inc/bclib.h	/^     BCIC_UNCOMPRESSED =  0,    \/\/Uncompressed$/;"	e	enum:_tag_BCImageCompressionType
+BCIC_UNCOMPRESSED_BITPACKED	../inc/bclib.h	/^     BCIC_UNCOMPRESSED_BITPACKED =  1,    \/\/Uncompressed, bit packed - not supported.$/;"	e	enum:_tag_BCImageCompressionType
+BCIE_ABS_IMAGE	../inc/bclib.h	/^     BCIE_ABS_IMAGE =  1,    \/\/ABS_SAMPLE_IMAGE$/;"	e	enum:_tag_BCImageEnvelopeType
+BCIE_BIOAPI_GUI_BITMAP	../inc/bclib.h	/^     BCIE_BIOAPI_GUI_BITMAP,    \/\/BioAPI_GUI_BITMAP - currently not supported.$/;"	e	enum:_tag_BCImageEnvelopeType
+BCIE_LAST	../inc/bclib.h	/^     BCIE_LAST   \/\/Last value mark$/;"	e	enum:_tag_BCImageEnvelopeType
+BCIE_NONE	../inc/bclib.h	/^     BCIE_NONE =  0,    \/\/No envelope$/;"	e	enum:_tag_BCImageEnvelopeType
+BCIE_NOT_SPECIFIED	../inc/bclib.h	/^     BCIE_NOT_SPECIFIED =  -1,    \/\/Not specified$/;"	e	enum:_tag_BCImageEnvelopeType
+BCIE_PT_DIF	../inc/bclib.h	/^     BCIE_PT_DIF,    \/\/PT_DIF$/;"	e	enum:_tag_BCImageEnvelopeType
+BCIT_AREA_SENSOR	../inc/bclib.h	/^     BCIT_AREA_SENSOR =  2   \/\/Image captured by area sensor e.g. TCS1.$/;"	e	enum:_tag_BCImageType
+BCIT_NOT_SPECIFIED	../inc/bclib.h	/^     BCIT_NOT_SPECIFIED =  -1,    \/\/Information not provided.$/;"	e	enum:_tag_BCImageType
+BCIT_SWIPE_SENSOR	../inc/bclib.h	/^     BCIT_SWIPE_SENSOR =  1,    \/\/Image captured by swipe sensor e.g. TCS5.$/;"	e	enum:_tag_BCImageType
+BCIT_UNKNOWN	../inc/bclib.h	/^     BCIT_UNKNOWN =  0,    \/\/Unknown image type.$/;"	e	enum:_tag_BCImageType
+BCI_ANSI	../inc/bclib.h	/^     BCI_ANSI,    \/\/ANSI image.$/;"	e	enum:_tag_BCImageDataType
+BCI_ISO	../inc/bclib.h	/^     BCI_ISO,    \/\/ISO image$/;"	e	enum:_tag_BCImageDataType
+BCI_LAST	../inc/bclib.h	/^     BCI_LAST   \/\/Last value mark$/;"	e	enum:_tag_BCImageDataType
+BCI_NONE	../inc/bclib.h	/^     BCI_NONE =  0,    \/\/None - no data present.$/;"	e	enum:_tag_BCImageDataType
+BCI_NOT_SPECIFIED	../inc/bclib.h	/^     BCI_NOT_SPECIFIED =  -1,    \/\/Not specified$/;"	e	enum:_tag_BCImageDataType
+BCI_RAW	../inc/bclib.h	/^     BCI_RAW,    \/\/Raw image$/;"	e	enum:_tag_BCImageDataType
+BCImageCompressionType	../inc/bclib.h	/^} BCImageCompressionType;$/;"	t	typeref:enum:_tag_BCImageCompressionType
+BCImageDataType	../inc/bclib.h	/^} BCImageDataType;$/;"	t	typeref:enum:_tag_BCImageDataType
+BCImageEnvelopeType	../inc/bclib.h	/^} BCImageEnvelopeType;$/;"	t	typeref:enum:_tag_BCImageEnvelopeType
+BCImageInfoType_1	../inc/bclib.h	/^} BCImageInfoType_1;$/;"	t	typeref:struct:_tag_BCImageInfoType_1
+BCImageInfoType_2	../inc/bclib.h	/^} BCImageInfoType_2;$/;"	t	typeref:struct:_tag_BCImageInfoType_2
+BCImageType	../inc/bclib.h	/^} BCImageType;$/;"	t	typeref:enum:_tag_BCImageType
+BCTE_ABS_BIR	../inc/bclib.h	/^     BCTE_ABS_BIR,    \/\/ABS_BIR$/;"	e	enum:_tag_BCTemplateEnvelopeType
+BCTE_BIOAPI_BIR	../inc/bclib.h	/^     BCTE_BIOAPI_BIR,    \/\/BioAPI_BIR - currently not supported.$/;"	e	enum:_tag_BCTemplateEnvelopeType
+BCTE_LAST	../inc/bclib.h	/^     BCTE_LAST   \/\/Last value mark$/;"	e	enum:_tag_BCTemplateEnvelopeType
+BCTE_NONE	../inc/bclib.h	/^     BCTE_NONE =  0,    \/\/No envelope.$/;"	e	enum:_tag_BCTemplateEnvelopeType
+BCTE_NOT_SPECIFIED	../inc/bclib.h	/^     BCTE_NOT_SPECIFIED =  -1,    \/\/Not specified.$/;"	e	enum:_tag_BCTemplateEnvelopeType
+BCTE_PT_BIR	../inc/bclib.h	/^     BCTE_PT_BIR,    \/\/PT_BIR$/;"	e	enum:_tag_BCTemplateEnvelopeType
+BCT_ANSI	../inc/bclib.h	/^     BCT_ANSI,    \/\/ANSI template - not supported in the light variant of the library$/;"	e	enum:_tag_BCTemplateDataType
+BCT_ISO_FMC_COMPACT	../inc/bclib.h	/^     BCT_ISO_FMC_COMPACT,    \/\/ISO template, Finger Minutiae Card format (compact) - not supported in the light variant of the library$/;"	e	enum:_tag_BCTemplateDataType
+BCT_ISO_FMC_NORMAL	../inc/bclib.h	/^     BCT_ISO_FMC_NORMAL,    \/\/ISO template, Finger Minutiae Card format (normal) - not supported in the light variant of the library$/;"	e	enum:_tag_BCTemplateDataType
+BCT_ISO_FMR	../inc/bclib.h	/^     BCT_ISO_FMR,    \/\/ISO template, Finger Minutiae Record format - not supported in the light variant of the library$/;"	e	enum:_tag_BCTemplateDataType
+BCT_LAST	../inc/bclib.h	/^     BCT_LAST   \/\/Last value mark$/;"	e	enum:_tag_BCTemplateDataType
+BCT_NONE	../inc/bclib.h	/^     BCT_NONE =  0,    \/\/None - no data$/;"	e	enum:_tag_BCTemplateDataType
+BCT_NOT_SPECIFIED	../inc/bclib.h	/^     BCT_NOT_SPECIFIED =  -1,    \/\/Not specified$/;"	e	enum:_tag_BCTemplateDataType
+BCT_UPEK_ALPHA	../inc/bclib.h	/^     BCT_UPEK_ALPHA,    \/\/AuthenTec alpha$/;"	e	enum:_tag_BCTemplateDataType
+BCT_UPEK_AUTO	../inc/bclib.h	/^     BCT_UPEK_AUTO,    \/\/AuthenTec automatic - on input format is detected, on output the best format is chosen (alpha or beta)$/;"	e	enum:_tag_BCTemplateDataType
+BCT_UPEK_BETA	../inc/bclib.h	/^     BCT_UPEK_BETA,    \/\/AuthenTec beta$/;"	e	enum:_tag_BCTemplateDataType
+BCT_UPEK_LEGACY	../inc/bclib.h	/^     BCT_UPEK_LEGACY,    \/\/AuthenTec legacy$/;"	e	enum:_tag_BCTemplateDataType
+BCTemplateDataType	../inc/bclib.h	/^} BCTemplateDataType;$/;"	t	typeref:enum:_tag_BCTemplateDataType
+BCTemplateEnvelopeType	../inc/bclib.h	/^} BCTemplateEnvelopeType;$/;"	t	typeref:enum:_tag_BCTemplateEnvelopeType
+BCTemplateInfoType_1	../inc/bclib.h	/^} BCTemplateInfoType_1;$/;"	t	typeref:struct:_tag_BCTemplateInfoType_1
+BCTemplateInfoType_2	../inc/bclib.h	/^} BCTemplateInfoType_2;$/;"	t	typeref:struct:_tag_BCTemplateInfoType_2
+BCTemplateViewInfoType_1	../inc/bclib.h	/^} BCTemplateViewInfoType_1;$/;"	t	typeref:struct:_tag_BCTemplateViewInfoType_1
+BC_COMPILE_TIME_ASSERT	../inc/bclib.h	49;"	d
+BC_DECL_API_FUNC	../inc/bclib.h	156;"	d
+BC_DECL_API_FUNC	../inc/bclib.h	158;"	d
+BC_DECL_API_FUNC	../inc/bclib.h	164;"	d
+BC_DECL_API_FUNC	../inc/bclib.h	166;"	d
+BC_DECL_API_FUNC	../inc/bclib.h	175;"	d
+BC_DECL_API_FUNC	../inc/bclib.h	178;"	d
+BC_DECL_DLLEXP	../inc/bclib.h	100;"	d
+BC_DECL_DLLEXP	../inc/bclib.h	106;"	d
+BC_DECL_DLLEXP	../inc/bclib.h	111;"	d
+BC_DECL_DLLEXP	../inc/bclib.h	116;"	d
+BC_DECL_DLLEXP	../inc/bclib.h	122;"	d
+BC_DECL_DLLEXP	../inc/bclib.h	125;"	d
+BC_DECL_DLLEXP	../inc/bclib.h	131;"	d
+BC_DECL_DLLEXP	../inc/bclib.h	140;"	d
+BC_DECL_DLLIMP	../inc/bclib.h	101;"	d
+BC_DECL_DLLIMP	../inc/bclib.h	107;"	d
+BC_DECL_DLLIMP	../inc/bclib.h	112;"	d
+BC_DECL_DLLIMP	../inc/bclib.h	117;"	d
+BC_DECL_DLLIMP	../inc/bclib.h	123;"	d
+BC_DECL_DLLIMP	../inc/bclib.h	126;"	d
+BC_DECL_DLLIMP	../inc/bclib.h	132;"	d
+BC_DECL_DLLIMP	../inc/bclib.h	144;"	d
+BC_DEFN_API_FUNC	../inc/bclib.h	151;"	d
+BC_DEFN_API_FUNC	../inc/bclib.h	174;"	d
+BC_DEFN_API_FUNC	../inc/bclib.h	177;"	d
+BC_VALUE_NOT_SPECIFIED	../inc/bclib.h	480;"	d
+BEGIN_EXTERNC	../inc/bclib.h	86;"	d
+BEGIN_EXTERNC	../inc/bclib.h	91;"	d
+BYTE	../inc/iengine_ansi_iso.h	/^typedef unsigned char BYTE;$/;"	t
+BackgroundColor	../inc/tfmtypes.h	/^  PT_SHORT BackgroundColor; 	\/\/\/< Image background color.$/;"	m	struct:pt_swipe_info
+BackgroundColor	../inc/tfmtypes.h	/^  PT_WORD BackgroundColor; 	\/\/\/< Background color. 0xffff if not known.$/;"	m	struct:pt_dif_section_image_header
+Bandwidth	../inc/tfmtypes.h	/^  PT_BYTE Bandwidth; 	\/\/\/< SONLY (TCS5D only): Explicit value or lower bound (depending on policy) of bandwidth to be used in percentage of maximal available bandwidth for the sensor on given platform. Allowed values are 0-100, 0 means static maximum bandwidth.$/;"	m	struct:pt_session_cfg_v5
+BgColor	../inc/tfmtypes.h	/^  PT_SHORT BgColor; 	\/\/\/< Background color of the image. Value of -1 means unknown value and the color will be assessed automatically.$/;"	m	struct:pt_extrtmpl_imginfo
+BioCaptureFinger	../src/enroll.c	/^int BioCaptureFinger()$/;"	f
+BioEnrollInputType	../inc/tfmtypes.h	/^  PT_BYTE BioEnrollInputType; 	\/\/\/< Reconstruction type for enrollment (see PT_BIO_INPUT_TYPE_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+BioEnrollInputType	../inc/tfmtypes.h	/^  PT_WORD BioEnrollInputType; 	\/\/\/< Finger scanning type for enrollment, see PT_BIO_INPUT_TYPE_xxxx.$/;"	m	struct:pt_session_cfg_v3
+BioEnrollInputType	../inc/tfmtypes.h	/^  PT_WORD BioEnrollInputType; 	\/\/\/< Reconstruction type for enrollment (see PT_BIO_INPUT_TYPE_xxxx values.)$/;"	m	struct:pt_session_cfg_v4
+BioFingerDetectInputType	../inc/tfmtypes.h	/^  PT_BYTE BioFingerDetectInputType; 	\/\/\/< Reconstruction type for finger detection commands (see PT_BIO_INPUT_TYPE_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+BioFingerDetectInputType	../inc/tfmtypes.h	/^  PT_WORD BioFingerDetectInputType; 	\/\/\/< Reconstruction type for finger detection commands (see PT_BIO_INPUT_TYPE_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+BioLibVersion	../inc/tfmtypes.h	/^  PT_DWORD BioLibVersion; 	\/\/\/< Version of used BioLib$/;"	m	struct:pt_extended_info_v2
+BioVerifyInputType	../inc/tfmtypes.h	/^  PT_BYTE BioVerifyInputType; 	\/\/\/< Reconstruction type for verification (see PT_BIO_INPUT_TYPE_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+BioVerifyInputType	../inc/tfmtypes.h	/^  PT_WORD BioVerifyInputType; 	\/\/\/< Finger scanning type for verification, see PT_BIO_INPUT_TYPE_xxxx.$/;"	m	struct:pt_session_cfg_v3
+BioVerifyInputType	../inc/tfmtypes.h	/^  PT_WORD BioVerifyInputType; 	\/\/\/< Reconstruction type for verification (see PT_BIO_INPUT_TYPE_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+Buffer	../inc/header.h	/^	unsigned char Buffer[1556];\/\/For ISO$/;"	m	struct:User
+CALLBACKSBIT_NO_REPEATING_MSG	../inc/tfmtypes.h	1505;"	d
+CALLBACKSBIT_SAMPLE_IMAGE	../inc/tfmtypes.h	1504;"	d
+CALLBACKSBIT_SWIPE_IN_PROGRESS	../inc/tfmtypes.h	1503;"	d
+CALLBACKS_ADVANCED	../inc/tfmtypes.h	1494;"	d
+CALLBACKS_FULL	../inc/tfmtypes.h	1495;"	d
+CALLBACKS_NONE	../inc/tfmtypes.h	1492;"	d
+CALLBACKS_SIMPLE	../inc/tfmtypes.h	1493;"	d
+CC	../src/Makefile	/^CC=arm-none-linux-gnueabi-gcc$/;"	m
+CLEAR_ACCESS_RIGHTS_BIT	../inc/tfmtypes.h	1238;"	d
+CallbackLevel	../inc/tfmtypes.h	/^  PT_CALLBACK_LEVEL CallbackLevel; 	\/\/\/< Indicates what amount of GUI callbacks is received during biometric operations (see CALLBACKS_xxxx values)$/;"	m	struct:pt_session_cfg_v1
+CallbackLevel	../inc/tfmtypes.h	/^  PT_CALLBACK_LEVEL CallbackLevel; 	\/\/\/< Indicates what amount of GUI callbacks is received during biometric operations (see CALLBACKS_xxxx values)$/;"	m	struct:pt_session_cfg_v2
+CallbackLevel	../inc/tfmtypes.h	/^  PT_CALLBACK_LEVEL CallbackLevel; 	\/\/\/< Indicates what amount of GUI callbacks is received during biometric operations (see CALLBACKS_xxxx values)$/;"	m	struct:pt_session_cfg_v3
+CallbackLevel	../inc/tfmtypes.h	/^  PT_DWORD CallbackLevel; 	\/\/\/< Indicates what amount of GUI callbacks is received during biometric operations (see CALLBACKS_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+CallbackLevel	../inc/tfmtypes.h	/^  PT_DWORD CallbackLevel; 	\/\/\/< Indicates what amount of GUI callbacks is received during biometric operations (see CALLBACKS_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+ColorDepth	../inc/tfmtypes.h	/^  PT_WORD ColorDepth; 	\/\/\/< Color bit depth of the image (currently supported value is 8 only).$/;"	m	struct:pt_extrtmpl_imginfo
+ColumnDpi	../inc/tfmtypes.h	/^  PT_WORD ColumnDpi; 	\/\/\/< Vertical resolution (dpi) of the image (currently supported values are 381 or 508 only).$/;"	m	struct:pt_extrtmpl_imginfo
+CompanionVendorCode	../inc/tfmtypes.h	/^  PT_DWORD CompanionVendorCode; 	\/\/\/< Companion's chip vendor code$/;"	m	struct:pt_info
+CompressMode	../inc/tfmtypes.h	/^  PT_WORD CompressMode; 	\/\/\/< Data compression mode.$/;"	m	struct:pt_imgformat
+ConsolidationNumTemplates	../inc/tfmtypes.h	/^  PT_BYTE ConsolidationNumTemplates; 	\/\/\/< Number of templates captured for consolidation when using static enrollment, ignored for dynamic enrollment.$/;"	m	struct:pt_session_cfg_v5
+ConsolidationSecurityLevel	../inc/tfmtypes.h	/^  PT_BYTE ConsolidationSecurityLevel; 	\/\/\/< Sets trade-off between security and convenience for consolidation process (for future use).$/;"	m	struct:pt_session_cfg_v5
+ConsolidationType	../inc/tfmtypes.h	/^  PT_BYTE ConsolidationType; 	\/\/\/< Type of consolidation in multienrollment (see PT_CONSOLIDATION_xxxx values).$/;"	m	struct:pt_session_cfg_v3
+ConsolidationType	../inc/tfmtypes.h	/^  PT_BYTE ConsolidationType; 	\/\/\/< Type of consolidation in multienrollment (see PT_CONSOLIDATION_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+ConsolidationType	../inc/tfmtypes.h	/^  PT_BYTE ConsolidationType; 	\/\/\/< Type of consolidation in multienrollment (see PT_CONSOLIDATION_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+CreateWrappedBIRs	../inc/tfmtypes.h	/^  PT_BYTE CreateWrappedBIRs; 	\/\/\/< Indicates whether or not wrapped BIRs should be created by biometric functions.$/;"	m	struct:pt_session_cfg_v4
+CreateWrappedBIRs	../inc/tfmtypes.h	/^  PT_BYTE CreateWrappedBIRs; 	\/\/\/< Indicates whether or not wrapped BIRs should be created by biometric functions.$/;"	m	struct:pt_session_cfg_v5
+DISPLAYINFO_MAXLEN	../inc/tfmtypes.h	379;"	d
+DPAPICALL	../inc/dpfj.h	21;"	d
+DPAPICALL	../inc/dpfj.h	23;"	d
+DPAPICALL	../inc/dpfj.h	26;"	d
+DPAPICALL	../inc/dpfpdd.h	20;"	d
+DPAPICALL	../inc/dpfpdd.h	22;"	d
+DPAPICALL	../inc/dpfpdd.h	25;"	d
+DPERROR	../inc/dpfj.h	40;"	d
+DPERROR	../inc/dpfpdd.h	39;"	d
+DPFJ_API_VERSION_MAJOR	../inc/dpfj.h	43;"	d
+DPFJ_API_VERSION_MINOR	../inc/dpfj.h	44;"	d
+DPFJ_CANDIDATE	../inc/dpfj.h	/^} DPFJ_CANDIDATE;$/;"	t	typeref:struct:dpfj_candidate
+DPFJ_COMPRESSION_ALGORITHM	../inc/dpfj_compression.h	/^typedef int DPFJ_COMPRESSION_ALGORITHM;$/;"	t
+DPFJ_COMPRESSION_WSQ_AWARE	../inc/dpfj_compression.h	48;"	d
+DPFJ_COMPRESSION_WSQ_NIST	../inc/dpfj_compression.h	47;"	d
+DPFJ_E_COMPRESSION_INVALID_WSQ_PARAMETER	../inc/dpfj_compression.h	32;"	d
+DPFJ_E_COMPRESSION_IN_PROGRESS	../inc/dpfj_compression.h	22;"	d
+DPFJ_E_COMPRESSION_NOT_STARTED	../inc/dpfj_compression.h	27;"	d
+DPFJ_E_COMPRESSION_WSQ_FAILURE	../inc/dpfj_compression.h	37;"	d
+DPFJ_E_COMPRESSION_WSQ_LIB_NOT_FOUND	../inc/dpfj_compression.h	42;"	d
+DPFJ_E_ENROLLMENT_INVALID_SET	../inc/dpfj.h	117;"	d
+DPFJ_E_ENROLLMENT_IN_PROGRESS	../inc/dpfj.h	102;"	d
+DPFJ_E_ENROLLMENT_NOT_READY	../inc/dpfj.h	112;"	d
+DPFJ_E_ENROLLMENT_NOT_STARTED	../inc/dpfj.h	107;"	d
+DPFJ_E_FAILURE	../inc/dpfj.h	67;"	d
+DPFJ_E_INVALID_FID	../inc/dpfj.h	87;"	d
+DPFJ_E_INVALID_FMD	../inc/dpfj.h	97;"	d
+DPFJ_E_INVALID_PARAMETER	../inc/dpfj.h	82;"	d
+DPFJ_E_MORE_DATA	../inc/dpfj.h	77;"	d
+DPFJ_E_NOT_IMPLEMENTED	../inc/dpfj.h	60;"	d
+DPFJ_E_NO_DATA	../inc/dpfj.h	72;"	d
+DPFJ_E_QUALITY_FAILURE	../inc/dpfj_quality.h	32;"	d
+DPFJ_E_QUALITY_LIB_NOT_FOUND	../inc/dpfj_quality.h	37;"	d
+DPFJ_E_QUALITY_NO_IMAGE	../inc/dpfj_quality.h	22;"	d
+DPFJ_E_QUALITY_TOO_FEW_MINUTIA	../inc/dpfj_quality.h	27;"	d
+DPFJ_E_TOO_SMALL_AREA	../inc/dpfj.h	92;"	d
+DPFJ_FID_ANSI_381_2004	../inc/dpfj.h	133;"	d
+DPFJ_FID_ANSI_381_2004_RECORD_HEADER_LENGTH	../inc/dpfj.h	180;"	d
+DPFJ_FID_ANSI_ISO_VIEW_HEADER_LENGTH	../inc/dpfj.h	182;"	d
+DPFJ_FID_FORMAT	../inc/dpfj.h	/^typedef int DPFJ_FID_FORMAT;$/;"	t
+DPFJ_FID_ISO_19794_4_2005	../inc/dpfj.h	134;"	d
+DPFJ_FID_ISO_19794_4_2005_RECORD_HEADER_LENGTH	../inc/dpfj.h	181;"	d
+DPFJ_FID_RECORD_PARAMS	../inc/dpfj.h	/^	} DPFJ_FID_RECORD_PARAMS;$/;"	t	typeref:struct:dpfj_fid_record_params
+DPFJ_FID_VIEW_PARAMS	../inc/dpfj.h	/^	} DPFJ_FID_VIEW_PARAMS;$/;"	t	typeref:struct:dpfj_fid_view_params
+DPFJ_FINGER_POSITION	../inc/dpfj.h	/^typedef int DPFJ_FINGER_POSITION;$/;"	t
+DPFJ_FMD_ANSI_378_2004	../inc/dpfj.h	141;"	d
+DPFJ_FMD_ANSI_378_2004_RECORD_HEADER_LENGTH	../inc/dpfj.h	184;"	d
+DPFJ_FMD_ANSI_ISO_MINITIA_LENGTH	../inc/dpfj.h	187;"	d
+DPFJ_FMD_ANSI_ISO_VIEW_HEADER_LENGTH	../inc/dpfj.h	186;"	d
+DPFJ_FMD_DP_PRE_REG_FEATURES	../inc/dpfj.h	143;"	d
+DPFJ_FMD_DP_REG_FEATURES	../inc/dpfj.h	144;"	d
+DPFJ_FMD_DP_VER_FEATURES	../inc/dpfj.h	145;"	d
+DPFJ_FMD_FORMAT	../inc/dpfj.h	/^typedef int DPFJ_FMD_FORMAT;$/;"	t
+DPFJ_FMD_ISO_19794_2_2005	../inc/dpfj.h	142;"	d
+DPFJ_FMD_ISO_19794_2_2005_RECORD_HEADER_LENGTH	../inc/dpfj.h	185;"	d
+DPFJ_FMD_RECORD_PARAMS	../inc/dpfj.h	/^	} DPFJ_FMD_RECORD_PARAMS;$/;"	t	typeref:struct:dpfj_fmd_record_params
+DPFJ_FMD_VIEW_PARAMS	../inc/dpfj.h	/^	} DPFJ_FMD_VIEW_PARAMS;$/;"	t	typeref:struct:dpfj_fmd_view_params
+DPFJ_POSITION_LINDEX	../inc/dpfj.h	160;"	d
+DPFJ_POSITION_LLITTLE	../inc/dpfj.h	163;"	d
+DPFJ_POSITION_LMIDDLE	../inc/dpfj.h	161;"	d
+DPFJ_POSITION_LRING	../inc/dpfj.h	162;"	d
+DPFJ_POSITION_LTHUMB	../inc/dpfj.h	159;"	d
+DPFJ_POSITION_RINDEX	../inc/dpfj.h	155;"	d
+DPFJ_POSITION_RLITTLE	../inc/dpfj.h	158;"	d
+DPFJ_POSITION_RMIDDLE	../inc/dpfj.h	156;"	d
+DPFJ_POSITION_RRING	../inc/dpfj.h	157;"	d
+DPFJ_POSITION_RTHUMB	../inc/dpfj.h	154;"	d
+DPFJ_POSITION_UNKNOWN	../inc/dpfj.h	153;"	d
+DPFJ_PROBABILITY_ONE	../inc/dpfj.h	126;"	d
+DPFJ_QUALITY_ALGORITHM	../inc/dpfj_quality.h	/^typedef int DPFJ_QUALITY_ALGORITHM;$/;"	t
+DPFJ_QUALITY_NFIQ_AWARE	../inc/dpfj_quality.h	43;"	d
+DPFJ_QUALITY_NFIQ_NIST	../inc/dpfj_quality.h	42;"	d
+DPFJ_SCAN_LIVE_PLAIN	../inc/dpfj.h	172;"	d
+DPFJ_SCAN_LIVE_ROLLED	../inc/dpfj.h	173;"	d
+DPFJ_SCAN_NONLIVE_PLAIN	../inc/dpfj.h	174;"	d
+DPFJ_SCAN_NONLIVE_ROLLED	../inc/dpfj.h	175;"	d
+DPFJ_SCAN_SWIPE	../inc/dpfj.h	176;"	d
+DPFJ_SCAN_TYPE	../inc/dpfj.h	/^typedef int DPFJ_SCAN_TYPE;$/;"	t
+DPFJ_SUCCESS	../inc/dpfj.h	55;"	d
+DPFJ_VERSION	../inc/dpfj.h	/^} DPFJ_VERSION;$/;"	t	typeref:struct:dpfj_version
+DPFJ_VER_INFO	../inc/dpfj.h	/^} DPFJ_VER_INFO;$/;"	t	typeref:struct:dpfj_ver_info
+DPFPDD_API_VERSION_MAJOR	../inc/dpfpdd.h	43;"	d
+DPFPDD_API_VERSION_MINOR	../inc/dpfpdd.h	44;"	d
+DPFPDD_CAPTURE_CALLBACK	../inc/dpfpdd.h	/^typedef void (DPAPICALL *DPFPDD_CAPTURE_CALLBACK)($/;"	t
+DPFPDD_CAPTURE_CALLBACK_DATA_0	../inc/dpfpdd.h	/^} DPFPDD_CAPTURE_CALLBACK_DATA_0;$/;"	t	typeref:struct:dpfpdd_capture_callback_data_0
+DPFPDD_CAPTURE_PARAM	../inc/dpfpdd.h	/^} DPFPDD_CAPTURE_PARAM;$/;"	t	typeref:struct:dpfpdd_capture_param
+DPFPDD_CAPTURE_RESULT	../inc/dpfpdd.h	/^} DPFPDD_CAPTURE_RESULT;$/;"	t	typeref:struct:dpfpdd_capture_result
+DPFPDD_DEV	../inc/dpfpdd.h	/^typedef void* DPFPDD_DEV;$/;"	t
+DPFPDD_DEV_CAPS	../inc/dpfpdd.h	/^} DPFPDD_DEV_CAPS;$/;"	t	typeref:struct:dpfpdd_dev_caps
+DPFPDD_DEV_INFO	../inc/dpfpdd.h	/^} DPFPDD_DEV_INFO;$/;"	t	typeref:struct:dpfpdd_dev_info
+DPFPDD_DEV_STATUS	../inc/dpfpdd.h	/^} DPFPDD_DEV_STATUS;$/;"	t	typeref:struct:dpfpdd_dev_status
+DPFPDD_E_DEVICE_BUSY	../inc/dpfpdd.h	92;"	d
+DPFPDD_E_DEVICE_FAILURE	../inc/dpfpdd.h	97;"	d
+DPFPDD_E_FAILURE	../inc/dpfpdd.h	67;"	d
+DPFPDD_E_INVALID_DEVICE	../inc/dpfpdd.h	87;"	d
+DPFPDD_E_INVALID_PARAMETER	../inc/dpfpdd.h	82;"	d
+DPFPDD_E_MORE_DATA	../inc/dpfpdd.h	77;"	d
+DPFPDD_E_NOT_IMPLEMENTED	../inc/dpfpdd.h	60;"	d
+DPFPDD_E_NO_DATA	../inc/dpfpdd.h	72;"	d
+DPFPDD_HW_DESCR	../inc/dpfpdd.h	/^} DPFPDD_HW_DESCR;$/;"	t	typeref:struct:dpfpdd_hw_descr
+DPFPDD_HW_ID	../inc/dpfpdd.h	/^} DPFPDD_HW_ID;$/;"	t	typeref:struct:dpfpdd_hw_id
+DPFPDD_HW_MODALITY	../inc/dpfpdd.h	/^typedef unsigned int DPFPDD_HW_MODALITY;$/;"	t
+DPFPDD_HW_MODALITY_AREA	../inc/dpfpdd.h	136;"	d
+DPFPDD_HW_MODALITY_SWIPE	../inc/dpfpdd.h	135;"	d
+DPFPDD_HW_MODALITY_UNKNOWN	../inc/dpfpdd.h	134;"	d
+DPFPDD_HW_TECHNOLOGY	../inc/dpfpdd.h	/^typedef unsigned int DPFPDD_HW_TECHNOLOGY;$/;"	t
+DPFPDD_HW_VERSION	../inc/dpfpdd.h	/^} DPFPDD_HW_VERSION;$/;"	t	typeref:struct:dpfpdd_hw_version
+DPFPDD_IMAGE_FMT	../inc/dpfpdd.h	/^typedef unsigned int DPFPDD_IMAGE_FMT;$/;"	t
+DPFPDD_IMAGE_INFO	../inc/dpfpdd.h	/^} DPFPDD_IMAGE_INFO;$/;"	t	typeref:struct:dpfpdd_image_info
+DPFPDD_IMAGE_PROC	../inc/dpfpdd.h	/^typedef unsigned int DPFPDD_IMAGE_PROC;$/;"	t
+DPFPDD_IMG_FMT_ANSI381	../inc/dpfpdd.h	269;"	d
+DPFPDD_IMG_FMT_ISOIEC19794	../inc/dpfpdd.h	270;"	d
+DPFPDD_IMG_FMT_PIXEL_BUFFER	../inc/dpfpdd.h	268;"	d
+DPFPDD_IMG_PROC_DEFAULT	../inc/dpfpdd.h	277;"	d
+DPFPDD_IMG_PROC_ENHANCED	../inc/dpfpdd.h	279;"	d
+DPFPDD_IMG_PROC_NONE	../inc/dpfpdd.h	282;"	d
+DPFPDD_IMG_PROC_PIV	../inc/dpfpdd.h	278;"	d
+DPFPDD_IMG_PROC_UNPROCESSED	../inc/dpfpdd.h	280;"	d
+DPFPDD_IOMAP	../inc/dpfpdd.h	/^} DPFPDD_IOMAP;$/;"	t	typeref:struct:dpfpdd_iomap
+DPFPDD_LED_ACCEPT	../inc/dpfpdd.h	346;"	d
+DPFPDD_LED_ALL	../inc/dpfpdd.h	348;"	d
+DPFPDD_LED_AUTO	../inc/dpfpdd.h	354;"	d
+DPFPDD_LED_CLIENT	../inc/dpfpdd.h	355;"	d
+DPFPDD_LED_CMD_OFF	../inc/dpfpdd.h	361;"	d
+DPFPDD_LED_CMD_ON	../inc/dpfpdd.h	362;"	d
+DPFPDD_LED_CMD_TYPE	../inc/dpfpdd.h	/^typedef unsigned int DPFPDD_LED_CMD_TYPE;$/;"	t
+DPFPDD_LED_FINGER_DETECT	../inc/dpfpdd.h	347;"	d
+DPFPDD_LED_ID	../inc/dpfpdd.h	/^typedef unsigned int DPFPDD_LED_ID;$/;"	t
+DPFPDD_LED_MAIN	../inc/dpfpdd.h	344;"	d
+DPFPDD_LED_MODE_TYPE	../inc/dpfpdd.h	/^typedef unsigned int DPFPDD_LED_MODE_TYPE;$/;"	t
+DPFPDD_LED_REJECT	../inc/dpfpdd.h	345;"	d
+DPFPDD_PARMID	../inc/dpfpdd.h	/^typedef unsigned int DPFPDD_PARMID;$/;"	t
+DPFPDD_PARMID_FINGERDETECT_ENABLE	../inc/dpfpdd.h	369;"	d
+DPFPDD_PARMID_IOMAP	../inc/dpfpdd.h	370;"	d
+DPFPDD_PARMID_ROTATE	../inc/dpfpdd.h	368;"	d
+DPFPDD_PRIORITY	../inc/dpfpdd.h	/^typedef unsigned int DPFPDD_PRIORITY;$/;"	t
+DPFPDD_PRIORITY_COOPERATIVE	../inc/dpfpdd.h	201;"	d
+DPFPDD_PRIORITY_EXCLUSIVE	../inc/dpfpdd.h	202;"	d
+DPFPDD_QUALITY	../inc/dpfpdd.h	/^typedef unsigned int DPFPDD_QUALITY;$/;"	t
+DPFPDD_QUALITY_CANCELED	../inc/dpfpdd.h	248;"	d
+DPFPDD_QUALITY_FAKE_FINGER	../inc/dpfpdd.h	250;"	d
+DPFPDD_QUALITY_FINGER_OFF_CENTER	../inc/dpfpdd.h	255;"	d
+DPFPDD_QUALITY_FINGER_TOO_HIGH	../inc/dpfpdd.h	253;"	d
+DPFPDD_QUALITY_FINGER_TOO_LEFT	../inc/dpfpdd.h	251;"	d
+DPFPDD_QUALITY_FINGER_TOO_LOW	../inc/dpfpdd.h	254;"	d
+DPFPDD_QUALITY_FINGER_TOO_RIGHT	../inc/dpfpdd.h	252;"	d
+DPFPDD_QUALITY_GOOD	../inc/dpfpdd.h	246;"	d
+DPFPDD_QUALITY_NO_FINGER	../inc/dpfpdd.h	249;"	d
+DPFPDD_QUALITY_READER_DIRTY	../inc/dpfpdd.h	262;"	d
+DPFPDD_QUALITY_SCAN_SKEWED	../inc/dpfpdd.h	256;"	d
+DPFPDD_QUALITY_SCAN_TOO_FAST	../inc/dpfpdd.h	260;"	d
+DPFPDD_QUALITY_SCAN_TOO_LONG	../inc/dpfpdd.h	258;"	d
+DPFPDD_QUALITY_SCAN_TOO_SHORT	../inc/dpfpdd.h	257;"	d
+DPFPDD_QUALITY_SCAN_TOO_SLOW	../inc/dpfpdd.h	259;"	d
+DPFPDD_QUALITY_SCAN_WRONG_DIRECTION	../inc/dpfpdd.h	261;"	d
+DPFPDD_QUALITY_TIMED_OUT	../inc/dpfpdd.h	247;"	d
+DPFPDD_STATUS	../inc/dpfpdd.h	/^typedef unsigned int DPFPDD_STATUS;$/;"	t
+DPFPDD_STATUS_BUSY	../inc/dpfpdd.h	228;"	d
+DPFPDD_STATUS_FAILURE	../inc/dpfpdd.h	230;"	d
+DPFPDD_STATUS_NEED_CALIBRATION	../inc/dpfpdd.h	229;"	d
+DPFPDD_STATUS_READY	../inc/dpfpdd.h	227;"	d
+DPFPDD_SUCCESS	../inc/dpfpdd.h	55;"	d
+DPFPDD_VERSION	../inc/dpfpdd.h	/^} DPFPDD_VERSION;$/;"	t	typeref:struct:dpfpdd_version
+DPFPDD_VER_INFO	../inc/dpfpdd.h	/^} DPFPDD_VER_INFO;$/;"	t	typeref:struct:dpfpdd_ver_info
+DP_HW_TECHNOLOGY_CAPACITIVE	../inc/dpfpdd.h	144;"	d
+DP_HW_TECHNOLOGY_OPTICAL	../inc/dpfpdd.h	143;"	d
+DP_HW_TECHNOLOGY_PRESSURE	../inc/dpfpdd.h	146;"	d
+DP_HW_TECHNOLOGY_THERMAL	../inc/dpfpdd.h	145;"	d
+DP_HW_TECHNOLOGY_UNKNOWN	../inc/dpfpdd.h	142;"	d
+DSNSUBSTR_MAXLEN	../inc/tfmtypes.h	378;"	d
+Data	../inc/tfmtypes.h	/^  PT_BYTE Data[1]; 	\/\/\/< Gradient data.$/;"	m	struct:pt_dif_section_gradient
+Data	../inc/tfmtypes.h	/^  PT_BYTE Data[1]; 	\/\/\/< Image data.$/;"	m	struct:pt_dif_section_image_data
+Data	../inc/tfmtypes.h	/^  PT_BYTE Data[1]; 	\/\/\/< Minimal version required$/;"	m	struct:pt_bir
+Data	../inc/tfmtypes.h	/^  PT_BYTE Data[1]; 	\/\/\/< Native data.$/;"	m	struct:pt_dif_section_native
+Data	../inc/tfmtypes.h	/^  PT_BYTE Data[1]; 	\/\/\/< Skew data.$/;"	m	struct:pt_dif_section_skew
+Data	../inc/tfmtypes.h	/^  PT_BYTE Data[1]; 	\/\/\/< Speed data.$/;"	m	struct:pt_dif_section_speed
+Data	../inc/tfmtypes.h	/^  PT_BYTE Data[1]; 	\/\/\/< Striation removal data.$/;"	m	struct:pt_dif_section_striation_removal
+Data	../inc/tfmtypes.h	/^  PT_BYTE Data[1]; 	\/\/\/< The data itself, variable length$/;"	m	struct:pt_data
+DataSections	../inc/tfmtypes.h	/^  PT_DWORD DataSections; 	\/\/\/< Bit mask of available data sections for this format (see PT_IMGDATA_SECTION_xxxx values).$/;"	m	struct:pt_imgformat_list_item
+DeviceType	../inc/tfmtypes.h	/^  PT_DWORD DeviceType; 	\/\/\/< Device type$/;"	m	struct:pt_device_list_item
+DisplayInfo	../inc/tfmtypes.h	/^  PT_CHAR DisplayInfo[DISPLAYINFO_MAXLEN]; 	\/\/\/< String with displayable device info$/;"	m	struct:pt_device_list_item
+Drv1_BrCapHi	../inc/tfmtypes.h	/^  PT_BYTE Drv1_BrCapHi; 	\/\/\/< Driver 1: Maximum brightness value (range 0-63)$/;"	m	struct:pt_led_params_manual2
+Drv1_BrCapLo	../inc/tfmtypes.h	/^  PT_BYTE Drv1_BrCapLo; 	\/\/\/< Driver 1: Minimum brightness value (range 0-63)$/;"	m	struct:pt_led_params_manual2
+Drv1_BrStepX	../inc/tfmtypes.h	/^  PT_BYTE Drv1_BrStepX; 	\/\/\/< Driver 1: Length of brightness change step in 4ms units (range 0-63, +1 added)$/;"	m	struct:pt_led_params_manual2
+Drv1_BrStepY	../inc/tfmtypes.h	/^  PT_BYTE Drv1_BrStepY; 	\/\/\/< Driver 1: Amount levels the LED brightness level will change at each 'BrStepX' (range 0-63)$/;"	m	struct:pt_led_params_manual2
+Drv1_Flags	../inc/tfmtypes.h	/^  PT_DWORD Drv1_Flags; 	\/\/\/< Driver 1: Additional flags (see PT_LEDDRV_FLAG_xxxx)$/;"	m	struct:pt_led_params_manual2
+Drv1_OffPeriod	../inc/tfmtypes.h	/^  PT_WORD Drv1_OffPeriod; 	\/\/\/< Driver 1: Length of "OFF" period in 4ms units (range 0-2047)$/;"	m	struct:pt_led_params_manual2
+Drv1_OnPeriod	../inc/tfmtypes.h	/^  PT_WORD Drv1_OnPeriod; 	\/\/\/< Driver 1: Length of "ON" period in 4ms units (range 0-2047)$/;"	m	struct:pt_led_params_manual2
+Drv2_BrCapHi	../inc/tfmtypes.h	/^  PT_BYTE Drv2_BrCapHi; 	\/\/\/< Driver 2: Maximum brightness value (range 0-63)$/;"	m	struct:pt_led_params_manual2
+Drv2_BrCapLo	../inc/tfmtypes.h	/^  PT_BYTE Drv2_BrCapLo; 	\/\/\/< Driver 2: Minimum brightness value (range 0-63)$/;"	m	struct:pt_led_params_manual2
+Drv2_BrStepX	../inc/tfmtypes.h	/^  PT_BYTE Drv2_BrStepX; 	\/\/\/< Driver 2: Length of brightness change step in 4ms units (range 0-63, +1 added)$/;"	m	struct:pt_led_params_manual2
+Drv2_BrStepY	../inc/tfmtypes.h	/^  PT_BYTE Drv2_BrStepY; 	\/\/\/< Driver 2: Amount levels the LED brightness level will change at each 'BrStepX' (range 0-63)$/;"	m	struct:pt_led_params_manual2
+Drv2_Flags	../inc/tfmtypes.h	/^  PT_DWORD Drv2_Flags; 	\/\/\/< Driver 2: Additional flags (see PT_LEDDRV_FLAG_xxxx)$/;"	m	struct:pt_led_params_manual2
+Drv2_OffPeriod	../inc/tfmtypes.h	/^  PT_WORD Drv2_OffPeriod; 	\/\/\/< Driver 2: Length of "OFF" period in 4ms units (range 0-2047)$/;"	m	struct:pt_led_params_manual2
+Drv2_OnPeriod	../inc/tfmtypes.h	/^  PT_WORD Drv2_OnPeriod; 	\/\/\/< Driver 2: Length of "ON" period in 4ms units (range 0-2047)$/;"	m	struct:pt_led_params_manual2
+Drv3_TruthTable	../inc/tfmtypes.h	/^  PT_BYTE Drv3_TruthTable; 	\/\/\/< Definition of the Boolean combination of Driver 1 and Driver 2 that generates Driver 3:$/;"	m	struct:pt_led_params_manual2
+DsnSubString	../inc/tfmtypes.h	/^  PT_CHAR DsnSubString[DSNSUBSTR_MAXLEN]; 	\/\/\/< String usable as part of DSN for PTOpen() to connect to this device$/;"	m	struct:pt_device_list_item
+END_EXTERNC	../inc/bclib.h	87;"	d
+END_EXTERNC	../inc/bclib.h	92;"	d
+ERROR	../inc/header.h	19;"	d
+EnableScanQualityQuery	../inc/tfmtypes.h	/^  PT_WORD EnableScanQualityQuery; 	\/\/\/< Bitmask of scan quality modes (see PT_SCANQUALQUERY_xxxx and PT_IMAGEQUALQUERY_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+EnableScanQualityQuery	../inc/tfmtypes.h	/^  PT_WORD EnableScanQualityQuery; 	\/\/\/< Bitmask of scan quality modes (see PT_SCANQUALQUERY_xxxx values).$/;"	m	struct:pt_session_cfg_v3
+EnableScanQualityQuery	../inc/tfmtypes.h	/^  PT_WORD EnableScanQualityQuery; 	\/\/\/< Bitmask of scan quality modes (see PT_SCANQUALQUERY_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+EnrollMaxMinu	../inc/tfmtypes.h	/^  PT_BYTE EnrollMaxMinu; 	\/\/\/< Max number of minutiae in biometric template after enroll.$/;"	m	struct:pt_session_cfg_v4
+EnrollMaxMinu	../inc/tfmtypes.h	/^  PT_BYTE EnrollMaxMinu; 	\/\/\/< Max number of minutiae in biometric template after enroll.$/;"	m	struct:pt_session_cfg_v5
+EnrollMaxSize	../inc/tfmtypes.h	/^  PT_WORD EnrollMaxSize; 	\/\/\/< Max size (in bytes) of biometric data in template after enroll (must be bigger than 25)$/;"	m	struct:pt_session_cfg_v5
+EnrollMaxTemplates	../inc/tfmtypes.h	/^  PT_BYTE EnrollMaxTemplates; 	\/\/\/< Do not change.$/;"	m	struct:pt_session_cfg_v5
+EnrollMinTemplates	../inc/tfmtypes.h	/^  PT_BYTE EnrollMinTemplates; 	\/\/\/< Do not change.$/;"	m	struct:pt_session_cfg_v5
+ExtendedVendorCode	../inc/tfmtypes.h	/^  PT_DWORD ExtendedVendorCode; 	\/\/\/< Info about the sensor used to capture the image.$/;"	m	struct:pt_dif_section_image_header
+ExtractionMaxMinu	../inc/tfmtypes.h	/^  PT_BYTE ExtractionMaxMinu; 	\/\/\/< Max number of minutiae in biometric template from extraction.$/;"	m	struct:pt_session_cfg_v4
+ExtractionMaxMinu	../inc/tfmtypes.h	/^  PT_BYTE ExtractionMaxMinu; 	\/\/\/< Max number of minutiae in biometric template from extraction.$/;"	m	struct:pt_session_cfg_v5
+ExtractionMaxSize	../inc/tfmtypes.h	/^  PT_WORD ExtractionMaxSize; 	\/\/\/< Max size (in bytes) of biometric data in template from extraction (must be bigger than 25).$/;"	m	struct:pt_session_cfg_v5
+FINGPOS_LI	../inc/bclib.h	352;"	d
+FINGPOS_LL	../inc/bclib.h	358;"	d
+FINGPOS_LM	../inc/bclib.h	354;"	d
+FINGPOS_LR	../inc/bclib.h	356;"	d
+FINGPOS_LT	../inc/bclib.h	350;"	d
+FINGPOS_RI	../inc/bclib.h	342;"	d
+FINGPOS_RL	../inc/bclib.h	348;"	d
+FINGPOS_RM	../inc/bclib.h	344;"	d
+FINGPOS_RR	../inc/bclib.h	346;"	d
+FINGPOS_RT	../inc/bclib.h	340;"	d
+FINGPOS_UK	../inc/bclib.h	338;"	d
+FactorsMask	../inc/tfmtypes.h	/^  PT_DWORD FactorsMask; 	\/\/\/< FactorsMask=0x08 (BioAPI_FACTOR_FINGERPRINT)$/;"	m	struct:pt_bir_header
+FdetFlags	../inc/tfmtypes.h	/^  PT_DWORD FdetFlags; 	\/\/\/< Finger detection flags (see PT_FDETFLAG_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+FingerData	../inc/tfmtypes.h	/^  PT_BYTE FingerData[PT_MAX_FINGER_DATA_LENGTH]; 	\/\/\/< Data associated with the finger$/;"	m	struct:pt_finger_list_item
+FingerDataLength	../inc/tfmtypes.h	/^  PT_DWORD FingerDataLength; 	\/\/\/< Length of data associated with the finger$/;"	m	struct:pt_finger_list_item
+FingerprintHeight	../inc/tfmtypes.h	/^  PT_WORD FingerprintHeight; 	\/\/\/< Fingerprint height in pixels.$/;"	m	struct:pt_dif_section_image_header
+FingerprintMaxWidth	../inc/tfmtypes.h	/^  PT_WORD FingerprintMaxWidth; 	\/\/\/< Maximum fingerprint width in pixels.$/;"	m	struct:pt_dif_section_image_header
+Flags	../inc/tfmtypes.h	/^  PT_DWORD Flags; 	\/\/\/< Additional flag bitmask (e.g. encryption strength) $/;"	m	struct:pt_global_info
+Flags	../inc/tfmtypes.h	/^  PT_DWORD Flags; 	\/\/\/< Additional flags (not used yet).$/;"	m	struct:pt_dif_section_image_header
+Flags	../inc/tfmtypes.h	/^  PT_DWORD Flags; 	\/\/\/< Additional flags (see PT_LEDPARAM_FLAG_xxxx)$/;"	m	struct:pt_led_params_manual
+Flags	../inc/tfmtypes.h	/^  PT_DWORD Flags; 	\/\/\/< Additional flags (see PT_LEDPARAM_FLAG_xxxx)$/;"	m	struct:pt_led_params_manual2
+Flags	../inc/tfmtypes.h	/^  PT_DWORD Flags; 	\/\/\/< Additional flags (see PT_LEDPARAM_FLAG_xxxx)$/;"	m	struct:pt_led_params_reader
+Flags	../inc/tfmtypes.h	/^  PT_WORD Flags; 	\/\/\/< Additional flags (see PT_IMGFORMAT_FLAG_xxxx values).$/;"	m	struct:pt_imgformat
+Format	../inc/tfmtypes.h	/^  PT_IMGFORMAT Format; 	\/\/\/< Image format structure.$/;"	m	struct:pt_imgformat_list_item
+FormatID	../inc/tfmtypes.h	/^  PT_WORD FormatID; 	\/\/\/< FormatID=0$/;"	m	struct:pt_bir_header
+FormatOwner	../inc/tfmtypes.h	/^  PT_WORD FormatOwner; 	\/\/\/< FormatOwner=0x12 (STMicroelectronics)$/;"	m	struct:pt_bir_header
+Free_User	../src/enroll.c	/^int Free_User(USER *head)$/;"	f
+Functionality	../inc/tfmtypes.h	/^  PT_DWORD Functionality; 	\/\/\/< Bitmask, defining which blocks of functions are supported. See PT_GIFUNC_xxxx. $/;"	m	struct:pt_global_info
+FwConfig	../inc/tfmtypes.h	/^  PT_DWORD FwConfig; 	\/\/\/< FW's configuration flags, set up during manufacturing See PT_FWCFG_xxxx$/;"	m	struct:pt_info
+FwFunctionality	../inc/tfmtypes.h	/^  PT_DWORD FwFunctionality; 	\/\/\/< Blocks of functionality included in firmware. See PT_FWFUNC_xxxx.$/;"	m	struct:pt_info
+FwFunctionality2	../inc/tfmtypes.h	/^  PT_DWORD FwFunctionality2; 	\/\/\/< Additional flags of supported functionality (see PT_FWFUNC2_xxxx)$/;"	m	struct:pt_extended_info_v2
+FwMinNextVersion	../inc/tfmtypes.h	/^  PT_DWORD FwMinNextVersion; 	\/\/\/< Minimal version required for future firmware update$/;"	m	struct:pt_info
+FwUpdateCount	../inc/tfmtypes.h	/^  PT_WORD FwUpdateCount; 	\/\/\/< Number of performed firmware updates$/;"	m	struct:pt_extended_info_v2
+FwVariant	../inc/tfmtypes.h	/^  PT_DWORD FwVariant; 	\/\/\/< Variant of firmware. Standard TFM variant is 0, standard ESS\/TCD50 variant is 2.$/;"	m	struct:pt_info
+FwVersion	../inc/tfmtypes.h	/^  PT_DWORD FwVersion; 	\/\/\/< Version of the FM firmware; highest byte = major version, second highest byte = minor version, low word = subversions\/revisions.$/;"	m	struct:pt_info
+GET_ACCESS_RIGHTS_BIT	../inc/tfmtypes.h	1245;"	d
+GL11_H	../inc/gl11.h	17;"	d
+GUID	../inc/tfmtypes.h	/^  PT_BYTE GUID[PT_GUID_SIZE]; 	\/\/\/< TFM\/ESS GUID$/;"	m	struct:pt_extended_info_v1
+GUID	../inc/tfmtypes.h	/^  PT_BYTE GUID[PT_GUID_SIZE]; 	\/\/\/< TFM\/ESS GUID$/;"	m	struct:pt_extended_info_v2
+GrabbedData	../inc/header.h	/^PT_BIR *GrabbedData;$/;"	v
+Header	../inc/tfmtypes.h	/^  PT_BIR_HEADER Header; 	\/\/\/< $/;"	m	struct:pt_bir
+Header	../inc/tfmtypes.h	/^  PT_DIF_SECTION_HEADER Header; 	\/\/\/< Header of the section.$/;"	m	struct:pt_dif_section_gradient
+Header	../inc/tfmtypes.h	/^  PT_DIF_SECTION_HEADER Header; 	\/\/\/< Header of the section.$/;"	m	struct:pt_dif_section_image_data
+Header	../inc/tfmtypes.h	/^  PT_DIF_SECTION_HEADER Header; 	\/\/\/< Header of the section.$/;"	m	struct:pt_dif_section_image_header
+Header	../inc/tfmtypes.h	/^  PT_DIF_SECTION_HEADER Header; 	\/\/\/< Header of the section.$/;"	m	struct:pt_dif_section_native
+Header	../inc/tfmtypes.h	/^  PT_DIF_SECTION_HEADER Header; 	\/\/\/< Header of the section.$/;"	m	struct:pt_dif_section_skew
+Header	../inc/tfmtypes.h	/^  PT_DIF_SECTION_HEADER Header; 	\/\/\/< Header of the section.$/;"	m	struct:pt_dif_section_speed
+Header	../inc/tfmtypes.h	/^  PT_DIF_SECTION_HEADER Header; 	\/\/\/< Header of the section.$/;"	m	struct:pt_dif_section_striation_removal
+HeaderVersion	../inc/tfmtypes.h	/^  PT_BYTE HeaderVersion; 	\/\/\/< Current version is 1$/;"	m	struct:pt_bir_header
+Height	../inc/tfmtypes.h	/^  PT_DWORD Height; 	\/\/\/< Image height$/;"	m	struct:pt_gui_sample_image
+IAAPI_DLL	../inc/tfmapi.h	21;"	d
+IAAPI_DLL	../inc/tfmapi.h	23;"	d
+IAAPI_DLL	../inc/tfmapi.h	27;"	d
+IAAPI_DLL	../inc/tfmapi.h	29;"	d
+IAAPI_DLL	../inc/tfmapi.h	33;"	d
+IAAPI_DLL	../inc/tfmapi.h	39;"	d
+IAAPI_DLL	../inc/tfmapi.h	41;"	d
+IAAPI_DLL	../inc/tfmapi.h	45;"	d
+IAAPI_DLL	../inc/tfmapi.h	47;"	d
+IAAPI_DLL	../inc/tfmapi.h	52;"	d
+IAAPI_DLL	../inc/tfmapi.h	54;"	d
+IAAPI_H	../inc/tfmapi.h	12;"	d
+IENGINE_API	../inc/iengine_ansi_iso.h	8;"	d
+IENGINE_E_BADFORMAT	../inc/iengine_ansi_iso.h	274;"	d
+IENGINE_E_BADFORMAT_MSG	../inc/iengine_ansi_iso.h	275;"	d
+IENGINE_E_BADIMAGE	../inc/iengine_ansi_iso.h	260;"	d
+IENGINE_E_BADIMAGE_MSG	../inc/iengine_ansi_iso.h	261;"	d
+IENGINE_E_BADLICENSE	../inc/iengine_ansi_iso.h	272;"	d
+IENGINE_E_BADLICENSE_MSG	../inc/iengine_ansi_iso.h	273;"	d
+IENGINE_E_BADPARAM	../inc/iengine_ansi_iso.h	256;"	d
+IENGINE_E_BADPARAM_MSG	../inc/iengine_ansi_iso.h	257;"	d
+IENGINE_E_BADTEMPLATE	../inc/iengine_ansi_iso.h	278;"	d
+IENGINE_E_BADTEMPLATE_MSG	../inc/iengine_ansi_iso.h	279;"	d
+IENGINE_E_BADVALUE	../inc/iengine_ansi_iso.h	276;"	d
+IENGINE_E_BADVALUE_MSG	../inc/iengine_ansi_iso.h	277;"	d
+IENGINE_E_BLANKIMAGE	../inc/iengine_ansi_iso.h	258;"	d
+IENGINE_E_BLANKIMAGE_MSG	../inc/iengine_ansi_iso.h	259;"	d
+IENGINE_E_FILE	../inc/iengine_ansi_iso.h	264;"	d
+IENGINE_E_FILE_MSG	../inc/iengine_ansi_iso.h	265;"	d
+IENGINE_E_INIT	../inc/iengine_ansi_iso.h	262;"	d
+IENGINE_E_INIT_MSG	../inc/iengine_ansi_iso.h	263;"	d
+IENGINE_E_MEMORY	../inc/iengine_ansi_iso.h	266;"	d
+IENGINE_E_MEMORY_MSG	../inc/iengine_ansi_iso.h	267;"	d
+IENGINE_E_NOERROR	../inc/iengine_ansi_iso.h	254;"	d
+IENGINE_E_NOERROR_MSG	../inc/iengine_ansi_iso.h	255;"	d
+IENGINE_E_NOTDEFINED	../inc/iengine_ansi_iso.h	282;"	d
+IENGINE_E_NOTDEFINED_MSG	../inc/iengine_ansi_iso.h	283;"	d
+IENGINE_E_NULLPARAM	../inc/iengine_ansi_iso.h	268;"	d
+IENGINE_E_NULLPARAM_MSG	../inc/iengine_ansi_iso.h	269;"	d
+IENGINE_E_NULLTEMPLATE	../inc/iengine_ansi_iso.h	284;"	d
+IENGINE_E_NULLTEMPLATE_MSG	../inc/iengine_ansi_iso.h	285;"	d
+IENGINE_E_OTHER	../inc/iengine_ansi_iso.h	270;"	d
+IENGINE_E_OTHER_MSG	../inc/iengine_ansi_iso.h	271;"	d
+IENGINE_E_READONLY	../inc/iengine_ansi_iso.h	280;"	d
+IENGINE_E_READONLY_MSG	../inc/iengine_ansi_iso.h	281;"	d
+IENGINE_E_UNKNOWN_MSG	../inc/iengine_ansi_iso.h	253;"	d
+IENGINE_FINGER_POSITION	../inc/iengine_ansi_iso.h	/^} IENGINE_FINGER_POSITION;$/;"	t	typeref:enum:__anon2
+IENGINE_IMPRESSION_TYPE	../inc/iengine_ansi_iso.h	/^} IENGINE_IMPRESSION_TYPE;$/;"	t	typeref:enum:__anon4
+IENGINE_MAX_ANSI_TEMPLATE_SIZE	../inc/iengine_ansi_iso.h	52;"	d
+IENGINE_MAX_IMAGE_HEIGHT	../inc/iengine_ansi_iso.h	47;"	d
+IENGINE_MAX_IMAGE_WIDTH	../inc/iengine_ansi_iso.h	45;"	d
+IENGINE_MAX_ISO_TEMPLATE_SIZE	../inc/iengine_ansi_iso.h	56;"	d
+IENGINE_MINUTIAE	../inc/iengine_ansi_iso.h	/^} IENGINE_MINUTIAE, *IENGINE_MINUTIAE_PTR;$/;"	t	typeref:struct:iengine_minutiae
+IENGINE_MINUTIAE_PTR	../inc/iengine_ansi_iso.h	/^} IENGINE_MINUTIAE, *IENGINE_MINUTIAE_PTR;$/;"	t	typeref:struct:iengine_minutiae
+IENGINE_MIN_IMAGE_HEIGHT	../inc/iengine_ansi_iso.h	46;"	d
+IENGINE_MIN_IMAGE_WIDTH	../inc/iengine_ansi_iso.h	44;"	d
+IENGINE_SORT_ORDER	../inc/iengine_ansi_iso.h	/^} IENGINE_SORT_ORDER;$/;"	t	typeref:enum:__anon3
+IENGINE_TEMPLATE_FORMAT	../inc/iengine_ansi_iso.h	/^} IENGINE_TEMPLATE_FORMAT;$/;"	t	typeref:enum:__anon1
+IENGINE_TEMPLATE_PARAMETER	../inc/iengine_ansi_iso.h	/^} IENGINE_TEMPLATE_PARAMETER;$/;"	t	typeref:enum:__anon5
+IENGINE_VERSION	../inc/iengine_ansi_iso.h	/^} IENGINE_VERSION, *IENGINE_VERSION_PTR;$/;"	t	typeref:struct:iengine_version
+IENGINE_VERSION_PTR	../inc/iengine_ansi_iso.h	/^} IENGINE_VERSION, *IENGINE_VERSION_PTR;$/;"	t	typeref:struct:iengine_version
+ILO_SID_TEMPLATE	../inc/iengine_ansi_iso.h	/^	ILO_SID_TEMPLATE = 2$/;"	e	enum:__anon1
+IMPTYPE_LP	../inc/bclib.h	329;"	d
+IMPTYPE_LS	../inc/bclib.h	333;"	d
+IMPTYPE_NP	../inc/bclib.h	331;"	d
+IN	../inc/bclib.h	57;"	d
+IN	../inc/tfmtypes.h	128;"	d
+INCLUDE	../src/Makefile	/^INCLUDE=-I ..\/inc$/;"	m
+INOUT	../inc/bclib.h	76;"	d
+INOUT	../inc/tfmtypes.h	146;"	d
+ISO_TEMPLATE	../inc/iengine_ansi_iso.h	/^	ISO_TEMPLATE = 1,$/;"	e	enum:__anon1
+Id	../inc/tfmtypes.h	/^  PT_DWORD Id; 	\/\/\/< If used, allows to assign unique ID to every FM piece. Otherwise 0.$/;"	m	struct:pt_info
+IdentificationThreshold	../inc/tfmtypes.h	/^  PT_BYTE IdentificationThreshold; 	\/\/\/< Threshold for biometric identification$/;"	m	struct:pt_match_on_host_params
+IdentificationThreshold	../inc/tfmtypes.h	/^  PT_BYTE IdentificationThreshold; 	\/\/\/< Threshold for biometric identification.$/;"	m	struct:pt_session_cfg_v4
+IdentificationThreshold	../inc/tfmtypes.h	/^  PT_BYTE IdentificationThreshold; 	\/\/\/< Threshold for biometric identification.$/;"	m	struct:pt_session_cfg_v5
+ImageByteWidth	../inc/tfmtypes.h	/^  PT_WORD ImageByteWidth; 	\/\/\/< Image Width in bytes. 0 if not provided.$/;"	m	struct:pt_dif_section_image_header
+ImageData	../inc/tfmtypes.h	/^  PT_DATA ImageData; 	\/\/\/< ImageData$/;"	m	struct:pt_gui_sample_image
+ImageFormatPolicy	../inc/tfmtypes.h	/^  PT_BYTE ImageFormatPolicy; 	\/\/\/< SONLY (TCRS5D only): Image format policy (see PT_IMGPOLICY_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+ImageHeight	../inc/tfmtypes.h	/^  PT_WORD ImageHeight; 	\/\/\/< Standard image height (for strip sensor the max. image height, see description of PTGrab). Note that this value doesn't apply to height of dynamic image format.$/;"	m	struct:pt_info
+ImagePixelHeight	../inc/tfmtypes.h	/^  PT_WORD ImagePixelHeight; 	\/\/\/< Image Height in output pixels.$/;"	m	struct:pt_dif_section_image_header
+ImagePixelWidth	../inc/tfmtypes.h	/^  PT_WORD ImagePixelWidth; 	\/\/\/< Image Width in output pixels.$/;"	m	struct:pt_dif_section_image_header
+ImageWidth	../inc/tfmtypes.h	/^  PT_WORD ImageWidth; 	\/\/\/< Standard image width. Note that this value doesn't apply to width of dynamic image format. Also note that this value can be different from real sensor width.$/;"	m	struct:pt_info
+ImgHeight	../inc/tfmtypes.h	/^  PT_WORD ImgHeight; 	\/\/\/< Height of the image in pixels.$/;"	m	struct:pt_extrtmpl_imginfo
+ImgType	../inc/tfmtypes.h	/^  PT_WORD ImgType; 	\/\/\/< Type of the sensor used for image acquisition (see PT_EXTRTMPL_IMGTYPE_xxxx values).$/;"	m	struct:pt_extrtmpl_imginfo
+ImgWidth	../inc/tfmtypes.h	/^  PT_WORD ImgWidth; 	\/\/\/< Width of the image in pixels.$/;"	m	struct:pt_extrtmpl_imginfo
+InBpp	../inc/tfmtypes.h	/^  PT_BYTE InBpp; 	\/\/\/< Input (scanner) color depth. 0=unknown.$/;"	m	struct:pt_dif_section_image_header
+InBpp	../inc/tfmtypes.h	/^  PT_BYTE InBpp; 	\/\/\/< Input color depth.$/;"	m	struct:pt_imgformat
+InXDpi	../inc/tfmtypes.h	/^  PT_WORD InXDpi; 	\/\/\/< Input (scanner) X resolution. 0=unknown.$/;"	m	struct:pt_dif_section_image_header
+InXDpi	../inc/tfmtypes.h	/^  PT_WORD InXDpi; 	\/\/\/< Input X resolution.$/;"	m	struct:pt_imgformat
+InYDpi	../inc/tfmtypes.h	/^  PT_WORD InYDpi; 	\/\/\/< Input (scanner) Y resolution. 0=unknown.$/;"	m	struct:pt_dif_section_image_header
+InYDpi	../inc/tfmtypes.h	/^  PT_WORD InYDpi; 	\/\/\/< Input Y resolution.$/;"	m	struct:pt_imgformat
+InfoFlags	../inc/tfmtypes.h	/^  PT_DWORD InfoFlags; 	\/\/\/< Image format info flags (see PT_IMGFORMAT_INFO_xxxx values).$/;"	m	struct:pt_imgformat_list_item
+InputBIR	../inc/tfmtypes.h	/^	} InputBIR;$/;"	m	struct:pt_input_bir	typeref:union:pt_input_bir::__anon6
+InvertedSwipe	../inc/tfmtypes.h	/^  PT_CHAR InvertedSwipe; 	\/\/\/< Direction of swipe (0 = standard direction, 1 = inverted direction).$/;"	m	struct:pt_swipe_info
+ItemSize	../inc/tfmtypes.h	/^  PT_WORD ItemSize; 	\/\/\/< Size in bytes of one returned list item structure, currently sizeof(PT_IMGFORMAT_LIST_ITEM).$/;"	m	struct:pt_imgformat_list
+ItemVersion	../inc/tfmtypes.h	/^  PT_WORD ItemVersion; 	\/\/\/< Version of returned list item structures, currently 1.$/;"	m	struct:pt_imgformat_list
+LEFT_INDEX	../inc/iengine_ansi_iso.h	/^	LEFT_INDEX = 7,$/;"	e	enum:__anon2
+LEFT_LITTLE	../inc/iengine_ansi_iso.h	/^	LEFT_LITTLE = 10$/;"	e	enum:__anon2
+LEFT_MIDDLE	../inc/iengine_ansi_iso.h	/^	LEFT_MIDDLE = 8,$/;"	e	enum:__anon2
+LEFT_RING	../inc/iengine_ansi_iso.h	/^	LEFT_RING = 9,$/;"	e	enum:__anon2
+LEFT_THUMB	../inc/iengine_ansi_iso.h	/^	LEFT_THUMB = 6,$/;"	e	enum:__anon2
+LIB	../src/Makefile	/^LIB=-L ..\/lib -lgl11pos -ltfm -liengine_ansi_iso$/;"	m
+LatentDetect	../inc/tfmtypes.h	/^  PT_BOOL LatentDetect; 	\/\/\/< Indicates whether or not latent detection should be activated (valid only for systems with area sensor)$/;"	m	struct:pt_session_cfg_v1
+LatentDetect	../inc/tfmtypes.h	/^  PT_BOOL LatentDetect; 	\/\/\/< Indicates whether or not latent detection should be activated (valid only for systems with area sensor)$/;"	m	struct:pt_session_cfg_v2
+LatentDetect	../inc/tfmtypes.h	/^  PT_BOOL LatentDetect; 	\/\/\/< Indicates whether or not latent detection should be activated (valid only for systems with area sensor)$/;"	m	struct:pt_session_cfg_v3
+LatentDetect	../inc/tfmtypes.h	/^  PT_BOOL LatentDetect; 	\/\/\/< Indicates whether or not latent detection should be enabled (not zero) or disabled (zero) (valid only for systems with area sensor).$/;"	m	struct:pt_session_cfg_v4
+LatentDetect	../inc/tfmtypes.h	/^  PT_BYTE LatentDetect; 	\/\/\/< Indicates whether or not latent detection should be activated (valid only for systems with area sensor).$/;"	m	struct:pt_session_cfg_v5
+Led1	../inc/tfmtypes.h	/^  PT_DWORD Led1; 	\/\/\/< LED1 parameters$/;"	m	struct:pt_led_params_manual
+Led1_Mapping	../inc/tfmtypes.h	/^  PT_BYTE Led1_Mapping; 	\/\/\/< LED1 mapping - 0=Drv1, 1=Drv3$/;"	m	struct:pt_led_params_manual2
+Led2	../inc/tfmtypes.h	/^  PT_DWORD Led2; 	\/\/\/< LED2 parameters$/;"	m	struct:pt_led_params_manual
+Led2_Mapping	../inc/tfmtypes.h	/^  PT_BYTE Led2_Mapping; 	\/\/\/< LED2 mapping - 0=Drv2, 1=Drv3$/;"	m	struct:pt_led_params_manual2
+Led3_Mapping	../inc/tfmtypes.h	/^  PT_BYTE Led3_Mapping; 	\/\/\/< LED3 mapping - 0=off, 1=Drv1, 2=Drv2, 3=Drv3$/;"	m	struct:pt_led_params_manual2
+LedInfo	../inc/tfmtypes.h	/^  PT_BYTE LedInfo; 	\/\/\/< Additional info about LED support (see PT_LEDINFO_xxxx values).$/;"	m	struct:pt_extended_info_v2
+Length	../inc/tfmtypes.h	/^  PT_DWORD Length; 	\/\/\/< Complete length of the section.$/;"	m	struct:pt_dif_section_header
+Length	../inc/tfmtypes.h	/^  PT_DWORD Length; 	\/\/\/< Complete length of the whole data.$/;"	m	struct:pt_dif_header
+Length	../inc/tfmtypes.h	/^  PT_DWORD Length; 	\/\/\/< Length of Header + Opaque Data$/;"	m	struct:pt_bir_header
+Length	../inc/tfmtypes.h	/^  PT_DWORD Length; 	\/\/\/< Length of the Data field in bytes$/;"	m	struct:pt_data
+Length	../inc/tfmtypes.h	/^  PT_DWORD Length; 	\/\/\/< Length of this structure, set to 'sizeof(PT_MATCH_ON_HOST_PARAMS)'$/;"	m	struct:pt_match_on_host_params
+Length	../inc/tfmtypes.h	/^  PT_WORD Length; 	\/\/\/< Length of this structure$/;"	m	struct:pt_extrtmpl_tmplinfo
+Length	../inc/tfmtypes.h	/^  PT_WORD Length; 	\/\/\/< Length of this structure, set to 'sizeof(PT_EXTRTMPL_IMGINFO)'.$/;"	m	struct:pt_extrtmpl_imginfo
+List	../inc/tfmtypes.h	/^  PT_DEVICE_LIST_ITEM List[1]; 	\/\/\/< The list of devices, variable length$/;"	m	struct:pt_device_list
+List	../inc/tfmtypes.h	/^  PT_FINGER_LIST_ITEM List[1]; 	\/\/\/< Array of the fingers, it has NumFingers items$/;"	m	struct:pt_finger_list
+List	../inc/tfmtypes.h	/^  PT_IMGFORMAT_LIST_ITEM List[1]; 	\/\/\/< List of image formats. Number of elements in the array is 'NumFormats'. Size of one item is 'ItemSize'.$/;"	m	struct:pt_imgformat_list
+MAX_DEVICE_NAME_LENGTH	../inc/dpfpdd.h	156;"	d
+MAX_FMD_SIZE	../inc/dpfj.h	193;"	d
+MAX_STR_LENGTH	../inc/dpfpdd.h	151;"	d
+MENU	../inc/header.h	53;"	d
+Major	../inc/iengine_ansi_iso.h	/^    unsigned int Major;$/;"	m	struct:iengine_version
+MaxGrabWindow	../inc/tfmtypes.h	/^  PT_DWORD MaxGrabWindow; 	\/\/\/< TFM: Max. guaranteed length of the output data for PTGrabWindow. Can be 0 -> the guaranteed length is not defined. ESS: Reserved for future use.$/;"	m	struct:pt_info
+Minor	../inc/iengine_ansi_iso.h	/^    unsigned int Minor;$/;"	m	struct:iengine_version
+MultipleEnroll	../inc/tfmtypes.h	/^  PT_BOOL MultipleEnroll; 	\/\/\/< Indicates whether or not enrollment should use multiple finger images (consolidated enrollment).$/;"	m	struct:pt_session_cfg_v4
+MultipleEnroll	../inc/tfmtypes.h	/^  PT_BOOL MultipleEnroll; 	\/\/\/< Indicates whether or not enrollment should use multiple finger images$/;"	m	struct:pt_session_cfg_v1
+MultipleEnroll	../inc/tfmtypes.h	/^  PT_BOOL MultipleEnroll; 	\/\/\/< Indicates whether or not enrollment should use multiple finger images$/;"	m	struct:pt_session_cfg_v2
+MultipleEnroll	../inc/tfmtypes.h	/^  PT_BOOL MultipleEnroll; 	\/\/\/< Indicates whether or not enrollment should use multiple finger images$/;"	m	struct:pt_session_cfg_v3
+MultipleEnroll	../inc/tfmtypes.h	/^  PT_BYTE MultipleEnroll; 	\/\/\/< Indicates whether or not enrollment should use multiple finger images.$/;"	m	struct:pt_session_cfg_v5
+NULL	../inc/dpfj.h	32;"	d
+NULL	../inc/dpfj.h	34;"	d
+NULL	../inc/dpfpdd.h	31;"	d
+NULL	../inc/dpfpdd.h	33;"	d
+NavClickAllowedMovement	../inc/tfmtypes.h	/^  PT_DWORD NavClickAllowedMovement; 	\/\/\/< Maximum allowed movement for click$/;"	m	struct:pt_session_cfg_v2
+NavClickAllowedMovement	../inc/tfmtypes.h	/^  PT_DWORD NavClickAllowedMovement; 	\/\/\/< Maximum allowed movement for click$/;"	m	struct:pt_session_cfg_v3
+NavClickAllowedMovement	../inc/tfmtypes.h	/^  PT_DWORD NavClickAllowedMovement; 	\/\/\/< Maximum allowed movement for click.$/;"	m	struct:pt_session_cfg_v5
+NavClickAllowedMovement	../inc/tfmtypes.h	/^  PT_DWORD NavClickAllowedMovement; 	\/\/\/< Maximum movement that can be detected during a click.$/;"	m	struct:pt_session_cfg_v4
+NavClickSensitivity	../inc/tfmtypes.h	/^  PT_BYTE NavClickSensitivity; 	\/\/\/< Click detection sensitivity setting.$/;"	m	struct:pt_session_cfg_v5
+NavClickTimeMax	../inc/tfmtypes.h	/^  PT_WORD NavClickTimeMax; 	\/\/\/< Maximum elapsed time to detect a click $/;"	m	struct:pt_session_cfg_v2
+NavClickTimeMax	../inc/tfmtypes.h	/^  PT_WORD NavClickTimeMax; 	\/\/\/< Maximum elapsed time to detect a click $/;"	m	struct:pt_session_cfg_v3
+NavClickTimeMax	../inc/tfmtypes.h	/^  PT_WORD NavClickTimeMax; 	\/\/\/< Maximum elapsed time to detect a click.$/;"	m	struct:pt_session_cfg_v4
+NavClickTimeMax	../inc/tfmtypes.h	/^  PT_WORD NavClickTimeMax; 	\/\/\/< Maximum elapsed time to detect a click.$/;"	m	struct:pt_session_cfg_v5
+NavClickTimeMin	../inc/tfmtypes.h	/^  PT_WORD NavClickTimeMin; 	\/\/\/< Minimum elapsed time to detect a click$/;"	m	struct:pt_session_cfg_v2
+NavClickTimeMin	../inc/tfmtypes.h	/^  PT_WORD NavClickTimeMin; 	\/\/\/< Minimum elapsed time to detect a click.$/;"	m	struct:pt_session_cfg_v3
+NavClickTimeMin	../inc/tfmtypes.h	/^  PT_WORD NavClickTimeMin; 	\/\/\/< Minimum elapsed time to detect a click.$/;"	m	struct:pt_session_cfg_v4
+NavClickTimeMin	../inc/tfmtypes.h	/^  PT_WORD NavClickTimeMin; 	\/\/\/< Minimum elapsed time to detect a click.$/;"	m	struct:pt_session_cfg_v5
+NavFingerDownDelay	../inc/tfmtypes.h	/^  PT_WORD NavFingerDownDelay; 	\/\/\/< Timing for finger touch$/;"	m	struct:pt_session_cfg_v2
+NavFingerDownDelay	../inc/tfmtypes.h	/^  PT_WORD NavFingerDownDelay; 	\/\/\/< Timing for finger touch.$/;"	m	struct:pt_session_cfg_v3
+NavFingerDownDelay	../inc/tfmtypes.h	/^  PT_WORD NavFingerDownDelay; 	\/\/\/< Timing for finger touch.$/;"	m	struct:pt_session_cfg_v4
+NavFingerDownDelay	../inc/tfmtypes.h	/^  PT_WORD NavFingerDownDelay; 	\/\/\/< Timing for finger touch.$/;"	m	struct:pt_session_cfg_v5
+NavFingerUpDelay	../inc/tfmtypes.h	/^  PT_WORD NavFingerUpDelay; 	\/\/\/< Timing for finger lift$/;"	m	struct:pt_session_cfg_v2
+NavFingerUpDelay	../inc/tfmtypes.h	/^  PT_WORD NavFingerUpDelay; 	\/\/\/< Timing for finger lift.$/;"	m	struct:pt_session_cfg_v3
+NavFingerUpDelay	../inc/tfmtypes.h	/^  PT_WORD NavFingerUpDelay; 	\/\/\/< Timing for finger lift.$/;"	m	struct:pt_session_cfg_v4
+NavFingerUpDelay	../inc/tfmtypes.h	/^  PT_WORD NavFingerUpDelay; 	\/\/\/< Timing for finger lift.$/;"	m	struct:pt_session_cfg_v5
+NavFlags	../inc/tfmtypes.h	/^  PT_WORD NavFlags; 	\/\/\/< Navigation flags (see PT_NAVIG_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+NavFlags	../inc/tfmtypes.h	/^  PT_WORD NavFlags; 	\/\/\/< Navigation flags (see PT_NAVIG_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+NavMovementDelay	../inc/tfmtypes.h	/^  PT_WORD NavMovementDelay; 	\/\/\/< Delay before movement detection$/;"	m	struct:pt_session_cfg_v2
+NavMovementDelay	../inc/tfmtypes.h	/^  PT_WORD NavMovementDelay; 	\/\/\/< Delay before movement detection.$/;"	m	struct:pt_session_cfg_v3
+NavMovementDelay	../inc/tfmtypes.h	/^  PT_WORD NavMovementDelay; 	\/\/\/< Delay before movement detection.$/;"	m	struct:pt_session_cfg_v5
+NavMovementDelay	../inc/tfmtypes.h	/^  PT_WORD NavMovementDelay; 	\/\/\/< Delay in ms before detecting any movement in navigation.$/;"	m	struct:pt_session_cfg_v4
+NavNavigationType	../inc/tfmtypes.h	/^  PT_BYTE NavNavigationType; 	\/\/\/< Navigation type (see PT_NAVTYPE_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+NavNavigationType	../inc/tfmtypes.h	/^  PT_WORD NavNavigationType; 	\/\/\/< Navigation type (see PT_NAVTYPE_xxxx values).$/;"	m	struct:pt_session_cfg_v3
+NavNavigationType	../inc/tfmtypes.h	/^  PT_WORD NavNavigationType; 	\/\/\/< Navigation type (see PT_NAVTYPE_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+NavOrientation	../inc/tfmtypes.h	/^  PT_BYTE NavOrientation; 	\/\/\/< Orientation of navigation (see PT_NAVORIENT_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+NavOrientation	../inc/tfmtypes.h	/^  PT_BYTE NavOrientation; 	\/\/\/< Orientation of navigation (see PT_NAVORIENT_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+NavSubPixelPrecision	../inc/tfmtypes.h	/^  PT_BOOL NavSubPixelPrecision; 	\/\/\/< If PT_TRUE then sub-pixel precision is used for navigation.$/;"	m	struct:pt_session_cfg_v4
+NavUseHwDetection	../inc/tfmtypes.h	/^  PT_BOOL NavUseHwDetection; 	\/\/\/< Use Hardware finger detection$/;"	m	struct:pt_session_cfg_v2
+NavUseHwDetection	../inc/tfmtypes.h	/^  PT_BOOL NavUseHwDetection; 	\/\/\/< Use Hardware finger detection.$/;"	m	struct:pt_session_cfg_v3
+NavUseHwDetection	../inc/tfmtypes.h	/^  PT_BOOL NavUseHwDetection; 	\/\/\/< Use Hardware finger detection.$/;"	m	struct:pt_session_cfg_v4
+Next	../inc/header.h	/^    struct User *Next;$/;"	m	struct:User	typeref:struct:User::User
+NoiseRobustnessFlags	../inc/tfmtypes.h	/^  PT_BYTE NoiseRobustnessFlags; 	\/\/\/< Noise robustness flags.$/;"	m	struct:pt_swipe_info
+NumDevices	../inc/tfmtypes.h	/^  PT_DWORD NumDevices; 	\/\/\/< Number of devices in the list$/;"	m	struct:pt_device_list
+NumFingers	../inc/tfmtypes.h	/^  PT_DWORD NumFingers; 	\/\/\/< Number of fingers in the list$/;"	m	struct:pt_finger_list
+NumFormats	../inc/tfmtypes.h	/^  PT_DWORD NumFormats; 	\/\/\/< Number of formats returned in the list.$/;"	m	struct:pt_imgformat_list
+NumSections	../inc/tfmtypes.h	/^  PT_WORD NumSections; 	\/\/\/< Number of contained data sections.$/;"	m	struct:pt_dif_header
+OBJ	../src/Makefile	/^OBJ=main.o enroll.o init_fp.o optcap.o iodev.o deinit_fp.o$/;"	m
+OPTIONAL	../inc/tfmtypes.h	155;"	d
+OTHERINFO_MAXLEN	../inc/tfmtypes.h	380;"	d
+OUT	../inc/bclib.h	67;"	d
+OUT	../inc/tfmtypes.h	137;"	d
+OtherInfo	../inc/tfmtypes.h	/^  PT_CHAR OtherInfo[OTHERINFO_MAXLEN]; 	\/\/\/< String with other info$/;"	m	struct:pt_device_list_item
+OutBpp	../inc/tfmtypes.h	/^  PT_BYTE OutBpp; 	\/\/\/< Output (image) color depth. 0=unknown.$/;"	m	struct:pt_dif_section_image_header
+OutBpp	../inc/tfmtypes.h	/^  PT_BYTE OutBpp; 	\/\/\/< Output Color depth.$/;"	m	struct:pt_imgformat
+OutXDpi	../inc/tfmtypes.h	/^  PT_WORD OutXDpi; 	\/\/\/< Output (image) X resolution. 0=unknown.$/;"	m	struct:pt_dif_section_image_header
+OutXDpi	../inc/tfmtypes.h	/^  PT_WORD OutXDpi; 	\/\/\/< Output X resolution.$/;"	m	struct:pt_imgformat
+OutYDpi	../inc/tfmtypes.h	/^  PT_WORD OutYDpi; 	\/\/\/< Output (image) Y resolution. 0=unknown.$/;"	m	struct:pt_dif_section_image_header
+OutYDpi	../inc/tfmtypes.h	/^  PT_WORD OutYDpi; 	\/\/\/< Output Y resolution.$/;"	m	struct:pt_imgformat
+PARAM_CAPTURE_EQUIPMENT_COMPLIANCE	../inc/iengine_ansi_iso.h	/^	PARAM_CAPTURE_EQUIPMENT_COMPLIANCE = 3,$/;"	e	enum:__anon5
+PARAM_CAPTURE_EQUIPMENT_ID	../inc/iengine_ansi_iso.h	/^	PARAM_CAPTURE_EQUIPMENT_ID = 4,$/;"	e	enum:__anon5
+PARAM_FINGER_POSITION	../inc/iengine_ansi_iso.h	/^	PARAM_FINGER_POSITION = 10,$/;"	e	enum:__anon5
+PARAM_FINGER_QUALITY	../inc/iengine_ansi_iso.h	/^	PARAM_FINGER_QUALITY = 12$/;"	e	enum:__anon5
+PARAM_FINGER_VIEW_COUNT	../inc/iengine_ansi_iso.h	/^	PARAM_FINGER_VIEW_COUNT = 5,$/;"	e	enum:__anon5
+PARAM_IMPRESSION_TYPE	../inc/iengine_ansi_iso.h	/^	PARAM_IMPRESSION_TYPE = 11,$/;"	e	enum:__anon5
+PARAM_PRODUCT_OWNER	../inc/iengine_ansi_iso.h	/^	PARAM_PRODUCT_OWNER = 0,$/;"	e	enum:__anon5
+PARAM_PRODUCT_VERSION	../inc/iengine_ansi_iso.h	/^	PARAM_PRODUCT_VERSION = 1,$/;"	e	enum:__anon5
+PARAM_TEMPLATE_SIZE	../inc/iengine_ansi_iso.h	/^	PARAM_TEMPLATE_SIZE = 2,$/;"	e	enum:__anon5
+PATH	../src/Makefile	/^export PATH=\/opt\/freescale-31\/usr\/local\/gcc-4.1.2-glibc-2.5-nptl-3\/arm-none-linux-gnueabi\/bin:\/usr\/local\/sbin:\/usr\/local\/bin:\/usr\/sbin:\/usr\/bin:\/sbin:\/bin:\/usr\/games:\/usr\/local\/games$/;"	m
+PRN_BUSY	../inc/gl11.h	24;"	d
+PRN_ERR	../inc/gl11.h	20;"	d
+PRN_FAIL	../inc/gl11.h	25;"	d
+PRN_LEN_ERR	../inc/gl11.h	21;"	d
+PRN_OFF	../inc/gl11.h	22;"	d
+PRN_ON	../inc/gl11.h	23;"	d
+PRN_SUCCESS	../inc/gl11.h	26;"	d
+PTAPI	../inc/tfmtypes.h	107;"	d
+PTAPI	../inc/tfmtypes.h	109;"	d
+PTAPI	../inc/tfmtypes.h	112;"	d
+PTAPI_DLL	../inc/tfmtypes.h	28;"	d
+PTAPI_DLL	../inc/tfmtypes.h	30;"	d
+PTAPI_DLL	../inc/tfmtypes.h	34;"	d
+PTAPI_DLL	../inc/tfmtypes.h	36;"	d
+PTAPI_DLL	../inc/tfmtypes.h	42;"	d
+PTAPI_DLL	../inc/tfmtypes.h	44;"	d
+PTAPI_DLL	../inc/tfmtypes.h	48;"	d
+PTAPI_DLL	../inc/tfmtypes.h	50;"	d
+PTAPI_DLL	../inc/tfmtypes.h	55;"	d
+PTAPI_DLL	../inc/tfmtypes.h	57;"	d
+PTAPI_DLL	../inc/tfmtypes.h	64;"	d
+PTAPI_DLL	../inc/tfmtypes.h	66;"	d
+PTAPI_DLL	../inc/tfmtypes.h	70;"	d
+PTAPI_DLL	../inc/tfmtypes.h	72;"	d
+PTAPI_DLL	../inc/tfmtypes.h	78;"	d
+PTAPI_DLL	../inc/tfmtypes.h	80;"	d
+PTAPI_DLL	../inc/tfmtypes.h	84;"	d
+PTAPI_DLL	../inc/tfmtypes.h	86;"	d
+PTAPI_DLL	../inc/tfmtypes.h	91;"	d
+PTAPI_DLL	../inc/tfmtypes.h	93;"	d
+PT_ACCOUNT_1	../inc/tfmtypes.h	1090;"	d
+PT_ACCOUNT_10	../inc/tfmtypes.h	1099;"	d
+PT_ACCOUNT_11	../inc/tfmtypes.h	1100;"	d
+PT_ACCOUNT_12	../inc/tfmtypes.h	1101;"	d
+PT_ACCOUNT_13	../inc/tfmtypes.h	1102;"	d
+PT_ACCOUNT_14	../inc/tfmtypes.h	1103;"	d
+PT_ACCOUNT_15	../inc/tfmtypes.h	1104;"	d
+PT_ACCOUNT_16	../inc/tfmtypes.h	1105;"	d
+PT_ACCOUNT_17	../inc/tfmtypes.h	1106;"	d
+PT_ACCOUNT_18	../inc/tfmtypes.h	1107;"	d
+PT_ACCOUNT_19	../inc/tfmtypes.h	1108;"	d
+PT_ACCOUNT_2	../inc/tfmtypes.h	1091;"	d
+PT_ACCOUNT_3	../inc/tfmtypes.h	1092;"	d
+PT_ACCOUNT_4	../inc/tfmtypes.h	1093;"	d
+PT_ACCOUNT_5	../inc/tfmtypes.h	1094;"	d
+PT_ACCOUNT_6	../inc/tfmtypes.h	1095;"	d
+PT_ACCOUNT_7	../inc/tfmtypes.h	1096;"	d
+PT_ACCOUNT_8	../inc/tfmtypes.h	1097;"	d
+PT_ACCOUNT_9	../inc/tfmtypes.h	1098;"	d
+PT_ACCOUNT_ANONYMOUS	../inc/tfmtypes.h	1089;"	d
+PT_ACCOUNT_WRP	../inc/tfmtypes.h	1109;"	d
+PT_ACC_ENABLE_ACCESS_FPDATAEX	../inc/tfmtypes.h	1153;"	d
+PT_ACC_ENABLE_ANTISPOOFING	../inc/tfmtypes.h	1144;"	d
+PT_ACC_ENABLE_ATRBOP_OTP	../inc/tfmtypes.h	1219;"	d
+PT_ACC_ENABLE_ATRBOP_PKI	../inc/tfmtypes.h	1218;"	d
+PT_ACC_ENABLE_CHANGE_ANTISPOOFING_LEVEL	../inc/tfmtypes.h	1145;"	d
+PT_ACC_ENABLE_CHECK_LATENT	../inc/tfmtypes.h	1221;"	d
+PT_ACC_ENABLE_CONTROL_LMD	../inc/tfmtypes.h	1154;"	d
+PT_ACC_ENABLE_CONTROL_POA	../inc/tfmtypes.h	1220;"	d
+PT_ACC_ENABLE_CREATE_WRAPPED_PROFILE	../inc/tfmtypes.h	1157;"	d
+PT_ACC_ENABLE_ENROLL	../inc/tfmtypes.h	1118;"	d
+PT_ACC_ENABLE_GENERATE_DEVICE_KEY_KEYEX	../inc/tfmtypes.h	1170;"	d
+PT_ACC_ENABLE_GENERATE_DEVICE_KEY_SECCHAN	../inc/tfmtypes.h	1216;"	d
+PT_ACC_ENABLE_GENERATE_DEVICE_KEY_SIGN	../inc/tfmtypes.h	1171;"	d
+PT_ACC_ENABLE_GET_ANTISPOOFING_INFO	../inc/tfmtypes.h	1146;"	d
+PT_ACC_ENABLE_GET_APP_DATA_APP	../inc/tfmtypes.h	1130;"	d
+PT_ACC_ENABLE_GET_APP_DATA_APP_EX	../inc/tfmtypes.h	1163;"	d
+PT_ACC_ENABLE_GET_APP_DATA_CERT_KEYEX	../inc/tfmtypes.h	1164;"	d
+PT_ACC_ENABLE_GET_APP_DATA_CERT_SECCHAN	../inc/tfmtypes.h	1213;"	d
+PT_ACC_ENABLE_GET_APP_DATA_CERT_SIGN	../inc/tfmtypes.h	1165;"	d
+PT_ACC_ENABLE_GET_APP_DATA_OEM	../inc/tfmtypes.h	1131;"	d
+PT_ACC_ENABLE_GET_APP_DATA_PARTNER	../inc/tfmtypes.h	1132;"	d
+PT_ACC_ENABLE_GET_APP_DATA_PUBKEY_KEYEX	../inc/tfmtypes.h	1166;"	d
+PT_ACC_ENABLE_GET_APP_DATA_PUBKEY_SECCHAN	../inc/tfmtypes.h	1214;"	d
+PT_ACC_ENABLE_GET_APP_DATA_PUBKEY_SIGN	../inc/tfmtypes.h	1167;"	d
+PT_ACC_ENABLE_GET_TEMPLATE_WITHOUT_PAYLOAD	../inc/tfmtypes.h	1125;"	d
+PT_ACC_ENABLE_GET_TEMPLATE_WITH_PAYLOAD	../inc/tfmtypes.h	1124;"	d
+PT_ACC_ENABLE_GET_VERIFY_MATCH_PAYLOAD	../inc/tfmtypes.h	1142;"	d
+PT_ACC_ENABLE_MANUFACTURING_FUNCS	../inc/tfmtypes.h	1134;"	d
+PT_ACC_ENABLE_NAVIGATION	../inc/tfmtypes.h	1126;"	d
+PT_ACC_ENABLE_OTHER_FUNCS	../inc/tfmtypes.h	1133;"	d
+PT_ACC_ENABLE_OTP_GENERATE	../inc/tfmtypes.h	1150;"	d
+PT_ACC_ENABLE_OTP_SET_SECRET_KEY	../inc/tfmtypes.h	1147;"	d
+PT_ACC_ENABLE_OTP_SET_SEQUENCE_NUMBER	../inc/tfmtypes.h	1149;"	d
+PT_ACC_ENABLE_OTP_SET_USER_KEY	../inc/tfmtypes.h	1148;"	d
+PT_ACC_ENABLE_SCANNER	../inc/tfmtypes.h	1117;"	d
+PT_ACC_ENABLE_SECURE_CHANNEL	../inc/tfmtypes.h	1143;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_1	../inc/tfmtypes.h	1139;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_10	../inc/tfmtypes.h	1195;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_11	../inc/tfmtypes.h	1196;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_12	../inc/tfmtypes.h	1197;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_13	../inc/tfmtypes.h	1198;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_14	../inc/tfmtypes.h	1199;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_15	../inc/tfmtypes.h	1200;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_16	../inc/tfmtypes.h	1201;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_17	../inc/tfmtypes.h	1202;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_18	../inc/tfmtypes.h	1203;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_19	../inc/tfmtypes.h	1204;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_2	../inc/tfmtypes.h	1140;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_3	../inc/tfmtypes.h	1141;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_4	../inc/tfmtypes.h	1189;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_5	../inc/tfmtypes.h	1190;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_6	../inc/tfmtypes.h	1191;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_7	../inc/tfmtypes.h	1192;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_8	../inc/tfmtypes.h	1193;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_9	../inc/tfmtypes.h	1194;"	d
+PT_ACC_ENABLE_SET_ACCESS_RIGHTS_ANONYMOUS	../inc/tfmtypes.h	1138;"	d
+PT_ACC_ENABLE_SET_APP_DATA_APP	../inc/tfmtypes.h	1127;"	d
+PT_ACC_ENABLE_SET_APP_DATA_APP_EX	../inc/tfmtypes.h	1158;"	d
+PT_ACC_ENABLE_SET_APP_DATA_CERT_KEYEX	../inc/tfmtypes.h	1159;"	d
+PT_ACC_ENABLE_SET_APP_DATA_CERT_SECCHAN	../inc/tfmtypes.h	1211;"	d
+PT_ACC_ENABLE_SET_APP_DATA_CERT_SIGN	../inc/tfmtypes.h	1160;"	d
+PT_ACC_ENABLE_SET_APP_DATA_OEM	../inc/tfmtypes.h	1128;"	d
+PT_ACC_ENABLE_SET_APP_DATA_PARTNER	../inc/tfmtypes.h	1129;"	d
+PT_ACC_ENABLE_SET_APP_DATA_PUBKEY_KEYEX	../inc/tfmtypes.h	1161;"	d
+PT_ACC_ENABLE_SET_APP_DATA_PUBKEY_SECCHAN	../inc/tfmtypes.h	1212;"	d
+PT_ACC_ENABLE_SET_APP_DATA_PUBKEY_SIGN	../inc/tfmtypes.h	1162;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_1	../inc/tfmtypes.h	1135;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_10	../inc/tfmtypes.h	1179;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_11	../inc/tfmtypes.h	1180;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_12	../inc/tfmtypes.h	1181;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_13	../inc/tfmtypes.h	1182;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_14	../inc/tfmtypes.h	1183;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_15	../inc/tfmtypes.h	1184;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_16	../inc/tfmtypes.h	1185;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_17	../inc/tfmtypes.h	1186;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_18	../inc/tfmtypes.h	1187;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_19	../inc/tfmtypes.h	1188;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_2	../inc/tfmtypes.h	1136;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_3	../inc/tfmtypes.h	1137;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_4	../inc/tfmtypes.h	1173;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_5	../inc/tfmtypes.h	1174;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_6	../inc/tfmtypes.h	1175;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_7	../inc/tfmtypes.h	1176;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_8	../inc/tfmtypes.h	1177;"	d
+PT_ACC_ENABLE_SET_AUTHKEY_9	../inc/tfmtypes.h	1178;"	d
+PT_ACC_ENABLE_SET_DEVICE_KEY_KEYEX	../inc/tfmtypes.h	1168;"	d
+PT_ACC_ENABLE_SET_DEVICE_KEY_SECCHAN	../inc/tfmtypes.h	1215;"	d
+PT_ACC_ENABLE_SET_DEVICE_KEY_SIGN	../inc/tfmtypes.h	1169;"	d
+PT_ACC_ENABLE_SET_FINGER_PAYLOAD	../inc/tfmtypes.h	1151;"	d
+PT_ACC_ENABLE_UPDATE_FINGER_PAYLOAD	../inc/tfmtypes.h	1152;"	d
+PT_ACC_ENABLE_UPDATE_NVM_SAB	../inc/tfmtypes.h	1206;"	d
+PT_ACC_ENABLE_UPDATE_NVM_TEMPLATE	../inc/tfmtypes.h	1123;"	d
+PT_ACC_ENABLE_UPDATE_WRAPPED_SAB	../inc/tfmtypes.h	1208;"	d
+PT_ACC_ENABLE_UPDATE_WRAPPED_TEMPLATE	../inc/tfmtypes.h	1156;"	d
+PT_ACC_ENABLE_USE_DEVICE_KEY_KEYEX	../inc/tfmtypes.h	1209;"	d
+PT_ACC_ENABLE_USE_DEVICE_KEY_SECCHAN	../inc/tfmtypes.h	1217;"	d
+PT_ACC_ENABLE_USE_DEVICE_KEY_SIGN	../inc/tfmtypes.h	1210;"	d
+PT_ACC_ENABLE_USE_EXTERN_TEMPLATE	../inc/tfmtypes.h	1122;"	d
+PT_ACC_ENABLE_USE_LMD	../inc/tfmtypes.h	1172;"	d
+PT_ACC_ENABLE_USE_NVM_SAB	../inc/tfmtypes.h	1205;"	d
+PT_ACC_ENABLE_USE_NVM_TEMPLATE	../inc/tfmtypes.h	1121;"	d
+PT_ACC_ENABLE_USE_WRAPPED_SAB	../inc/tfmtypes.h	1207;"	d
+PT_ACC_ENABLE_USE_WRAPPED_TEMPLATE	../inc/tfmtypes.h	1155;"	d
+PT_ACC_ENABLE_VERIFY_CAPTURED	../inc/tfmtypes.h	1119;"	d
+PT_ACC_ENABLE_VERIFY_MATCH	../inc/tfmtypes.h	1120;"	d
+PT_ANTISPOOFING_HIGHER_SECURITY	../inc/tfmtypes.h	1477;"	d
+PT_ANTISPOOFING_LEVEL	../inc/tfmtypes.h	/^typedef PT_DWORD     PT_ANTISPOOFING_LEVEL;$/;"	t
+PT_ANTISPOOFING_LOWER_SECURITY	../inc/tfmtypes.h	1475;"	d
+PT_ANTISPOOFING_MAX_SECURITY	../inc/tfmtypes.h	1478;"	d
+PT_ANTISPOOFING_MEDIUM_SECURITY	../inc/tfmtypes.h	1476;"	d
+PT_ANTISPOOFING_MIN_SECURITY	../inc/tfmtypes.h	1474;"	d
+PT_AREA_APP	../inc/tfmtypes.h	1273;"	d
+PT_AREA_APP_EX	../inc/tfmtypes.h	1277;"	d
+PT_AREA_APP_READER	../inc/tfmtypes.h	1284;"	d
+PT_AREA_CERT_KEYEX	../inc/tfmtypes.h	1278;"	d
+PT_AREA_CERT_SECCHAN	../inc/tfmtypes.h	1282;"	d
+PT_AREA_CERT_SIGN	../inc/tfmtypes.h	1279;"	d
+PT_AREA_LATENT	../inc/tfmtypes.h	1276;"	d
+PT_AREA_OEM	../inc/tfmtypes.h	1274;"	d
+PT_AREA_PARTNER	../inc/tfmtypes.h	1275;"	d
+PT_AREA_PUBKEY_KEYEX	../inc/tfmtypes.h	1280;"	d
+PT_AREA_PUBKEY_SECCHAN	../inc/tfmtypes.h	1283;"	d
+PT_AREA_PUBKEY_SIGN	../inc/tfmtypes.h	1281;"	d
+PT_BIO_DEFAULT_TIMEOUT	../inc/tfmtypes.h	2005;"	d
+PT_BIO_INFINITE_TIMEOUT	../inc/tfmtypes.h	2006;"	d
+PT_BIO_INPUT_TYPE_254_381_8	../inc/tfmtypes.h	1445;"	d
+PT_BIO_INPUT_TYPE_381	../inc/tfmtypes.h	1438;"	d
+PT_BIO_INPUT_TYPE_381_254_4	../inc/tfmtypes.h	1442;"	d
+PT_BIO_INPUT_TYPE_381_381_4	../inc/tfmtypes.h	1441;"	d
+PT_BIO_INPUT_TYPE_381_381_6	../inc/tfmtypes.h	1446;"	d
+PT_BIO_INPUT_TYPE_508_508_8	../inc/tfmtypes.h	1444;"	d
+PT_BIO_INPUT_TYPE_FAST	../inc/tfmtypes.h	1437;"	d
+PT_BIO_INPUT_TYPE_FAST_LP	../inc/tfmtypes.h	1443;"	d
+PT_BIO_INPUT_TYPE_IMGFORMAT	../inc/tfmtypes.h	1447;"	d
+PT_BIO_INPUT_TYPE_LP	../inc/tfmtypes.h	1439;"	d
+PT_BIO_INPUT_TYPE_NORMAL	../inc/tfmtypes.h	1436;"	d
+PT_BIO_INPUT_TYPE_VLP	../inc/tfmtypes.h	1440;"	d
+PT_BIR	../inc/tfmtypes.h	/^} PT_BIR;$/;"	t	typeref:struct:pt_bir
+PT_BIR_HEADER	../inc/tfmtypes.h	/^} PT_BIR_HEADER;$/;"	t	typeref:struct:pt_bir_header
+PT_BOOL	../inc/tfmtypes.h	/^typedef PT_DWORD     PT_BOOL;$/;"	t
+PT_BYTE	../inc/tfmtypes.h	/^typedef unsigned char       PT_BYTE;$/;"	t
+PT_BYTE	../inc/tfmtypes.h	/^typedef unsigned char     PT_BYTE;$/;"	t
+PT_BYTE	../inc/tfmtypes.h	/^typedef unsigned long long  PT_BYTE;$/;"	t
+PT_BYTE_SIZE_CHECK__	../inc/tfmtypes.h	/^typedef char PT_BYTE_SIZE_CHECK__[sizeof(PT_BYTE) == 1 ? 1 : -1]; \/* Error 'negative subscript' on this line means that PT_BYTE type is defined with wrong size (size of PT_BYTE must be 1 byte). *\/$/;"	t
+PT_CALLBACK_LEVEL	../inc/tfmtypes.h	/^typedef PT_DWORD     PT_CALLBACK_LEVEL;$/;"	t
+PT_CANCEL	../inc/tfmtypes.h	2278;"	d
+PT_CANCEL_FLAG_CLEAR_CANCEL	../inc/tfmtypes.h	439;"	d
+PT_CHAR	../inc/tfmtypes.h	/^typedef char                PT_CHAR;$/;"	t
+PT_CHAR	../inc/tfmtypes.h	/^typedef char     PT_CHAR;$/;"	t
+PT_CHAR	../inc/tfmtypes.h	/^typedef signed char         PT_CHAR;$/;"	t
+PT_CHAR	../inc/tfmtypes.h	/^typedef signed long long    PT_CHAR;$/;"	t
+PT_CHAR_SIZE_CHECK__	../inc/tfmtypes.h	/^typedef char PT_CHAR_SIZE_CHECK__[sizeof(PT_CHAR) == 1 ? 1 : -1]; \/* Error 'negative subscript' on this line means that PT_CHAR type is defined with wrong size (size of PT_CHAR must be 1 byte). *\/$/;"	t
+PT_COMM_CALLBACK	../inc/tfmtypes.h	/^typedef PT_STATUS (PTAPI  *PT_COMM_CALLBACK) ($/;"	t
+PT_CONNECTION	../inc/tfmtypes.h	/^typedef PT_DWORD     PT_CONNECTION;$/;"	t
+PT_CONSOLIDATION_CONVENIENT	../inc/tfmtypes.h	1522;"	d
+PT_CONSOLIDATION_NORMAL	../inc/tfmtypes.h	1519;"	d
+PT_CONSOLIDATION_SMART	../inc/tfmtypes.h	1520;"	d
+PT_CONSOLIDATION_STRICT	../inc/tfmtypes.h	1521;"	d
+PT_CONTINUE	../inc/tfmtypes.h	2279;"	d
+PT_CONVTEMPL_FLAG_KEEP_TEMPLATE_TYPE	../inc/tfmtypes.h	2086;"	d
+PT_CONVTEMPL_FLAG_RETURN_PAYLOAD	../inc/tfmtypes.h	2087;"	d
+PT_DATA	../inc/tfmtypes.h	/^} PT_DATA;$/;"	t	typeref:struct:pt_data
+PT_DATA_PROVIDED	../inc/tfmtypes.h	2259;"	d
+PT_DETECT_ACCEPTABLE	../inc/tfmtypes.h	859;"	d
+PT_DETECT_GUI	../inc/tfmtypes.h	850;"	d
+PT_DETECT_NO_FINGER	../inc/tfmtypes.h	858;"	d
+PT_DETECT_PURPOSE_GRAB	../inc/tfmtypes.h	857;"	d
+PT_DETECT_PURPOSE_LIFT	../inc/tfmtypes.h	853;"	d
+PT_DETECT_PURPOSE_LONG_TOUCH	../inc/tfmtypes.h	855;"	d
+PT_DETECT_PURPOSE_MASK	../inc/tfmtypes.h	851;"	d
+PT_DETECT_PURPOSE_QUALITY_TOUCH	../inc/tfmtypes.h	854;"	d
+PT_DETECT_PURPOSE_SWIPE	../inc/tfmtypes.h	856;"	d
+PT_DETECT_PURPOSE_TOUCH	../inc/tfmtypes.h	852;"	d
+PT_DEVICE_LIST	../inc/tfmtypes.h	/^} PT_DEVICE_LIST;$/;"	t	typeref:struct:pt_device_list
+PT_DEVICE_LIST_ITEM	../inc/tfmtypes.h	/^} PT_DEVICE_LIST_ITEM;$/;"	t	typeref:struct:pt_device_list_item
+PT_DEVNOTIFY	../inc/tfmtypes.h	/^typedef PT_DWORD     PT_DEVNOTIFY;$/;"	t
+PT_DEVNOTIFY_FLAG_CLEAR_INTERRUPT	../inc/tfmtypes.h	429;"	d
+PT_DEV_NOTIFY_GLOBAL_HANDLE	../inc/tfmtypes.h	420;"	d
+PT_DIFREC_FLAG_DGAIN	../inc/tfmtypes.h	839;"	d
+PT_DIFREC_FLAG_GRADIENT	../inc/tfmtypes.h	838;"	d
+PT_DIFREC_FLAG_INV_SWIPE	../inc/tfmtypes.h	841;"	d
+PT_DIFREC_FLAG_ROBUST_MODE	../inc/tfmtypes.h	840;"	d
+PT_DIFREC_FLAG_SKEW	../inc/tfmtypes.h	837;"	d
+PT_DIFREC_FLAG_SRA_BU	../inc/tfmtypes.h	836;"	d
+PT_DIFREC_FLAG_SRA_TD	../inc/tfmtypes.h	835;"	d
+PT_DIF_HEADER	../inc/tfmtypes.h	/^} PT_DIF_HEADER;$/;"	t	typeref:struct:pt_dif_header
+PT_DIF_SECTION_GRADIENT	../inc/tfmtypes.h	/^} PT_DIF_SECTION_GRADIENT;$/;"	t	typeref:struct:pt_dif_section_gradient
+PT_DIF_SECTION_HEADER	../inc/tfmtypes.h	/^} PT_DIF_SECTION_HEADER;$/;"	t	typeref:struct:pt_dif_section_header
+PT_DIF_SECTION_IMAGE_DATA	../inc/tfmtypes.h	/^} PT_DIF_SECTION_IMAGE_DATA;$/;"	t	typeref:struct:pt_dif_section_image_data
+PT_DIF_SECTION_IMAGE_HEADER	../inc/tfmtypes.h	/^} PT_DIF_SECTION_IMAGE_HEADER;$/;"	t	typeref:struct:pt_dif_section_image_header
+PT_DIF_SECTION_NATIVE	../inc/tfmtypes.h	/^} PT_DIF_SECTION_NATIVE;$/;"	t	typeref:struct:pt_dif_section_native
+PT_DIF_SECTION_SKEW	../inc/tfmtypes.h	/^} PT_DIF_SECTION_SKEW;$/;"	t	typeref:struct:pt_dif_section_skew
+PT_DIF_SECTION_SPEED	../inc/tfmtypes.h	/^} PT_DIF_SECTION_SPEED;$/;"	t	typeref:struct:pt_dif_section_speed
+PT_DIF_SECTION_STRIATION_REMOVAL	../inc/tfmtypes.h	/^} PT_DIF_SECTION_STRIATION_REMOVAL;$/;"	t	typeref:struct:pt_dif_section_striation_removal
+PT_DIF_SECTTYPE_GRADIENT	../inc/tfmtypes.h	712;"	d
+PT_DIF_SECTTYPE_IMAGE_DATA	../inc/tfmtypes.h	709;"	d
+PT_DIF_SECTTYPE_IMAGE_HEADER	../inc/tfmtypes.h	708;"	d
+PT_DIF_SECTTYPE_NATIVE	../inc/tfmtypes.h	714;"	d
+PT_DIF_SECTTYPE_SKEW	../inc/tfmtypes.h	710;"	d
+PT_DIF_SECTTYPE_SPEED	../inc/tfmtypes.h	711;"	d
+PT_DIF_SECTTYPE_STRIATION_REMOVAL	../inc/tfmtypes.h	713;"	d
+PT_DWORD	../inc/tfmtypes.h	/^typedef unsigned int        PT_DWORD;$/;"	t
+PT_DWORD	../inc/tfmtypes.h	/^typedef unsigned long       PT_DWORD;$/;"	t
+PT_DWORD	../inc/tfmtypes.h	/^typedef unsigned long     PT_DWORD;$/;"	t
+PT_DWORD	../inc/tfmtypes.h	/^typedef unsigned long long  PT_DWORD;$/;"	t
+PT_DWORD_SIZE_CHECK__	../inc/tfmtypes.h	/^typedef char PT_DWORD_SIZE_CHECK__[sizeof(PT_DWORD) == 4 ? 1 : -1]; \/* Error 'negative subscript' on this line means that PT_DWORD type is defined with wrong size (size of PT_DWORD must be 4 bytes). *\/$/;"	t
+PT_EXTENDED_INFO	../inc/tfmtypes.h	/^typedef PT_EXTENDED_INFO_V1     PT_EXTENDED_INFO;$/;"	t
+PT_EXTENDED_INFO_V1	../inc/tfmtypes.h	/^} PT_EXTENDED_INFO_V1;$/;"	t	typeref:struct:pt_extended_info_v1
+PT_EXTENDED_INFO_V2	../inc/tfmtypes.h	/^} PT_EXTENDED_INFO_V2;$/;"	t	typeref:struct:pt_extended_info_v2
+PT_EXTRTMPL_IMGINFO	../inc/tfmtypes.h	/^} PT_EXTRTMPL_IMGINFO;$/;"	t	typeref:struct:pt_extrtmpl_imginfo
+PT_EXTRTMPL_IMGTYPE_AREA_SENSOR	../inc/tfmtypes.h	2111;"	d
+PT_EXTRTMPL_IMGTYPE_STRIP_SENSOR	../inc/tfmtypes.h	2110;"	d
+PT_EXTRTMPL_TMPLINFO	../inc/tfmtypes.h	/^} PT_EXTRTMPL_TMPLINFO;$/;"	t	typeref:struct:pt_extrtmpl_tmplinfo
+PT_FALSE	../inc/tfmtypes.h	325;"	d
+PT_FDETFLAG_SMART_DISABLE_LIVE_DET	../inc/tfmtypes.h	1603;"	d
+PT_FDETFLAG_SMART_DISABLE_NAV	../inc/tfmtypes.h	1602;"	d
+PT_FDETFLAG_SMART_ENABLE	../inc/tfmtypes.h	1601;"	d
+PT_FINGER_LIST	../inc/tfmtypes.h	/^} PT_FINGER_LIST;$/;"	t	typeref:struct:pt_finger_list
+PT_FINGER_LIST_ITEM	../inc/tfmtypes.h	/^} PT_FINGER_LIST_ITEM;$/;"	t	typeref:struct:pt_finger_list_item
+PT_FREE	../inc/tfmtypes.h	/^typedef void (PTAPI *PT_FREE) (void *Memblock);$/;"	t
+PT_FULLBIR_INPUT	../inc/tfmtypes.h	514;"	d
+PT_FWCFG_ANTISPOOF	../inc/tfmtypes.h	945;"	d
+PT_FWCFG_AWAKE	../inc/tfmtypes.h	946;"	d
+PT_FWCFG_CFGLOCKED	../inc/tfmtypes.h	954;"	d
+PT_FWCFG_EXTEEPROM	../inc/tfmtypes.h	942;"	d
+PT_FWCFG_FWLOCKED	../inc/tfmtypes.h	955;"	d
+PT_FWCFG_HECI	../inc/tfmtypes.h	953;"	d
+PT_FWCFG_LED	../inc/tfmtypes.h	943;"	d
+PT_FWCFG_NORTS	../inc/tfmtypes.h	949;"	d
+PT_FWCFG_NOSLEEP	../inc/tfmtypes.h	948;"	d
+PT_FWCFG_POA	../inc/tfmtypes.h	947;"	d
+PT_FWCFG_SC	../inc/tfmtypes.h	944;"	d
+PT_FWCFG_SIO	../inc/tfmtypes.h	950;"	d
+PT_FWCFG_SPI	../inc/tfmtypes.h	952;"	d
+PT_FWCFG_USB	../inc/tfmtypes.h	951;"	d
+PT_FWFUNC2_DYNAMIC_ENROLLMENT	../inc/tfmtypes.h	1048;"	d
+PT_FWFUNC2_DYNAMIC_IMAGE_FORMAT	../inc/tfmtypes.h	1049;"	d
+PT_FWFUNC2_EMULATED_NVM	../inc/tfmtypes.h	1046;"	d
+PT_FWFUNC2_POA	../inc/tfmtypes.h	1050;"	d
+PT_FWFUNC2_READER_SECURITY	../inc/tfmtypes.h	1051;"	d
+PT_FWFUNC2_SECURID	../inc/tfmtypes.h	1047;"	d
+PT_FWFUNC2_SMART_FDET	../inc/tfmtypes.h	1052;"	d
+PT_FWFUNC_ANTISPOOF	../inc/tfmtypes.h	923;"	d
+PT_FWFUNC_EXTEEPROM	../inc/tfmtypes.h	922;"	d
+PT_FWFUNC_FINGER_DETECT	../inc/tfmtypes.h	926;"	d
+PT_FWFUNC_HECI	../inc/tfmtypes.h	934;"	d
+PT_FWFUNC_ME	../inc/tfmtypes.h	935;"	d
+PT_FWFUNC_SC	../inc/tfmtypes.h	925;"	d
+PT_FWFUNC_SECCHAN_V2	../inc/tfmtypes.h	928;"	d
+PT_FWFUNC_SECCHAN_V3	../inc/tfmtypes.h	929;"	d
+PT_FWFUNC_SIO	../inc/tfmtypes.h	931;"	d
+PT_FWFUNC_SMART_NVM	../inc/tfmtypes.h	930;"	d
+PT_FWFUNC_SONLY	../inc/tfmtypes.h	936;"	d
+PT_FWFUNC_SPI	../inc/tfmtypes.h	933;"	d
+PT_FWFUNC_STANDARD	../inc/tfmtypes.h	921;"	d
+PT_FWFUNC_STRIP	../inc/tfmtypes.h	924;"	d
+PT_FWFUNC_TURBOMODE	../inc/tfmtypes.h	927;"	d
+PT_FWFUNC_USB	../inc/tfmtypes.h	932;"	d
+PT_GIFLAGS_CONST_AUTH_CHALLENGE	../inc/tfmtypes.h	369;"	d
+PT_GIFLAGS_MATCH_ON_HOST	../inc/tfmtypes.h	368;"	d
+PT_GIFLAGS_STRONGCRYPTO	../inc/tfmtypes.h	367;"	d
+PT_GIFUNC_HYBRID	../inc/tfmtypes.h	359;"	d
+PT_GIFUNC_PARTNER	../inc/tfmtypes.h	360;"	d
+PT_GIFUNC_SENSORONLY	../inc/tfmtypes.h	358;"	d
+PT_GIFUNC_STANDARD	../inc/tfmtypes.h	357;"	d
+PT_GIFUNC_STONLY	../inc/tfmtypes.h	361;"	d
+PT_GLOBAL_INFO	../inc/tfmtypes.h	/^} PT_GLOBAL_INFO;$/;"	t	typeref:struct:pt_global_info
+PT_GRAB_COMPRESSION_TYPE_NONE	../inc/tfmtypes.h	600;"	d
+PT_GRAB_TYPE_254_254_4	../inc/tfmtypes.h	550;"	d
+PT_GRAB_TYPE_254_254_4_SCAN4	../inc/tfmtypes.h	556;"	d
+PT_GRAB_TYPE_254_254_8	../inc/tfmtypes.h	543;"	d
+PT_GRAB_TYPE_381_381_4	../inc/tfmtypes.h	548;"	d
+PT_GRAB_TYPE_381_381_4_FAST	../inc/tfmtypes.h	557;"	d
+PT_GRAB_TYPE_381_381_4_FAST_LP	../inc/tfmtypes.h	584;"	d
+PT_GRAB_TYPE_381_381_4_LP	../inc/tfmtypes.h	564;"	d
+PT_GRAB_TYPE_381_381_4_SCAN381	../inc/tfmtypes.h	561;"	d
+PT_GRAB_TYPE_381_381_4_SCAN381_254_4	../inc/tfmtypes.h	573;"	d
+PT_GRAB_TYPE_381_381_4_SCAN381_381_4	../inc/tfmtypes.h	570;"	d
+PT_GRAB_TYPE_381_381_4_VLP	../inc/tfmtypes.h	567;"	d
+PT_GRAB_TYPE_381_381_8	../inc/tfmtypes.h	541;"	d
+PT_GRAB_TYPE_381_381_8_BINARIZED	../inc/tfmtypes.h	545;"	d
+PT_GRAB_TYPE_381_381_8_BINARIZED_FAST	../inc/tfmtypes.h	558;"	d
+PT_GRAB_TYPE_381_381_8_BINARIZED_FAST_LP	../inc/tfmtypes.h	585;"	d
+PT_GRAB_TYPE_381_381_8_BINARIZED_LP	../inc/tfmtypes.h	565;"	d
+PT_GRAB_TYPE_381_381_8_BINARIZED_SCAN254_381_8	../inc/tfmtypes.h	588;"	d
+PT_GRAB_TYPE_381_381_8_BINARIZED_SCAN381	../inc/tfmtypes.h	562;"	d
+PT_GRAB_TYPE_381_381_8_BINARIZED_SCAN381_254_4	../inc/tfmtypes.h	574;"	d
+PT_GRAB_TYPE_381_381_8_BINARIZED_SCAN381_381_4	../inc/tfmtypes.h	571;"	d
+PT_GRAB_TYPE_381_381_8_BINARIZED_VLP	../inc/tfmtypes.h	568;"	d
+PT_GRAB_TYPE_381_381_8_COMPRESS4	../inc/tfmtypes.h	586;"	d
+PT_GRAB_TYPE_381_381_8_FAST	../inc/tfmtypes.h	554;"	d
+PT_GRAB_TYPE_381_381_8_FAST_LP	../inc/tfmtypes.h	583;"	d
+PT_GRAB_TYPE_381_381_8_LP	../inc/tfmtypes.h	563;"	d
+PT_GRAB_TYPE_381_381_8_SCAN254_381_6	../inc/tfmtypes.h	590;"	d
+PT_GRAB_TYPE_381_381_8_SCAN254_381_8	../inc/tfmtypes.h	587;"	d
+PT_GRAB_TYPE_381_381_8_SCAN381	../inc/tfmtypes.h	560;"	d
+PT_GRAB_TYPE_381_381_8_SCAN381_254_4	../inc/tfmtypes.h	572;"	d
+PT_GRAB_TYPE_381_381_8_SCAN381_381_4	../inc/tfmtypes.h	569;"	d
+PT_GRAB_TYPE_381_381_8_SCAN381_381_6	../inc/tfmtypes.h	589;"	d
+PT_GRAB_TYPE_381_381_8_VLP	../inc/tfmtypes.h	566;"	d
+PT_GRAB_TYPE_508_254_4	../inc/tfmtypes.h	549;"	d
+PT_GRAB_TYPE_508_254_4_LP	../inc/tfmtypes.h	582;"	d
+PT_GRAB_TYPE_508_254_4_SCAN4	../inc/tfmtypes.h	555;"	d
+PT_GRAB_TYPE_508_254_8	../inc/tfmtypes.h	546;"	d
+PT_GRAB_TYPE_508_254_8_LP	../inc/tfmtypes.h	581;"	d
+PT_GRAB_TYPE_508_508_4	../inc/tfmtypes.h	547;"	d
+PT_GRAB_TYPE_508_508_4_SCAN4	../inc/tfmtypes.h	553;"	d
+PT_GRAB_TYPE_508_508_4_SCAN508_508_8	../inc/tfmtypes.h	576;"	d
+PT_GRAB_TYPE_508_508_8_BINARIZED_SCAN4	../inc/tfmtypes.h	579;"	d
+PT_GRAB_TYPE_508_508_8_BINARIZED_SCAN508_508_8	../inc/tfmtypes.h	577;"	d
+PT_GRAB_TYPE_508_508_8_COMPRESS1	../inc/tfmtypes.h	552;"	d
+PT_GRAB_TYPE_508_508_8_COMPRESS2	../inc/tfmtypes.h	559;"	d
+PT_GRAB_TYPE_508_508_8_COMPRESS3	../inc/tfmtypes.h	580;"	d
+PT_GRAB_TYPE_508_508_8_SCAN4	../inc/tfmtypes.h	578;"	d
+PT_GRAB_TYPE_508_508_8_SCAN508_508_8	../inc/tfmtypes.h	575;"	d
+PT_GRAB_TYPE_508_508_8_WIDTH208	../inc/tfmtypes.h	551;"	d
+PT_GRAB_TYPE_BOTTOM_HALF	../inc/tfmtypes.h	539;"	d
+PT_GRAB_TYPE_IMGFORMAT	../inc/tfmtypes.h	591;"	d
+PT_GRAB_TYPE_ONE_HALF_SUBSAMPLE	../inc/tfmtypes.h	542;"	d
+PT_GRAB_TYPE_THREE_QUARTERS_SUBSAMPLE	../inc/tfmtypes.h	540;"	d
+PT_GRAB_TYPE_THREE_QUARTERS_SUBSAMPLE_BINARIZED	../inc/tfmtypes.h	544;"	d
+PT_GRAB_TYPE_UPPER_HALF	../inc/tfmtypes.h	538;"	d
+PT_GUID_SIZE	../inc/tfmtypes.h	994;"	d
+PT_GUIMSG_BACKWARD_MOVEMENT	../inc/tfmtypes.h	2321;"	d
+PT_GUIMSG_BAD_QUALITY	../inc/tfmtypes.h	2298;"	d
+PT_GUIMSG_CALIB_START	../inc/tfmtypes.h	2314;"	d
+PT_GUIMSG_CENTER_AND_PRESS_HARDER	../inc/tfmtypes.h	2323;"	d
+PT_GUIMSG_CLEAN_SENSOR	../inc/tfmtypes.h	2305;"	d
+PT_GUIMSG_CONSOLIDATION_FAIL	../inc/tfmtypes.h	2303;"	d
+PT_GUIMSG_CONSOLIDATION_SUCCEED	../inc/tfmtypes.h	2304;"	d
+PT_GUIMSG_ENROLL_PROGRESS	../inc/tfmtypes.h	2328;"	d
+PT_GUIMSG_ENROLL_START	../inc/tfmtypes.h	2309;"	d
+PT_GUIMSG_FINGER_DETECT_START	../inc/tfmtypes.h	2310;"	d
+PT_GUIMSG_GOOD_IMAGE	../inc/tfmtypes.h	2287;"	d
+PT_GUIMSG_GUI_FINISH	../inc/tfmtypes.h	2311;"	d
+PT_GUIMSG_GUI_FINISH_FAIL	../inc/tfmtypes.h	2313;"	d
+PT_GUIMSG_GUI_FINISH_SUCCEED	../inc/tfmtypes.h	2312;"	d
+PT_GUIMSG_IMAGE_PROCESSED	../inc/tfmtypes.h	2324;"	d
+PT_GUIMSG_JOINT_DETECTED	../inc/tfmtypes.h	2322;"	d
+PT_GUIMSG_KEEP_FINGER	../inc/tfmtypes.h	2306;"	d
+PT_GUIMSG_NO_FINGER	../inc/tfmtypes.h	2288;"	d
+PT_GUIMSG_NO_MATCH	../inc/tfmtypes.h	2327;"	d
+PT_GUIMSG_PROCESSING_IMAGE	../inc/tfmtypes.h	2319;"	d
+PT_GUIMSG_PUT_FINGER	../inc/tfmtypes.h	2299;"	d
+PT_GUIMSG_PUT_FINGER2	../inc/tfmtypes.h	2300;"	d
+PT_GUIMSG_PUT_FINGER3	../inc/tfmtypes.h	2301;"	d
+PT_GUIMSG_PUT_FINGER4	../inc/tfmtypes.h	2325;"	d
+PT_GUIMSG_PUT_FINGER5	../inc/tfmtypes.h	2326;"	d
+PT_GUIMSG_REMOVE_FINGER	../inc/tfmtypes.h	2302;"	d
+PT_GUIMSG_START	../inc/tfmtypes.h	2307;"	d
+PT_GUIMSG_SWIPE_IN_PROGRESS	../inc/tfmtypes.h	2320;"	d
+PT_GUIMSG_TOO_DARK	../inc/tfmtypes.h	2291;"	d
+PT_GUIMSG_TOO_DRY	../inc/tfmtypes.h	2290;"	d
+PT_GUIMSG_TOO_FAST	../inc/tfmtypes.h	2315;"	d
+PT_GUIMSG_TOO_HIGH	../inc/tfmtypes.h	2292;"	d
+PT_GUIMSG_TOO_LEFT	../inc/tfmtypes.h	2294;"	d
+PT_GUIMSG_TOO_LIGHT	../inc/tfmtypes.h	2289;"	d
+PT_GUIMSG_TOO_LOW	../inc/tfmtypes.h	2293;"	d
+PT_GUIMSG_TOO_RIGHT	../inc/tfmtypes.h	2295;"	d
+PT_GUIMSG_TOO_SHORT	../inc/tfmtypes.h	2317;"	d
+PT_GUIMSG_TOO_SKEWED	../inc/tfmtypes.h	2316;"	d
+PT_GUIMSG_TOO_SMALL	../inc/tfmtypes.h	2296;"	d
+PT_GUIMSG_TOO_STRANGE	../inc/tfmtypes.h	2297;"	d
+PT_GUIMSG_TOUCH_SENSOR	../inc/tfmtypes.h	2318;"	d
+PT_GUIMSG_VERIFY_START	../inc/tfmtypes.h	2308;"	d
+PT_GUI_SAMPLE_IMAGE	../inc/tfmtypes.h	/^} PT_GUI_SAMPLE_IMAGE;$/;"	t	typeref:struct:pt_gui_sample_image
+PT_GUI_STATE_CALLBACK	../inc/tfmtypes.h	/^typedef PT_STATUS (PTAPI  *PT_GUI_STATE_CALLBACK) ($/;"	t
+PT_GUI_STREAMING_CALLBACK	../inc/tfmtypes.h	/^typedef PT_STATUS (PTAPI *PT_GUI_STREAMING_CALLBACK) (void);$/;"	t
+PT_IDLE_CALLBACK	../inc/tfmtypes.h	/^typedef PT_STATUS (PTAPI  *PT_IDLE_CALLBACK) ($/;"	t
+PT_IMAGEQUALQUERY_ENROLL	../inc/tfmtypes.h	1426;"	d
+PT_IMAGEQUALQUERY_GRAB	../inc/tfmtypes.h	1424;"	d
+PT_IMAGEQUALQUERY_GRAB_WAIT	../inc/tfmtypes.h	1425;"	d
+PT_IMAGEQUALQUERY_VERIFY	../inc/tfmtypes.h	1427;"	d
+PT_IMGDATA_SECTION_GRADIENT	../inc/tfmtypes.h	686;"	d
+PT_IMGDATA_SECTION_NATIVE	../inc/tfmtypes.h	688;"	d
+PT_IMGDATA_SECTION_SKEW	../inc/tfmtypes.h	684;"	d
+PT_IMGDATA_SECTION_SPEED	../inc/tfmtypes.h	685;"	d
+PT_IMGDATA_SECTION_STRIATION_REMOVAL	../inc/tfmtypes.h	687;"	d
+PT_IMGFORMAT	../inc/tfmtypes.h	/^} PT_IMGFORMAT;$/;"	t	typeref:struct:pt_imgformat
+PT_IMGFORMAT_FLAG_HWNAV	../inc/tfmtypes.h	624;"	d
+PT_IMGFORMAT_INFO_BIOMETRIC	../inc/tfmtypes.h	635;"	d
+PT_IMGFORMAT_INFO_CALIBRATED	../inc/tfmtypes.h	633;"	d
+PT_IMGFORMAT_INFO_ENABLED	../inc/tfmtypes.h	632;"	d
+PT_IMGFORMAT_INFO_GRAB	../inc/tfmtypes.h	634;"	d
+PT_IMGFORMAT_INFO_NAVIGATION	../inc/tfmtypes.h	636;"	d
+PT_IMGFORMAT_INFO_VARIABLE_BANDWIDTH	../inc/tfmtypes.h	638;"	d
+PT_IMGFORMAT_INFO_VARIABLE_INPUT_FORMAT	../inc/tfmtypes.h	637;"	d
+PT_IMGFORMAT_LIST	../inc/tfmtypes.h	/^} PT_IMGFORMAT_LIST;$/;"	t	typeref:struct:pt_imgformat_list
+PT_IMGFORMAT_LIST_CALIBRATED	../inc/tfmtypes.h	697;"	d
+PT_IMGFORMAT_LIST_ENABLED	../inc/tfmtypes.h	698;"	d
+PT_IMGFORMAT_LIST_IMPLEMENTED	../inc/tfmtypes.h	699;"	d
+PT_IMGFORMAT_LIST_ITEM	../inc/tfmtypes.h	/^} PT_IMGFORMAT_LIST_ITEM;$/;"	t	typeref:struct:pt_imgformat_list_item
+PT_IMGFORMAT_OPER_BIOMETRIC	../inc/tfmtypes.h	675;"	d
+PT_IMGFORMAT_OPER_GRAB	../inc/tfmtypes.h	674;"	d
+PT_IMGFORMAT_OPER_NAVIGATION	../inc/tfmtypes.h	676;"	d
+PT_IMGPOLICY_FIXED_INPUT_FORMAT_FIXED_BANDWIDTH	../inc/tfmtypes.h	1656;"	d
+PT_IMGPOLICY_FIXED_INPUT_FORMAT_VARIABLE_BANDWIDTH	../inc/tfmtypes.h	1657;"	d
+PT_IMGPOLICY_VARIABLE_INPUT_FORMAT_VARIABLE_BANDWIDTH	../inc/tfmtypes.h	1658;"	d
+PT_INFO	../inc/tfmtypes.h	/^} PT_INFO;$/;"	t	typeref:struct:pt_info
+PT_INITEX_FLAG_NO_MSG_MONITOR	../inc/tfmtypes.h	337;"	d
+PT_INITEX_FLAG_NO_VCH	../inc/tfmtypes.h	338;"	d
+PT_INPUT_BIR	../inc/tfmtypes.h	/^  } PT_INPUT_BIR;$/;"	t	typeref:struct:pt_input_bir
+PT_LATENT_MODE_CHECK	../inc/tfmtypes.h	1976;"	d
+PT_LATENT_MODE_CHECK_AND_STORE	../inc/tfmtypes.h	1978;"	d
+PT_LATENT_MODE_STORE	../inc/tfmtypes.h	1977;"	d
+PT_LEDDRV_FLAG_BR_INVERT	../inc/tfmtypes.h	1402;"	d
+PT_LEDDRV_FLAG_START_ON	../inc/tfmtypes.h	1400;"	d
+PT_LEDDRV_FLAG_STOP_AFTER_OFF	../inc/tfmtypes.h	1401;"	d
+PT_LEDDRV_FLAG_TABLE_COSEXP	../inc/tfmtypes.h	1403;"	d
+PT_LEDINFO_VARIANT_CHIPSET_BASIC	../inc/tfmtypes.h	1078;"	d
+PT_LEDINFO_VARIANT_EXTENDED	../inc/tfmtypes.h	1080;"	d
+PT_LEDINFO_VARIANT_MASK	../inc/tfmtypes.h	1077;"	d
+PT_LEDINFO_VARIANT_SONLY_BASIC	../inc/tfmtypes.h	1079;"	d
+PT_LEDPARAM_FLAG_TEST_PARAMS	../inc/tfmtypes.h	1412;"	d
+PT_LED_MODE_BIO	../inc/tfmtypes.h	1307;"	d
+PT_LED_MODE_MANUAL	../inc/tfmtypes.h	1306;"	d
+PT_LED_MODE_MANUAL2	../inc/tfmtypes.h	1309;"	d
+PT_LED_MODE_READER	../inc/tfmtypes.h	1308;"	d
+PT_LED_PARAMS_MANUAL	../inc/tfmtypes.h	/^} PT_LED_PARAMS_MANUAL;$/;"	t	typeref:struct:pt_led_params_manual
+PT_LED_PARAMS_MANUAL2	../inc/tfmtypes.h	/^} PT_LED_PARAMS_MANUAL2;$/;"	t	typeref:struct:pt_led_params_manual2
+PT_LED_PARAMS_READER	../inc/tfmtypes.h	/^} PT_LED_PARAMS_READER;$/;"	t	typeref:struct:pt_led_params_reader
+PT_LED_POLICY_BIO	../inc/tfmtypes.h	1345;"	d
+PT_LED_POLICY_DEFAULT	../inc/tfmtypes.h	1351;"	d
+PT_LED_POLICY_EIKON_TOUCH	../inc/tfmtypes.h	1349;"	d
+PT_LED_POLICY_LEDS_OFF	../inc/tfmtypes.h	1350;"	d
+PT_LED_POLICY_LENOVO	../inc/tfmtypes.h	1346;"	d
+PT_LED_POLICY_LENOVO_CHINA	../inc/tfmtypes.h	1347;"	d
+PT_LED_POLICY_LENOVO_CHINA2	../inc/tfmtypes.h	1348;"	d
+PT_LED_POLICY_READER	../inc/tfmtypes.h	1344;"	d
+PT_LED_VARIANT_DEFAULT	../inc/tfmtypes.h	1362;"	d
+PT_LED_VARIANT_NO_PROMPT	../inc/tfmtypes.h	1361;"	d
+PT_LED_VARIANT_PROMPT	../inc/tfmtypes.h	1360;"	d
+PT_LONG	../inc/tfmtypes.h	/^typedef signed int          PT_LONG;$/;"	t
+PT_LONG	../inc/tfmtypes.h	/^typedef signed long         PT_LONG;$/;"	t
+PT_LONG	../inc/tfmtypes.h	/^typedef signed long     PT_LONG;$/;"	t
+PT_LONG	../inc/tfmtypes.h	/^typedef signed long long    PT_LONG;$/;"	t
+PT_LONG_SIZE_CHECK__	../inc/tfmtypes.h	/^typedef char PT_LONG_SIZE_CHECK__[sizeof(PT_LONG) == 4 ? 1 : -1]; \/* Error 'negative subscript' on this line means that PT_LONG type is defined with wrong size (size of PT_LONG must be 4 bytes). *\/$/;"	t
+PT_MALLOC	../inc/tfmtypes.h	/^typedef void* (PTAPI *PT_MALLOC) (PT_DWORD Size);$/;"	t
+PT_MATCH_HIGHER_SECURITY	../inc/tfmtypes.h	1459;"	d
+PT_MATCH_LOWER_SECURITY	../inc/tfmtypes.h	1457;"	d
+PT_MATCH_MAX_SECURITY	../inc/tfmtypes.h	1460;"	d
+PT_MATCH_MEDIUM_SECURITY	../inc/tfmtypes.h	1458;"	d
+PT_MATCH_MIN_SECURITY	../inc/tfmtypes.h	1456;"	d
+PT_MATCH_ON_HOST_PARAMS	../inc/tfmtypes.h	/^} PT_MATCH_ON_HOST_PARAMS;$/;"	t	typeref:struct:pt_match_on_host_params
+PT_MAX_FINGER_DATA_LENGTH	../inc/tfmtypes.h	868;"	d
+PT_MEMORY_FUNCS	../inc/tfmtypes.h	/^} PT_MEMORY_FUNCS;$/;"	t	typeref:struct:pt_memory_funcs
+PT_MEMTYPE_ALL	../inc/tfmtypes.h	1292;"	d
+PT_MEMTYPE_ALL_LIMIT	../inc/tfmtypes.h	1293;"	d
+PT_MEMTYPE_EXTERNAL	../inc/tfmtypes.h	1295;"	d
+PT_MEMTYPE_EXTERNAL_LIMIT	../inc/tfmtypes.h	1297;"	d
+PT_MEMTYPE_INTERNAL	../inc/tfmtypes.h	1294;"	d
+PT_MEMTYPE_INTERNAL_LIMIT	../inc/tfmtypes.h	1296;"	d
+PT_MESSAGE_PROVIDED	../inc/tfmtypes.h	2256;"	d
+PT_NAVIGATION_CALLBACK	../inc/tfmtypes.h	/^typedef PT_STATUS (PTAPI  *PT_NAVIGATION_CALLBACK) ($/;"	t
+PT_NAVIGATION_DATA	../inc/tfmtypes.h	/^} PT_NAVIGATION_DATA;$/;"	t	typeref:struct:pt_navigation_data
+PT_NAVIGBITS_CALIB_OVER	../inc/tfmtypes.h	1945;"	d
+PT_NAVIGBITS_CLICK	../inc/tfmtypes.h	1944;"	d
+PT_NAVIGBITS_FINGER	../inc/tfmtypes.h	1943;"	d
+PT_NAVIGBITS_PRESSURE_CLICK	../inc/tfmtypes.h	1946;"	d
+PT_NAVIG_ACTION_GET_DATA	../inc/tfmtypes.h	1957;"	d
+PT_NAVIG_ACTION_START	../inc/tfmtypes.h	1955;"	d
+PT_NAVIG_ACTION_STOP	../inc/tfmtypes.h	1956;"	d
+PT_NAVIG_PRESSURE_CLICK	../inc/tfmtypes.h	1591;"	d
+PT_NAVIG_REPORT_CHANGES_ONLY	../inc/tfmtypes.h	1592;"	d
+PT_NAVIG_TAPPING_CLICK	../inc/tfmtypes.h	1590;"	d
+PT_NAVORIENT_BYSWIPE	../inc/tfmtypes.h	1582;"	d
+PT_NAVORIENT_STANDARD	../inc/tfmtypes.h	1581;"	d
+PT_NAVTYPE_254_4_LOPOWER	../inc/tfmtypes.h	1566;"	d
+PT_NAVTYPE_254_8_LOPOWER	../inc/tfmtypes.h	1565;"	d
+PT_NAVTYPE_254_8_VLOPOWER	../inc/tfmtypes.h	1568;"	d
+PT_NAVTYPE_381_4	../inc/tfmtypes.h	1569;"	d
+PT_NAVTYPE_381_6	../inc/tfmtypes.h	1572;"	d
+PT_NAVTYPE_381_8	../inc/tfmtypes.h	1567;"	d
+PT_NAVTYPE_381_8_FULLPOWER	../inc/tfmtypes.h	1570;"	d
+PT_NAVTYPE_381_8_HW	../inc/tfmtypes.h	1571;"	d
+PT_NAVTYPE_508_4	../inc/tfmtypes.h	1564;"	d
+PT_NAVTYPE_508_8	../inc/tfmtypes.h	1563;"	d
+PT_NAVTYPE_IMGFORMAT	../inc/tfmtypes.h	1573;"	d
+PT_NOISE_ROBUSTNESS_DISABLED	../inc/tfmtypes.h	1621;"	d
+PT_NOISE_ROBUSTNESS_FORCED	../inc/tfmtypes.h	1622;"	d
+PT_NOISE_ROBUSTNESS_ON_DETECTION	../inc/tfmtypes.h	1623;"	d
+PT_NOISE_ROBUSTNESS_ON_FORCED_DETECTION	../inc/tfmtypes.h	1624;"	d
+PT_POWERFLAG_LOW_POWER	../inc/tfmtypes.h	1680;"	d
+PT_PROGRESS_PROVIDED	../inc/tfmtypes.h	2257;"	d
+PT_PURPOSE_AUDIT	../inc/tfmtypes.h	529;"	d
+PT_PURPOSE_ENROLL	../inc/tfmtypes.h	526;"	d
+PT_PURPOSE_ENROLL_FOR_IDENTIFICATION_ONLY	../inc/tfmtypes.h	528;"	d
+PT_PURPOSE_ENROLL_FOR_VERIFICATION_ONLY	../inc/tfmtypes.h	527;"	d
+PT_PURPOSE_IDENTIFY	../inc/tfmtypes.h	525;"	d
+PT_PURPOSE_VERIFY	../inc/tfmtypes.h	524;"	d
+PT_RECERRBIT_BACKWARDS_MOVEMENT	../inc/tfmtypes.h	2035;"	d
+PT_RECERRBIT_JOINT_DETECTED	../inc/tfmtypes.h	2036;"	d
+PT_RECERRBIT_SWIPE_TOO_FAST	../inc/tfmtypes.h	2033;"	d
+PT_RECERRBIT_SWIPE_TOO_SKEWED	../inc/tfmtypes.h	2034;"	d
+PT_RECERRBIT_TOO_LIGHT	../inc/tfmtypes.h	2038;"	d
+PT_RECERRBIT_TOO_SHORT	../inc/tfmtypes.h	2037;"	d
+PT_RECFLAG_DGAIN	../inc/tfmtypes.h	1671;"	d
+PT_RECFLAG_GRADIENT	../inc/tfmtypes.h	1670;"	d
+PT_RECFLAG_SKEW	../inc/tfmtypes.h	1669;"	d
+PT_RECFLAG_SRA_DOWN	../inc/tfmtypes.h	1667;"	d
+PT_RECFLAG_SRA_UP	../inc/tfmtypes.h	1668;"	d
+PT_RETUNING_DISABLED	../inc/tfmtypes.h	1542;"	d
+PT_RETUNING_ENABLED	../inc/tfmtypes.h	1543;"	d
+PT_RSM_DISABLED	../inc/tfmtypes.h	1646;"	d
+PT_RSM_ENCRYPT	../inc/tfmtypes.h	1647;"	d
+PT_SAMPLE_IMAGE_PROVIDED	../inc/tfmtypes.h	2258;"	d
+PT_SCANQUALQUERY_ENROLL	../inc/tfmtypes.h	1422;"	d
+PT_SCANQUALQUERY_GRAB	../inc/tfmtypes.h	1421;"	d
+PT_SCANQUALQUERY_VERIFY	../inc/tfmtypes.h	1423;"	d
+PT_SCAN_TERMINATION_BASIC	../inc/tfmtypes.h	1531;"	d
+PT_SCAN_TERMINATION_CORE	../inc/tfmtypes.h	1533;"	d
+PT_SCAN_TERMINATION_CORE_PLUS	../inc/tfmtypes.h	1534;"	d
+PT_SCAN_TERMINATION_FINGERTIP	../inc/tfmtypes.h	1532;"	d
+PT_SECURECHANNELBIT_DISABLE_ASYNC_DATA_ENCRYPTION	../inc/tfmtypes.h	1264;"	d
+PT_SECURECHANNELBIT_DISABLE_GUI_ENCRYPTION	../inc/tfmtypes.h	1263;"	d
+PT_SECURECHANNEL_MECH_AES_CBC	../inc/tfmtypes.h	1255;"	d
+PT_SECURECHANNEL_MECH_DES_CBC	../inc/tfmtypes.h	1254;"	d
+PT_SECURECHANNEL_MECH_NONE	../inc/tfmtypes.h	1253;"	d
+PT_SECURITY_LEVEL	../inc/tfmtypes.h	/^typedef PT_DWORD     PT_SECURITY_LEVEL;$/;"	t
+PT_SENSORBIT_CALIBRATED	../inc/tfmtypes.h	978;"	d
+PT_SENSORBIT_CALIBRATED_254_254_8	../inc/tfmtypes.h	984;"	d
+PT_SENSORBIT_CALIBRATED_381_254_4	../inc/tfmtypes.h	986;"	d
+PT_SENSORBIT_CALIBRATED_381_381_4	../inc/tfmtypes.h	985;"	d
+PT_SENSORBIT_CALIBRATED_381_381_8	../inc/tfmtypes.h	981;"	d
+PT_SENSORBIT_CALIBRATED_381_381_8_LP	../inc/tfmtypes.h	987;"	d
+PT_SENSORBIT_CALIBRATED_508_254_8	../inc/tfmtypes.h	983;"	d
+PT_SENSORBIT_CALIBRATED_508_508_8	../inc/tfmtypes.h	982;"	d
+PT_SENSORBIT_CALIBRATED_FULL_EIM	../inc/tfmtypes.h	988;"	d
+PT_SENSORBIT_CALIBRATED_LP	../inc/tfmtypes.h	979;"	d
+PT_SENSORBIT_CALIBRATED_MP	../inc/tfmtypes.h	980;"	d
+PT_SENSORBIT_CALIBRATED_SCAN_6BPP	../inc/tfmtypes.h	989;"	d
+PT_SENSORBIT_STRIP_SENSOR	../inc/tfmtypes.h	976;"	d
+PT_SENSORBIT_TURBO_MODE	../inc/tfmtypes.h	977;"	d
+PT_SESSION_CFG	../inc/tfmtypes.h	/^typedef PT_SESSION_CFG_V5 PT_SESSION_CFG;   \/\/\/< For TCD50 is default PT_SESSION_CFG structure version 5$/;"	t
+PT_SESSION_CFG_V1	../inc/tfmtypes.h	/^} PT_SESSION_CFG_V1;$/;"	t	typeref:struct:pt_session_cfg_v1
+PT_SESSION_CFG_V2	../inc/tfmtypes.h	/^} PT_SESSION_CFG_V2;$/;"	t	typeref:struct:pt_session_cfg_v2
+PT_SESSION_CFG_V3	../inc/tfmtypes.h	/^} PT_SESSION_CFG_V3;$/;"	t	typeref:struct:pt_session_cfg_v3
+PT_SESSION_CFG_V4	../inc/tfmtypes.h	/^} PT_SESSION_CFG_V4;$/;"	t	typeref:struct:pt_session_cfg_v4
+PT_SESSION_CFG_V5	../inc/tfmtypes.h	/^} PT_SESSION_CFG_V5;$/;"	t	typeref:struct:pt_session_cfg_v5
+PT_SHORT	../inc/tfmtypes.h	/^typedef signed long long    PT_SHORT;$/;"	t
+PT_SHORT	../inc/tfmtypes.h	/^typedef signed short        PT_SHORT;$/;"	t
+PT_SHORT	../inc/tfmtypes.h	/^typedef signed short     PT_SHORT;$/;"	t
+PT_SHORT_SIZE_CHECK__	../inc/tfmtypes.h	/^typedef char PT_SHORT_SIZE_CHECK__[sizeof(PT_SHORT) == 2 ? 1 : -1]; \/* Error 'negative subscript' on this line means that PT_SHORT type is defined with wrong size (size of PT_SHORT must be 2 bytes). *\/$/;"	t
+PT_SIGNATURE_TYPE_HMACSHA1	../inc/tfmtypes.h	2047;"	d
+PT_SIGNATURE_TYPE_HMACSHA256	../inc/tfmtypes.h	2050;"	d
+PT_SIGNATURE_TYPE_RSA_SHA1	../inc/tfmtypes.h	2048;"	d
+PT_SIGNATURE_TYPE_RSA_SHA256	../inc/tfmtypes.h	2049;"	d
+PT_SIGNATURE_TYPE_STANDARD	../inc/tfmtypes.h	2046;"	d
+PT_SLEEP_CONTINUE	../inc/tfmtypes.h	1997;"	d
+PT_SLEEP_MODE_DEEPSLEEP	../inc/tfmtypes.h	1966;"	d
+PT_SLEEP_MODE_STANDBY	../inc/tfmtypes.h	1967;"	d
+PT_SLEEP_STOP	../inc/tfmtypes.h	1996;"	d
+PT_SLOT_INPUT	../inc/tfmtypes.h	515;"	d
+PT_SLOT_LASTMATCHED	../inc/tfmtypes.h	1926;"	d
+PT_SSM_DISABLED	../inc/tfmtypes.h	1633;"	d
+PT_SSM_ENCRYPT	../inc/tfmtypes.h	1634;"	d
+PT_SSM_SIGN_ALL	../inc/tfmtypes.h	1635;"	d
+PT_SSM_SIGN_PARTIAL_V1	../inc/tfmtypes.h	1636;"	d
+PT_SSM_SIGN_PARTIAL_V2	../inc/tfmtypes.h	1637;"	d
+PT_STATUS	../inc/tfmtypes.h	/^typedef PT_LONG     PT_STATUS;$/;"	t
+PT_STATUS_ACCESS_DENIED	../inc/tfmerror.h	178;"	d
+PT_STATUS_ALREADY_OPENED	../inc/tfmerror.h	129;"	d
+PT_STATUS_ANTISPOOFING_EXPORT	../inc/tfmerror.h	164;"	d
+PT_STATUS_ANTISPOOFING_IMPORT	../inc/tfmerror.h	171;"	d
+PT_STATUS_ANTISPOOFING_NOT_CAPTURED	../inc/tfmerror.h	297;"	d
+PT_STATUS_API_ALREADY_INITIALIZED	../inc/tfmerror.h	45;"	d
+PT_STATUS_API_NOT_INIT	../inc/tfmerror.h	39;"	d
+PT_STATUS_AS_BG_OUT_OF_RANGE	../inc/tfmerror.h	768;"	d
+PT_STATUS_AS_OFFSET_OUT_OF_RANGE	../inc/tfmerror.h	761;"	d
+PT_STATUS_AUTHENTIFICATION_FAILED	../inc/tfmerror.h	213;"	d
+PT_STATUS_BAD_BIO_TEMPLATE	../inc/tfmerror.h	150;"	d
+PT_STATUS_BIOMETRIC_TIMEOUT	../inc/tfmerror.h	192;"	d
+PT_STATUS_BIO_OPERATION_CANCELED	../inc/tfmerror.h	206;"	d
+PT_STATUS_CALIBRATION_FAILED	../inc/tfmerror.h	290;"	d
+PT_STATUS_CANCEL_IGNORED	../inc/tfmerror.h	656;"	d
+PT_STATUS_CANNOT_CONNECT	../inc/tfmerror.h	136;"	d
+PT_STATUS_COMM_ERROR	../inc/tfmerror.h	241;"	d
+PT_STATUS_CONSOLIDATION_FAILED	../inc/tfmerror.h	199;"	d
+PT_STATUS_CRYPTO_ERROR	../inc/tfmerror.h	472;"	d
+PT_STATUS_CRYPTO_KEY_TOO_LONG	../inc/tfmerror.h	493;"	d
+PT_STATUS_CRYPTO_MECHANISM_NOT_SUPPORTED	../inc/tfmerror.h	479;"	d
+PT_STATUS_CRYPTO_PADDING_ERROR	../inc/tfmerror.h	486;"	d
+PT_STATUS_CRYPTO_RSA_BAD_PUBLIC_KEY	../inc/tfmerror.h	549;"	d
+PT_STATUS_CRYPTO_RSA_KEY_CHECK	../inc/tfmerror.h	542;"	d
+PT_STATUS_CRYPTO_SYM_BAD_KEY	../inc/tfmerror.h	500;"	d
+PT_STATUS_DATA_TOO_LARGE	../inc/tfmerror.h	80;"	d
+PT_STATUS_DEVICE_NOT_FOUND	../inc/tfmerror.h	381;"	d
+PT_STATUS_DEVICE_NOT_GRANTED	../inc/tfmerror.h	584;"	d
+PT_STATUS_DEVICE_SICK	../inc/tfmerror.h	388;"	d
+PT_STATUS_DIAGNOSTICS_FAILED	../inc/tfmerror.h	311;"	d
+PT_STATUS_EMULATED_NVM_INVALID_FORMAT	../inc/tfmerror.h	670;"	d
+PT_STATUS_ENDIAN_ERROR	../inc/tfmerror.h	593;"	d
+PT_STATUS_EX_ACCESS_VIOLATION	../inc/tfmerror.h	514;"	d
+PT_STATUS_FUNCTION_FAILED	../inc/tfmerror.h	101;"	d
+PT_STATUS_GAIN_OFFSET	../inc/tfmerror.h	353;"	d
+PT_STATUS_GENERAL_ERROR	../inc/tfmerror.h	32;"	d
+PT_STATUS_GOING_TO_SLEEP	../inc/tfmerror.h	227;"	d
+PT_STATUS_HW_RNG_INIT_ERROR	../inc/tfmerror.h	507;"	d
+PT_STATUS_I2C_EEPROM_ERROR	../inc/tfmerror.h	262;"	d
+PT_STATUS_INVALID_HANDLE	../inc/tfmerror.h	59;"	d
+PT_STATUS_INVALID_INPUT_BIR_FORM	../inc/tfmerror.h	108;"	d
+PT_STATUS_INVALID_OTP_SEED	../inc/tfmerror.h	614;"	d
+PT_STATUS_INVALID_PARAMETER	../inc/tfmerror.h	52;"	d
+PT_STATUS_INVALID_PURPOSE	../inc/tfmerror.h	269;"	d
+PT_STATUS_JAVA_CB_ERROR	../inc/tfmerror.h	577;"	d
+PT_STATUS_JAVA_CB_REMOTE	../inc/tfmerror.h	570;"	d
+PT_STATUS_KEYEX_KEY_NOT_SET	../inc/tfmerror.h	600;"	d
+PT_STATUS_LATCHUP_DETECTED	../inc/tfmerror.h	304;"	d
+PT_STATUS_MALLOC_FAILED	../inc/tfmerror.h	73;"	d
+PT_STATUS_MORE_DATA	../inc/tfmerror.h	94;"	d
+PT_STATUS_NOT_ENOUGH_MEMORY	../inc/tfmerror.h	66;"	d
+PT_STATUS_NOT_ENOUGH_PERMANENT_MEMORY	../inc/tfmerror.h	87;"	d
+PT_STATUS_NOT_ENOUGH_TFM_MEMORY	../inc/tfmerror.h	122;"	d
+PT_STATUS_NOT_IMPLEMENTED	../inc/tfmerror.h	234;"	d
+PT_STATUS_NOT_SUPPORTED	../inc/tfmerror.h	283;"	d
+PT_STATUS_NO_DATA	../inc/tfmerror.h	535;"	d
+PT_STATUS_NO_LAST_MATCH_DATA	../inc/tfmerror.h	528;"	d
+PT_STATUS_NO_SENSOR	../inc/tfmerror.h	325;"	d
+PT_STATUS_NO_TEMPLATE	../inc/tfmerror.h	185;"	d
+PT_STATUS_NVM_CANNOT_READ	../inc/tfmerror.h	458;"	d
+PT_STATUS_NVM_CANNOT_WRITE	../inc/tfmerror.h	451;"	d
+PT_STATUS_NVM_ERROR	../inc/tfmerror.h	444;"	d
+PT_STATUS_NVM_INVALID_FILE_ID	../inc/tfmerror.h	465;"	d
+PT_STATUS_NVM_INVALID_FORMAT	../inc/tfmerror.h	556;"	d
+PT_STATUS_NVM_UNSUPPORTED_VERSION	../inc/tfmerror.h	563;"	d
+PT_STATUS_OK	../inc/tfmerror.h	25;"	d
+PT_STATUS_OLD_VERSION	../inc/tfmerror.h	367;"	d
+PT_STATUS_OPERATION_CANCELED	../inc/tfmerror.h	621;"	d
+PT_STATUS_OS_ACCESS_DENIED	../inc/tfmerror.h	754;"	d
+PT_STATUS_OTP_SEQUENCE_NUMBER_OVERFLOW	../inc/tfmerror.h	437;"	d
+PT_STATUS_POWER_SHUTOFF	../inc/tfmerror.h	360;"	d
+PT_STATUS_SAFE_MODE	../inc/tfmerror.h	409;"	d
+PT_STATUS_SAME_VERSION	../inc/tfmerror.h	318;"	d
+PT_STATUS_SC_BAD_PARAM	../inc/tfmerror.h	796;"	d
+PT_STATUS_SC_COMM_FAIL	../inc/tfmerror.h	789;"	d
+PT_STATUS_SC_ERROR	../inc/tfmerror.h	775;"	d
+PT_STATUS_SC_NOT_SUPPORTED	../inc/tfmerror.h	782;"	d
+PT_STATUS_SC_NO_CARD	../inc/tfmerror.h	803;"	d
+PT_STATUS_SECCHAN_KEY_NOT_SET	../inc/tfmerror.h	642;"	d
+PT_STATUS_SECURE_CHANNEL_ALREADY_ESTABLISHED	../inc/tfmerror.h	430;"	d
+PT_STATUS_SENSOR_BUS_CONGESTION	../inc/tfmerror.h	663;"	d
+PT_STATUS_SENSOR_HW_ERROR	../inc/tfmerror.h	416;"	d
+PT_STATUS_SENSOR_NOT_CALIBRATED	../inc/tfmerror.h	402;"	d
+PT_STATUS_SENSOR_NOT_REPAIRABLE	../inc/tfmerror.h	346;"	d
+PT_STATUS_SENSOR_OUT_OF_LIMITS	../inc/tfmerror.h	332;"	d
+PT_STATUS_SESSION_NOT_AUTHENTICATED	../inc/tfmerror.h	423;"	d
+PT_STATUS_SESSION_TERMINATED	../inc/tfmerror.h	248;"	d
+PT_STATUS_SIGN_KEY_NOT_SET	../inc/tfmerror.h	607;"	d
+PT_STATUS_SLOT_NOT_FOUND	../inc/tfmerror.h	157;"	d
+PT_STATUS_SONLY_ALREADY_OPENED	../inc/tfmerror.h	635;"	d
+PT_STATUS_SUSPEND	../inc/tfmerror.h	374;"	d
+PT_STATUS_SWIPE_TOO_BAD	../inc/tfmerror.h	276;"	d
+PT_STATUS_TCS_OVERCURRENT	../inc/tfmerror.h	649;"	d
+PT_STATUS_TIMEOUT	../inc/tfmerror.h	143;"	d
+PT_STATUS_TOO_MANY_BAD_LINES	../inc/tfmerror.h	339;"	d
+PT_STATUS_TOUCH_CHIP_ERROR	../inc/tfmerror.h	255;"	d
+PT_STATUS_UNKNOWN_COMMAND	../inc/tfmerror.h	220;"	d
+PT_STATUS_UNSUPPORTED_SPEED	../inc/tfmerror.h	395;"	d
+PT_STATUS_VCH_ALREADY_REGISTERED	../inc/tfmerror.h	691;"	d
+PT_STATUS_VCH_CHANNEL_NOT_AVAILABLE	../inc/tfmerror.h	747;"	d
+PT_STATUS_VCH_COMM_ERROR	../inc/tfmerror.h	712;"	d
+PT_STATUS_VCH_ERROR	../inc/tfmerror.h	677;"	d
+PT_STATUS_VCH_INVALID_HANDLE	../inc/tfmerror.h	726;"	d
+PT_STATUS_VCH_INVALID_IMPLEMENTATION	../inc/tfmerror.h	684;"	d
+PT_STATUS_VCH_INVALID_PROTOCOL	../inc/tfmerror.h	740;"	d
+PT_STATUS_VCH_JOB_ABORTED	../inc/tfmerror.h	733;"	d
+PT_STATUS_VCH_LOST	../inc/tfmerror.h	628;"	d
+PT_STATUS_VCH_MISSING_DEPENDENCIES	../inc/tfmerror.h	705;"	d
+PT_STATUS_VCH_NOT_REGISTERED	../inc/tfmerror.h	698;"	d
+PT_STATUS_VCH_TIMEOUT	../inc/tfmerror.h	719;"	d
+PT_STATUS_WRONG_FINGER_DATA_ACCESS_RIGHTS	../inc/tfmerror.h	521;"	d
+PT_STATUS_WRONG_RESPONSE	../inc/tfmerror.h	115;"	d
+PT_SUSPEND_IN_SLEEP_DISABLED	../inc/tfmtypes.h	1612;"	d
+PT_SUSPEND_IN_SLEEP_ENABLED	../inc/tfmtypes.h	1613;"	d
+PT_SWIPEDIR_AUTODETECT	../inc/tfmtypes.h	1553;"	d
+PT_SWIPEDIR_INVERTED	../inc/tfmtypes.h	1552;"	d
+PT_SWIPEDIR_INVERTED_WARN	../inc/tfmtypes.h	1555;"	d
+PT_SWIPEDIR_STANDARD	../inc/tfmtypes.h	1551;"	d
+PT_SWIPEDIR_STANDARD_WARN	../inc/tfmtypes.h	1554;"	d
+PT_SWIPE_INFO	../inc/tfmtypes.h	/^} PT_SWIPE_INFO;$/;"	t	typeref:struct:pt_swipe_info
+PT_SYSTEM_NAME_MAX_LEN	../inc/tfmtypes.h	998;"	d
+PT_TEMPLATEBIT_ACCEPT_ALPHA	../inc/tfmtypes.h	1063;"	d
+PT_TEMPLATEBIT_ACCEPT_ALPHA_MULTI	../inc/tfmtypes.h	1067;"	d
+PT_TEMPLATEBIT_ACCEPT_BETA	../inc/tfmtypes.h	1065;"	d
+PT_TEMPLATEBIT_ACCEPT_LEGACY	../inc/tfmtypes.h	1061;"	d
+PT_TEMPLATEBIT_EXTRACT_ALPHA	../inc/tfmtypes.h	1064;"	d
+PT_TEMPLATEBIT_EXTRACT_ALPHA_MULTI	../inc/tfmtypes.h	1068;"	d
+PT_TEMPLATEBIT_EXTRACT_BETA	../inc/tfmtypes.h	1066;"	d
+PT_TEMPLATEBIT_EXTRACT_LEGACY	../inc/tfmtypes.h	1062;"	d
+PT_TEMPLATE_ENVELOPE_NONE	../inc/tfmtypes.h	2076;"	d
+PT_TEMPLATE_ENVELOPE_PTBIR	../inc/tfmtypes.h	2077;"	d
+PT_TEMPLATE_TYPE_ALPHA	../inc/tfmtypes.h	2060;"	d
+PT_TEMPLATE_TYPE_ALPHA_MULTI	../inc/tfmtypes.h	2062;"	d
+PT_TEMPLATE_TYPE_ANSI	../inc/tfmtypes.h	2063;"	d
+PT_TEMPLATE_TYPE_AUTO	../inc/tfmtypes.h	2067;"	d
+PT_TEMPLATE_TYPE_BETA	../inc/tfmtypes.h	2061;"	d
+PT_TEMPLATE_TYPE_ISO_FMC_COMPACT	../inc/tfmtypes.h	2066;"	d
+PT_TEMPLATE_TYPE_ISO_FMC_NORMAL	../inc/tfmtypes.h	2065;"	d
+PT_TEMPLATE_TYPE_ISO_FMR	../inc/tfmtypes.h	2064;"	d
+PT_TEMPLATE_TYPE_LEGACY	../inc/tfmtypes.h	2059;"	d
+PT_TRUE	../inc/tfmtypes.h	330;"	d
+PT_USAGE_EXTERNAL	../inc/tfmtypes.h	962;"	d
+PT_USAGE_INTERNAL	../inc/tfmtypes.h	961;"	d
+PT_USAGE_LED_BIO	../inc/tfmtypes.h	965;"	d
+PT_USAGE_LED_EIKON_TOUCH	../inc/tfmtypes.h	969;"	d
+PT_USAGE_LED_LENOVO	../inc/tfmtypes.h	966;"	d
+PT_USAGE_LED_LENOVO_CHINA	../inc/tfmtypes.h	967;"	d
+PT_USAGE_LED_LENOVO_CHINA2	../inc/tfmtypes.h	968;"	d
+PT_USAGE_LED_MASK	../inc/tfmtypes.h	963;"	d
+PT_USAGE_LED_READER	../inc/tfmtypes.h	964;"	d
+PT_USAGE_LED_UNKNOWN	../inc/tfmtypes.h	970;"	d
+PT_WAKEUP_CAUSE_FINGER	../inc/tfmtypes.h	1988;"	d
+PT_WAKEUP_CAUSE_HOST	../inc/tfmtypes.h	1987;"	d
+PT_WORD	../inc/tfmtypes.h	/^typedef unsigned long long  PT_WORD;$/;"	t
+PT_WORD	../inc/tfmtypes.h	/^typedef unsigned short      PT_WORD;$/;"	t
+PT_WORD	../inc/tfmtypes.h	/^typedef unsigned short     PT_WORD;$/;"	t
+PT_WORD_SIZE_CHECK__	../inc/tfmtypes.h	/^typedef char PT_WORD_SIZE_CHECK__[sizeof(PT_WORD) == 2 ? 1 : -1]; \/* Error 'negative subscript' on this line means that PT_WORD type is defined with wrong size (size of PT_WORD must be 2 bytes). *\/$/;"	t
+PackingAndCompressType	../inc/tfmtypes.h	/^  PT_DWORD PackingAndCompressType; 	\/\/\/< Packaging and compression type of data in the IMAGE DATA section.$/;"	m	struct:pt_dif_section_image_header
+Policy	../inc/tfmtypes.h	/^  PT_DWORD Policy; 	\/\/\/< LED policy to be used (see PT_LED_POLICY_xxxx)$/;"	m	struct:pt_led_params_reader
+PowerFlags	../inc/tfmtypes.h	/^  PT_WORD PowerFlags; 	\/\/\/< Power management flags (see PT_POWERFLAG_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+PowerMode	../inc/tfmtypes.h	/^  PT_WORD PowerMode; 	\/\/\/< Scanning power mode.$/;"	m	struct:pt_imgformat
+Purpose	../inc/tfmtypes.h	/^  PT_BYTE Purpose; 	\/\/\/< Purpose=3 (PT_PURPOSE_ENROLL)$/;"	m	struct:pt_bir_header
+QUAL_EXCELLENT	../inc/bclib.h	324;"	d
+QUAL_FAIR	../inc/bclib.h	318;"	d
+QUAL_GOOD	../inc/bclib.h	320;"	d
+QUAL_POOR	../inc/bclib.h	316;"	d
+QUAL_VGOOD	../inc/bclib.h	322;"	d
+QualMessage	../inc/tfmtypes.h	/^  PT_DWORD QualMessage; 	\/\/\/< GUI message resulting from image quality test (see PT_GUIMSG_xxxx), 0xffffffff if not known.$/;"	m	struct:pt_dif_section_image_header
+QualScore	../inc/tfmtypes.h	/^  PT_BYTE QualScore; 	\/\/\/< Image quality score (percents). 255 if not known.$/;"	m	struct:pt_dif_section_image_header
+Quality	../inc/tfmtypes.h	/^  PT_CHAR Quality; 	\/\/\/< Quality=-2 (BioAPI_QUALITY is not supported)$/;"	m	struct:pt_bir_header
+QualityMessage	../inc/tfmtypes.h	/^  PT_WORD QualityMessage; 	\/\/\/< GUI message resulting from image quality test (see PT_GUIMSG_xxxx), 0xffff when image quality wasn't assessed.$/;"	m	struct:pt_swipe_info
+QualityScore	../inc/tfmtypes.h	/^  PT_CHAR QualityScore; 	\/\/\/< Image quality score, negative when image quality wasn't assessed.$/;"	m	struct:pt_swipe_info
+RIGHT_INDEX	../inc/iengine_ansi_iso.h	/^	RIGHT_INDEX = 2,$/;"	e	enum:__anon2
+RIGHT_LITTLE	../inc/iengine_ansi_iso.h	/^	RIGHT_LITTLE = 5,$/;"	e	enum:__anon2
+RIGHT_MIDDLE	../inc/iengine_ansi_iso.h	/^	RIGHT_MIDDLE = 3,$/;"	e	enum:__anon2
+RIGHT_RING	../inc/iengine_ansi_iso.h	/^	RIGHT_RING = 4,$/;"	e	enum:__anon2
+RIGHT_THUMB	../inc/iengine_ansi_iso.h	/^	RIGHT_THUMB = 1,$/;"	e	enum:__anon2
+ROILength	../inc/tfmtypes.h	/^  PT_SHORT ROILength; 	\/\/\/< Vertical length of the region of interest, zero if no ROI was detected.$/;"	m	struct:pt_swipe_info
+ROIPos	../inc/tfmtypes.h	/^  PT_SHORT ROIPos; 	\/\/\/< Vertical position of the center of the region of interest (e.g. the core). Negative if no ROI was detected.$/;"	m	struct:pt_swipe_info
+ReaderSecurityMode	../inc/tfmtypes.h	/^  PT_BYTE ReaderSecurityMode; 	\/\/\/< SONLY (TCRxx only): Reader security mode (see PT_RSM_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+ReaderVersion	../inc/tfmtypes.h	/^  PT_DWORD ReaderVersion; 	\/\/\/< Firmware version for non-chipset devices with firmware (0 for chipsets and devices without firmware)$/;"	m	struct:pt_extended_info_v2
+RealHeight	../inc/tfmtypes.h	/^  PT_SHORT RealHeight; 	\/\/\/< Number of actually reconstructed lines.$/;"	m	struct:pt_swipe_info
+RecDigitalGain	../inc/tfmtypes.h	/^  PT_BYTE RecDigitalGain; 	\/\/\/< Digital gain. $/;"	m	struct:pt_session_cfg_v3
+RecErrorStates	../inc/tfmtypes.h	/^  PT_DWORD RecErrorStates; 	\/\/\/< Bitmask of reconstruction error states (like too skewed, too fast, ...).$/;"	m	struct:pt_dif_section_image_header
+RecErrorStates	../inc/tfmtypes.h	/^  PT_WORD RecErrorStates; 	\/\/\/< Bit array with signaled reconstruction errors (see PT_RECERRBIT_xxxx).$/;"	m	struct:pt_swipe_info
+RecFingerDownDelay	../inc/tfmtypes.h	/^  PT_WORD RecFingerDownDelay; 	\/\/\/< Timing for finger touch$/;"	m	struct:pt_session_cfg_v2
+RecFingerDownDelay	../inc/tfmtypes.h	/^  PT_WORD RecFingerDownDelay; 	\/\/\/< Timing for finger touch.$/;"	m	struct:pt_session_cfg_v3
+RecFingerUpDelay	../inc/tfmtypes.h	/^  PT_WORD RecFingerUpDelay; 	\/\/\/< Timing for finger lift$/;"	m	struct:pt_session_cfg_v2
+RecFingerUpDelay	../inc/tfmtypes.h	/^  PT_WORD RecFingerUpDelay; 	\/\/\/< Timing for finger lift. $/;"	m	struct:pt_session_cfg_v3
+RecFlags	../inc/tfmtypes.h	/^  PT_DWORD RecFlags; 	\/\/\/< Reconstruction control flags (see PT_RECFLAG_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+RecFlags	../inc/tfmtypes.h	/^  PT_DWORD RecFlags; 	\/\/\/< Reconstruction flags. See PT_DIFREC_FLAG_xxxx constants.$/;"	m	struct:pt_dif_section_image_header
+RecNoMovementResetTimeout	../inc/tfmtypes.h	/^  PT_LONG RecNoMovementResetTimeout; 	\/\/\/< If no movement is detected for that period [ms] and image is very short, the reconstruction is not restarted any more. This feature is disabled if set to 0.$/;"	m	struct:pt_session_cfg_v4
+RecNoMovementResetTimeout	../inc/tfmtypes.h	/^  PT_LONG RecNoMovementResetTimeout; 	\/\/\/< If no movement is detected for that period [ms] and image is very short, the reconstruction is not restarted any more. This feature is disabled if set to 0.$/;"	m	struct:pt_session_cfg_v5
+RecNoMovementTimeout	../inc/tfmtypes.h	/^  PT_LONG RecNoMovementTimeout; 	\/\/\/< If no movement is detected for that period [ms], the swipe is terminated regardless on the finger presence. This feature is disabled if set to 0. $/;"	m	struct:pt_session_cfg_v4
+RecNoMovementTimeout	../inc/tfmtypes.h	/^  PT_LONG RecNoMovementTimeout; 	\/\/\/< If no movement is detected for that period [ms], the swipe is terminated regardless on the finger presence. This feature is disabled if set to 0. $/;"	m	struct:pt_session_cfg_v5
+RecNoiseRobustness	../inc/tfmtypes.h	/^  PT_BYTE RecNoiseRobustness; 	\/\/\/< Noise robustness setting (see PT_NOISE_ROBUSTNESS_xxxx).$/;"	m	struct:pt_session_cfg_v5
+RecNoiseRobustness	../inc/tfmtypes.h	/^  PT_BYTE RecNoiseRobustness; 	\/\/\/< Noise robustness setting (see PT_NOISE_ROBUSTNESS_xxxx).(SONLY only)$/;"	m	struct:pt_session_cfg_v4
+RecNoiseRobustnessTrigger	../inc/tfmtypes.h	/^  PT_BYTE RecNoiseRobustnessTrigger; 	\/\/\/< Sets how many consecutive bad swipes triggers noise robustness. Value of 0 means no triggering by bad swipes.$/;"	m	struct:pt_session_cfg_v5
+RecRemoveBottomup	../inc/tfmtypes.h	/^  PT_BOOL RecRemoveBottomup; 	\/\/\/< Remove striation from bottom$/;"	m	struct:pt_session_cfg_v2
+RecRemoveBottomup	../inc/tfmtypes.h	/^  PT_BOOL RecRemoveBottomup; 	\/\/\/< Remove striation from bottom.$/;"	m	struct:pt_session_cfg_v3
+RecRemoveBottomup	../inc/tfmtypes.h	/^  PT_BOOL RecRemoveBottomup; 	\/\/\/< Remove striation from bottom.$/;"	m	struct:pt_session_cfg_v4
+RecRemoveTopdown	../inc/tfmtypes.h	/^  PT_BOOL RecRemoveTopdown; 	\/\/\/< Remove striation from top$/;"	m	struct:pt_session_cfg_v2
+RecRemoveTopdown	../inc/tfmtypes.h	/^  PT_BOOL RecRemoveTopdown; 	\/\/\/< Remove striation from top.$/;"	m	struct:pt_session_cfg_v3
+RecRemoveTopdown	../inc/tfmtypes.h	/^  PT_BOOL RecRemoveTopdown; 	\/\/\/< Remove striation from top.$/;"	m	struct:pt_session_cfg_v4
+RecRetuning	../inc/tfmtypes.h	/^  PT_BYTE RecRetuning; 	\/\/\/< Enable retuning (see PT_RETUNING_xxxx values).$/;"	m	struct:pt_session_cfg_v3
+RecScore	../inc/tfmtypes.h	/^  PT_BYTE RecScore; 	\/\/\/< Reconstruction score (percents). 255 if not known.$/;"	m	struct:pt_dif_section_image_header
+RecScore	../inc/tfmtypes.h	/^  PT_CHAR RecScore; 	\/\/\/< Reconstruction score.$/;"	m	struct:pt_swipe_info
+RecSwipeDirection	../inc/tfmtypes.h	/^  PT_BYTE RecSwipeDirection; 	\/\/\/< Swipe direction (see PT_SWIPEDIR_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+RecSwipeDirection	../inc/tfmtypes.h	/^  PT_BYTE RecSwipeDirection; 	\/\/\/< Swipe direction (see PT_SWIPEDIR_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+RecSwipeTimeout	../inc/tfmtypes.h	/^  PT_LONG RecSwipeTimeout; 	\/\/\/< Timeout (in milliseconds) for swipe termination.$/;"	m	struct:pt_session_cfg_v4
+RecSwipeTimeout	../inc/tfmtypes.h	/^  PT_LONG RecSwipeTimeout; 	\/\/\/< Timeout for swipe termination.$/;"	m	struct:pt_session_cfg_v5
+RecTerminationPolicy	../inc/tfmtypes.h	/^  PT_BYTE RecTerminationPolicy; 	\/\/\/< Defines the way, how end of finger scan is determined (see PT_SCAN_TERMINATION_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+RecTerminationPolicy	../inc/tfmtypes.h	/^  PT_WORD RecTerminationPolicy; 	\/\/\/< Defines the way, how end of finger scan is determined (see PT_SCAN_TERMINATION_xxxx values)$/;"	m	struct:pt_session_cfg_v3
+RecTerminationPolicy	../inc/tfmtypes.h	/^  PT_WORD RecTerminationPolicy; 	\/\/\/< Defines the way, how end of finger scan is determined (see PT_SCAN_TERMINATION_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+RecUseHwDetection	../inc/tfmtypes.h	/^  PT_BOOL RecUseHwDetection; 	\/\/\/< Use Hardware finger detection$/;"	m	struct:pt_session_cfg_v2
+RecUseHwDetection	../inc/tfmtypes.h	/^  PT_BOOL RecUseHwDetection; 	\/\/\/< Use Hardware finger detection.$/;"	m	struct:pt_session_cfg_v3
+RecUseHwDetection	../inc/tfmtypes.h	/^  PT_BOOL RecUseHwDetection; 	\/\/\/< Use Hardware finger detection.$/;"	m	struct:pt_session_cfg_v4
+Reserved	../inc/tfmtypes.h	/^  PT_BYTE Reserved[20]; 	\/\/\/< Not used$/;"	m	struct:pt_session_cfg_v1
+Reserved1	../inc/tfmtypes.h	/^  PT_BYTE Reserved1[2]; 	\/\/\/< Not used$/;"	m	struct:pt_session_cfg_v4
+Reserved2	../inc/tfmtypes.h	/^  PT_BYTE Reserved2[2]; 	\/\/\/< Not used$/;"	m	struct:pt_session_cfg_v4
+Reserved4	../inc/tfmtypes.h	/^  PT_BYTE Reserved4[1]; 	\/\/\/< Not used$/;"	m	struct:pt_session_cfg_v4
+Reserved5	../inc/tfmtypes.h	/^  PT_BYTE Reserved5[17]; 	\/\/\/< Not used$/;"	m	struct:pt_session_cfg_v4
+RestartBioTimeout	../inc/tfmtypes.h	/^  PT_BOOL RestartBioTimeout; 	\/\/\/< Restart biometric timeout for each fingerprint scan.$/;"	m	struct:pt_session_cfg_v4
+RestartBioTimeout	../inc/tfmtypes.h	/^  PT_BYTE RestartBioTimeout; 	\/\/\/< Restart biometric timeout for each fingerprint scan$/;"	m	struct:pt_session_cfg_v5
+Retuning	../inc/tfmtypes.h	/^  PT_BYTE Retuning; 	\/\/\/< Enable retuning (see PT_RETUNING_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+Retuning	../inc/tfmtypes.h	/^  PT_BYTE Retuning; 	\/\/\/< Enable retuning (see PT_RETUNING_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+RoiLength	../inc/tfmtypes.h	/^  PT_WORD RoiLength; 	\/\/\/< Region of interest length. 0 if not known.$/;"	m	struct:pt_dif_section_image_header
+RoiPos	../inc/tfmtypes.h	/^  PT_WORD RoiPos; 	\/\/\/< Region of interest position. 0 if not known.$/;"	m	struct:pt_dif_section_image_header
+RowDpi	../inc/tfmtypes.h	/^  PT_WORD RowDpi; 	\/\/\/< Horizontal resolution (dpi) of the image (currently supported values are 381 or 508 only).$/;"	m	struct:pt_extrtmpl_imginfo
+SECURITY	../src/main.c	5;"	d	file:
+SET_ACCESS_RIGHTS_BIT	../inc/tfmtypes.h	1231;"	d
+SORT_NONE	../inc/iengine_ansi_iso.h	/^	SORT_NONE = 0,$/;"	e	enum:__anon3
+SORT_X_ASC	../inc/iengine_ansi_iso.h	/^	SORT_X_ASC = 1,$/;"	e	enum:__anon3
+SORT_X_DESC	../inc/iengine_ansi_iso.h	/^	SORT_X_DESC = 2,$/;"	e	enum:__anon3
+SORT_Y_ASC	../inc/iengine_ansi_iso.h	/^	SORT_Y_ASC = 3,$/;"	e	enum:__anon3
+SORT_Y_DESC	../inc/iengine_ansi_iso.h	/^	SORT_Y_DESC = 4$/;"	e	enum:__anon3
+SUCCESS	../inc/header.h	18;"	d
+SectionType	../inc/tfmtypes.h	/^  PT_DWORD SectionType; 	\/\/\/< Section type (one of PT_DIF_SECTTYPE_xxxx values).$/;"	m	struct:pt_dif_section_header
+SecuritySetting	../inc/tfmtypes.h	/^  PT_BYTE SecuritySetting; 	\/\/\/< Security level for templates matching (see PT_MATCH_xxxx values)$/;"	m	struct:pt_session_cfg_v5
+SecuritySetting	../inc/tfmtypes.h	/^  PT_DWORD SecuritySetting; 	\/\/\/< Security level for templates matching (see PT_MATCH_xxxx values)$/;"	m	struct:pt_match_on_host_params
+SecuritySetting	../inc/tfmtypes.h	/^  PT_DWORD SecuritySetting; 	\/\/\/< Security level for templates matching (see PT_MATCH_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+SecuritySetting	../inc/tfmtypes.h	/^  PT_SECURITY_LEVEL SecuritySetting; 	\/\/\/< Security level for templates matching (see PT_MATCH_xxxx values)$/;"	m	struct:pt_session_cfg_v1
+SecuritySetting	../inc/tfmtypes.h	/^  PT_SECURITY_LEVEL SecuritySetting; 	\/\/\/< Security level for templates matching (see PT_MATCH_xxxx values)$/;"	m	struct:pt_session_cfg_v2
+SecuritySetting	../inc/tfmtypes.h	/^  PT_SECURITY_LEVEL SecuritySetting; 	\/\/\/< Security level for templates matching (see PT_MATCH_xxxx values)$/;"	m	struct:pt_session_cfg_v3
+SensorDisabling	../inc/tfmtypes.h	/^  PT_BOOL SensorDisabling; 	\/\/\/< Indicates whether or not put sensor into sleep mode after each biometric operation$/;"	m	struct:pt_session_cfg_v1
+SensorDisabling	../inc/tfmtypes.h	/^  PT_BOOL SensorDisabling; 	\/\/\/< Indicates whether or not put sensor into sleep mode after each biometric operation$/;"	m	struct:pt_session_cfg_v2
+SensorDisabling	../inc/tfmtypes.h	/^  PT_BOOL SensorDisabling; 	\/\/\/< Indicates whether or not put sensor into sleep mode after each biometric operation$/;"	m	struct:pt_session_cfg_v3
+SensorDisabling	../inc/tfmtypes.h	/^  PT_BOOL SensorDisabling; 	\/\/\/< Indicates whether or not put sensor into sleep mode after each biometric operation.$/;"	m	struct:pt_session_cfg_v4
+SensorDisabling	../inc/tfmtypes.h	/^  PT_BYTE SensorDisabling; 	\/\/\/< Indicates whether or not put sensor into sleep mode after each biometric operation.$/;"	m	struct:pt_session_cfg_v5
+SensorSecurityMode	../inc/tfmtypes.h	/^  PT_BYTE SensorSecurityMode; 	\/\/\/< SONLY, TCD50: Sensor security mode (see PT_SSM_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+SensorSecurityMode	../inc/tfmtypes.h	/^  PT_BYTE SensorSecurityMode; 	\/\/\/< Sensor security mode (see PT_SSM_xxxx values) (this parameter affects SONLY)$/;"	m	struct:pt_session_cfg_v4
+SensorType	../inc/tfmtypes.h	/^  PT_DWORD SensorType; 	\/\/\/< Type and version of the sensor.$/;"	m	struct:pt_info
+SensorVariant	../inc/tfmtypes.h	/^  PT_WORD SensorVariant; 	\/\/\/< Sensor variant info (currently: 0 = polyimide coating, 1 = screenprint coating)$/;"	m	struct:pt_extended_info_v2
+SignatureType	../inc/tfmtypes.h	/^  PT_BYTE SignatureType; 	\/\/\/< Type of signing method (see PT_SIGNATURE_TYPE_xxxx values).$/;"	m	struct:pt_session_cfg_v4
+SignatureType	../inc/tfmtypes.h	/^  PT_BYTE SignatureType; 	\/\/\/< Type of signing method (see PT_SIGNATURE_TYPE_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+SlotNr	../inc/tfmtypes.h	/^  PT_LONG SlotNr; 	\/\/\/< ID of slot, where is the finger stored$/;"	m	struct:pt_finger_list_item
+SubSample	../inc/tfmtypes.h	/^  PT_BOOL SubSample; 	\/\/\/< Indicates whether or not extraction should sub-sample images (not zero).$/;"	m	struct:pt_session_cfg_v4
+SubSample	../inc/tfmtypes.h	/^  PT_BOOL SubSample; 	\/\/\/< Indicates whether or not extraction should sub-sample images$/;"	m	struct:pt_session_cfg_v1
+SubSample	../inc/tfmtypes.h	/^  PT_BOOL SubSample; 	\/\/\/< Indicates whether or not extraction should sub-sample images$/;"	m	struct:pt_session_cfg_v2
+SubSample	../inc/tfmtypes.h	/^  PT_BOOL SubSample; 	\/\/\/< Indicates whether or not extraction should sub-sample images.$/;"	m	struct:pt_session_cfg_v3
+SubWindowArea	../inc/tfmtypes.h	/^  PT_BYTE SubWindowArea; 	\/\/\/< Area of the subwindow in percents of the full area used for extractor$/;"	m	struct:pt_session_cfg_v2
+SubWindowArea	../inc/tfmtypes.h	/^  PT_BYTE SubWindowArea; 	\/\/\/< Area of the subwindow in percents of the full area used for extractor.$/;"	m	struct:pt_session_cfg_v3
+SubWindowArea	../inc/tfmtypes.h	/^  PT_BYTE SubWindowArea; 	\/\/\/< Area of the subwindow in percents of the full area used for extractor.$/;"	m	struct:pt_session_cfg_v4
+SupportMask	../inc/tfmtypes.h	/^  PT_DWORD SupportMask; 	\/\/\/< Image format support mask. Can be used to enable this format in FW configuration.$/;"	m	struct:pt_imgformat_list_item
+SuspendInSleep	../inc/tfmtypes.h	/^  PT_BYTE SuspendInSleep; 	\/\/\/< Enable device suspend during PTSleep\/PTSleepThenGrab\/PTSleepThenCapture (see PT_SUSPEND_IN_SLEEP_xxxx values) (this parameter affects SONLY)$/;"	m	struct:pt_session_cfg_v4
+SuspendInSleep	../inc/tfmtypes.h	/^  PT_BYTE SuspendInSleep; 	\/\/\/< SONLY: Enable device suspend during PTSleep\/PTSleepThenGrab\/PTSleepThenCapture (see PT_SUSPEND_IN_SLEEP_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+SystemId	../inc/tfmtypes.h	/^  PT_DWORD SystemId; 	\/\/\/< System identification bits$/;"	m	struct:pt_extended_info_v1
+SystemId	../inc/tfmtypes.h	/^  PT_DWORD SystemId; 	\/\/\/< System identification bits$/;"	m	struct:pt_extended_info_v2
+SystemName	../inc/tfmtypes.h	/^  PT_CHAR SystemName[PT_SYSTEM_NAME_MAX_LEN]; 	\/\/\/< System identification name$/;"	m	struct:pt_extended_info_v1
+SystemName	../inc/tfmtypes.h	/^  PT_CHAR SystemName[PT_SYSTEM_NAME_MAX_LEN]; 	\/\/\/< System identification name$/;"	m	struct:pt_extended_info_v2
+TFMERROR_H	../inc/tfmerror.h	11;"	d
+TYPE_LIVE_SCAN_CONTACTLESS	../inc/iengine_ansi_iso.h	/^	TYPE_LIVE_SCAN_CONTACTLESS=9$/;"	e	enum:__anon4
+TYPE_LIVE_SCAN_PLAIN	../inc/iengine_ansi_iso.h	/^	TYPE_LIVE_SCAN_PLAIN = 0,$/;"	e	enum:__anon4
+TYPE_LIVE_SCAN_ROLLED	../inc/iengine_ansi_iso.h	/^	TYPE_LIVE_SCAN_ROLLED = 1,$/;"	e	enum:__anon4
+TYPE_NONLIVE_SCAN_PLAIN	../inc/iengine_ansi_iso.h	/^	TYPE_NONLIVE_SCAN_PLAIN = 2,$/;"	e	enum:__anon4
+TYPE_NONLIVE_SCAN_ROLLED	../inc/iengine_ansi_iso.h	/^	TYPE_NONLIVE_SCAN_ROLLED = 3,$/;"	e	enum:__anon4
+TYPE_SWIPE	../inc/iengine_ansi_iso.h	/^	TYPE_SWIPE = 4,$/;"	e	enum:__anon4
+TemplateType	../inc/tfmtypes.h	/^  PT_BYTE TemplateType; 	\/\/\/< Type of templates created by FM (see PT_TEMPLATE_TYPE_xxxx values)$/;"	m	struct:pt_session_cfg_v4
+TemplateType	../inc/tfmtypes.h	/^  PT_BYTE TemplateType; 	\/\/\/< Type of templates created by FM (see PT_TEMPLATE_TYPE_xxxx values).$/;"	m	struct:pt_session_cfg_v5
+TemplateTypeFlags	../inc/tfmtypes.h	/^  PT_DWORD TemplateTypeFlags; 	\/\/\/< Flags of all supported template formats (see PT_TEMPLATEBIT_xxxx)$/;"	m	struct:pt_extended_info_v2
+Type	../inc/tfmtypes.h	/^  PT_BYTE Type; 	\/\/\/< Type=4 (BioAPI_BIR_DATA_TYPE_PROCESSED)$/;"	m	struct:pt_bir_header
+UNKNOWN_FINGER	../inc/iengine_ansi_iso.h	/^	UNKNOWN_FINGER = 0,$/;"	e	enum:__anon2
+USER	../inc/header.h	/^}USER;$/;"	t	typeref:struct:User
+Usage	../inc/tfmtypes.h	/^  PT_DWORD Usage; 	\/\/\/< Type of the reader in which the FM is used. 0 = unspecified usage (for details see PT_USAGE_xxxx).$/;"	m	struct:pt_info
+UseHwFingerDetection	../inc/tfmtypes.h	/^  PT_BOOL UseHwFingerDetection; 	\/\/\/< If PT_TRUE then hardware finger detection is used for biometric functions.$/;"	m	struct:pt_session_cfg_v4
+UseHwFingerDetection	../inc/tfmtypes.h	/^  PT_BYTE UseHwFingerDetection; 	\/\/\/< Use TCD based hardware finger detection for biometrics.$/;"	m	struct:pt_session_cfg_v5
+User	../inc/header.h	/^typedef struct User{$/;"	s
+UserId	../inc/header.h	/^    unsigned long UserId;$/;"	m	struct:User
+UserName	../inc/header.h	/^	char UserName[20];$/;"	m	struct:User
+Variant	../inc/tfmtypes.h	/^  PT_DWORD Variant; 	\/\/\/< LED variant to be used (see PT_LED_VARIANT_xxxx)$/;"	m	struct:pt_led_params_reader
+Version	../inc/tfmtypes.h	/^  PT_DWORD Version; 	\/\/\/< Version of this structure (1)$/;"	m	struct:pt_extended_info_v1
+Version	../inc/tfmtypes.h	/^  PT_DWORD Version; 	\/\/\/< Version of this structure (1)$/;"	m	struct:pt_led_params_manual
+Version	../inc/tfmtypes.h	/^  PT_DWORD Version; 	\/\/\/< Version of this structure (1)$/;"	m	struct:pt_led_params_manual2
+Version	../inc/tfmtypes.h	/^  PT_DWORD Version; 	\/\/\/< Version of this structure (1)$/;"	m	struct:pt_led_params_reader
+Version	../inc/tfmtypes.h	/^  PT_DWORD Version; 	\/\/\/< Version of this structure (2)$/;"	m	struct:pt_extended_info_v2
+Version	../inc/tfmtypes.h	/^  PT_DWORD Version; 	\/\/\/< Version of this structure (currently 1)$/;"	m	struct:pt_match_on_host_params
+Version	../inc/tfmtypes.h	/^  PT_WORD Version; 	\/\/\/< Header format version, currently 1.$/;"	m	struct:pt_dif_header
+Version	../inc/tfmtypes.h	/^  PT_WORD Version; 	\/\/\/< Version of this structure (currently always 1)$/;"	m	struct:pt_extrtmpl_tmplinfo
+Version	../inc/tfmtypes.h	/^  PT_WORD Version; 	\/\/\/< Version of this structure (set to '1')$/;"	m	struct:pt_extrtmpl_imginfo
+WIN16	../inc/bclib.h	35;"	d
+WIN32	../inc/bclib.h	27;"	d
+WakeUpByFinger	../inc/tfmtypes.h	/^  PT_BOOL WakeUpByFinger; 	\/\/\/< If PT_TRUE, FM can be woken up from deep sleep by a finger on sensor$/;"	m	struct:pt_session_cfg_v2
+WakeUpByFinger	../inc/tfmtypes.h	/^  PT_BOOL WakeUpByFinger; 	\/\/\/< If PT_TRUE, FM can be woken up from deep sleep by a finger on sensor. $/;"	m	struct:pt_session_cfg_v3
+WakeUpByFinger	../inc/tfmtypes.h	/^  PT_BOOL WakeUpByFinger; 	\/\/\/< If not zero, FM enters upon end of session the StandBy mode and can be woken up by a finger on the sensor.$/;"	m	struct:pt_session_cfg_v4
+WakeUpByFinger	../inc/tfmtypes.h	/^  PT_BYTE WakeUpByFinger; 	\/\/\/< If PT_TRUE, FM can be woken up from deep sleep by a finger on sensor.$/;"	m	struct:pt_session_cfg_v5
+WakeUpByFingerTimeout	../inc/tfmtypes.h	/^  PT_DWORD WakeUpByFingerTimeout; 	\/\/\/< Timeout for returning to standby after wake-up by finger (in milliseconds). $/;"	m	struct:pt_session_cfg_v3
+WakeUpByFingerTimeout	../inc/tfmtypes.h	/^  PT_DWORD WakeUpByFingerTimeout; 	\/\/\/< Timeout for returning to standby after wake-up by finger (in milliseconds).$/;"	m	struct:pt_session_cfg_v4
+WakeUpByFingerTimeout	../inc/tfmtypes.h	/^  PT_DWORD WakeUpByFingerTimeout; 	\/\/\/< Timeout for returning to standby after wake-up by finger (in milliseconds).$/;"	m	struct:pt_session_cfg_v5
+WffFingerDownDelay	../inc/tfmtypes.h	/^  PT_WORD WffFingerDownDelay; 	\/\/\/< Timing for finger touch (in milliseconds).$/;"	m	struct:pt_session_cfg_v5
+WffFingerDownDelay	../inc/tfmtypes.h	/^  PT_WORD WffFingerDownDelay; 	\/\/\/< Timing for finger touch$/;"	m	struct:pt_session_cfg_v2
+WffFingerDownDelay	../inc/tfmtypes.h	/^  PT_WORD WffFingerDownDelay; 	\/\/\/< Timing for finger touch.$/;"	m	struct:pt_session_cfg_v3
+WffFingerDownDelay	../inc/tfmtypes.h	/^  PT_WORD WffFingerDownDelay; 	\/\/\/< Timing for finger touch.$/;"	m	struct:pt_session_cfg_v4
+WffFingerUpDelay	../inc/tfmtypes.h	/^  PT_WORD WffFingerUpDelay; 	\/\/\/< Timing for finger lift (in milliseconds).$/;"	m	struct:pt_session_cfg_v5
+WffFingerUpDelay	../inc/tfmtypes.h	/^  PT_WORD WffFingerUpDelay; 	\/\/\/< Timing for finger lift$/;"	m	struct:pt_session_cfg_v2
+WffFingerUpDelay	../inc/tfmtypes.h	/^  PT_WORD WffFingerUpDelay; 	\/\/\/< Timing for finger lift.$/;"	m	struct:pt_session_cfg_v3
+WffFingerUpDelay	../inc/tfmtypes.h	/^  PT_WORD WffFingerUpDelay; 	\/\/\/< Timing for finger lift.$/;"	m	struct:pt_session_cfg_v4
+WffUseHwDetection	../inc/tfmtypes.h	/^  PT_BOOL WffUseHwDetection; 	\/\/\/< Use Hardware finger detection$/;"	m	struct:pt_session_cfg_v2
+WffUseHwDetection	../inc/tfmtypes.h	/^  PT_BOOL WffUseHwDetection; 	\/\/\/< Use Hardware finger detection.$/;"	m	struct:pt_session_cfg_v3
+WffUseHwDetection	../inc/tfmtypes.h	/^  PT_BOOL WffUseHwDetection; 	\/\/\/< Use Hardware finger detection.$/;"	m	struct:pt_session_cfg_v4
+Width	../inc/tfmtypes.h	/^  PT_DWORD Width; 	\/\/\/< Image width$/;"	m	struct:pt_gui_sample_image
+_DPFPDD_API_H_	../inc/dpfpdd.h	14;"	d
+_DP_FACILITY	../inc/dpfj.h	39;"	d
+_DP_FACILITY	../inc/dpfpdd.h	38;"	d
+_INC_IENGINE_ANSI_ISO	../inc/iengine_ansi_iso.h	2;"	d
+_WIN16	../inc/bclib.h	31;"	d
+__BCLIB_H__	../inc/bclib.h	16;"	d
+__DPFJ_COMPRESSION_H__	../inc/dpfj_compression.h	14;"	d
+__DPFJ_H__	../inc/dpfj.h	14;"	d
+__DPFJ_QUALITY_H__	../inc/dpfj_quality.h	14;"	d
+__HEADER_H__	../src/deinit_fp.c	2;"	d	file:
+__HEADER_H__	../src/enroll.c	2;"	d	file:
+__HEADER_H__	../src/init_fp.c	2;"	d	file:
+__HEADER_H__	../src/iodev.c	2;"	d	file:
+__HEADER_H__	../src/main.c	2;"	d	file:
+__HEADER_H__	../src/optcap.c	2;"	d	file:
+_tag_BCImageCompressionType	../inc/bclib.h	/^typedef enum _tag_BCImageCompressionType {$/;"	g
+_tag_BCImageDataType	../inc/bclib.h	/^typedef enum _tag_BCImageDataType {$/;"	g
+_tag_BCImageEnvelopeType	../inc/bclib.h	/^typedef enum _tag_BCImageEnvelopeType {$/;"	g
+_tag_BCImageInfoType_1	../inc/bclib.h	/^typedef struct _tag_BCImageInfoType_1 {$/;"	s
+_tag_BCImageInfoType_2	../inc/bclib.h	/^typedef struct _tag_BCImageInfoType_2 {$/;"	s
+_tag_BCImageType	../inc/bclib.h	/^typedef enum _tag_BCImageType {$/;"	g
+_tag_BCTemplateDataType	../inc/bclib.h	/^typedef enum _tag_BCTemplateDataType {$/;"	g
+_tag_BCTemplateEnvelopeType	../inc/bclib.h	/^typedef enum _tag_BCTemplateEnvelopeType {$/;"	g
+_tag_BCTemplateInfoType_1	../inc/bclib.h	/^typedef struct _tag_BCTemplateInfoType_1 {$/;"	s
+_tag_BCTemplateInfoType_2	../inc/bclib.h	/^typedef struct _tag_BCTemplateInfoType_2 {$/;"	s
+_tag_BCTemplateViewInfoType_1	../inc/bclib.h	/^typedef struct _tag_BCTemplateViewInfoType_1 {$/;"	s
+abyReserved	../inc/tfmtypes.h	/^		PT_BYTE abyReserved[20]; \/** For future use *\/$/;"	m	union:pt_input_bir::__anon6
+acquisition_level	../inc/dpfj.h	/^		unsigned int acquisition_level;    \/**< from Table 1 in "ANSI INSITS 381-2004" *\/$/;"	m	struct:dpfj_fid_record_params
+addr	../inc/dpfpdd.h	/^	unsigned short	addr;	 \/**< I\/O address or offset *\/$/;"	m	struct:dpfpdd_iomap
+angle	../inc/iengine_ansi_iso.h	/^	BYTE angle;$/;"	m	struct:iengine_minutiae
+api_ver	../inc/dpfj.h	/^	DPFJ_VER_INFO api_ver; \/**< version of the API *\/$/;"	m	struct:dpfj_version
+api_ver	../inc/dpfpdd.h	/^	DPFPDD_VER_INFO api_ver; \/**< version of the API *\/$/;"	m	struct:dpfpdd_version
+bc_float32IsNot32bit	../inc/bclib.h	/^BC_COMPILE_TIME_ASSERT(sizeof(float32) == 4, bc_float32IsNot32bit);$/;"	v
+bc_sint16IsNot16bit	../inc/bclib.h	/^BC_COMPILE_TIME_ASSERT(sizeof(sint16) == 2, bc_sint16IsNot16bit);$/;"	v
+bc_sint32IsNot32bit	../inc/bclib.h	/^BC_COMPILE_TIME_ASSERT(sizeof(sint32) == 4, bc_sint32IsNot32bit);$/;"	v
+bc_uint16IsNot16bit	../inc/bclib.h	/^BC_COMPILE_TIME_ASSERT(sizeof(uint16) == 2, bc_uint16IsNot16bit);$/;"	v
+bc_uint32IsNot32bit	../inc/bclib.h	/^BC_COMPILE_TIME_ASSERT(sizeof(uint32) == 4, bc_uint32IsNot32bit);$/;"	v
+bcd_rev	../inc/dpfpdd.h	/^ 	unsigned short bcd_rev;	\/**< USB bcd revision *\/$/;"	m	struct:dpfpdd_hw_version
+bgColor	../inc/bclib.h	/^  sint32   bgColor; $/;"	m	struct:_tag_BCImageInfoType_1
+bgColor	../inc/bclib.h	/^  sint32   bgColor; $/;"	m	struct:_tag_BCImageInfoType_2
+bpp	../inc/dpfj.h	/^		unsigned int bpp;                  \/**< pixel depth, 1 - 16 bits *\/$/;"	m	struct:dpfj_fid_record_params
+bpp	../inc/dpfpdd.h	/^	unsigned int bpp;     \/**< pixel depth of the captured image *\/$/;"	m	struct:dpfpdd_image_info
+buff	../inc/dpfpdd.h	/^	unsigned char 	buff[1]; \/**< data buffer *\/$/;"	m	struct:dpfpdd_iomap
+byForm	../inc/tfmtypes.h	/^  PT_BYTE byForm; 	\/\/\/< Form type, can be PT_FULLBIR_INPUT or PT_SLOT_INPUT.$/;"	m	struct:pt_input_bir
+can_capture_image	../inc/dpfpdd.h	/^	int          can_capture_image;	    \/**< flag: reader can capture images *\/$/;"	m	struct:dpfpdd_dev_caps
+can_extract_features	../inc/dpfpdd.h	/^	int          can_extract_features;  \/**< flag: reader can extract features from captured image and return fingerprint features data *\/$/;"	m	struct:dpfpdd_dev_caps
+can_identify	../inc/dpfpdd.h	/^	int          can_identify;          \/**< flag: reader can perform match one-to-many *\/$/;"	m	struct:dpfpdd_dev_caps
+can_match	../inc/dpfpdd.h	/^	int          can_match;             \/**< flag: reader can perform match one-to-one *\/$/;"	m	struct:dpfpdd_dev_caps
+can_stream_image	../inc/dpfpdd.h	/^	int          can_stream_image;      \/**< flag: reader can stream images *\/$/;"	m	struct:dpfpdd_dev_caps
+captureCBEFFPid	../inc/bclib.h	/^  uint32   captureCBEFFPid; $/;"	m	struct:_tag_BCImageInfoType_1
+captureCBEFFPid	../inc/bclib.h	/^  uint32   captureCBEFFPid; $/;"	m	struct:_tag_BCImageInfoType_2
+captureCBEFFPid	../inc/bclib.h	/^  uint32   captureCBEFFPid; $/;"	m	struct:_tag_BCTemplateInfoType_1
+captureCBEFFPid	../inc/bclib.h	/^  uint32   captureCBEFFPid; $/;"	m	struct:_tag_BCTemplateInfoType_2
+captureEquipmentCompliance	../inc/bclib.h	/^  uint32   captureEquipmentCompliance; $/;"	m	struct:_tag_BCImageInfoType_1
+captureEquipmentCompliance	../inc/bclib.h	/^  uint32   captureEquipmentCompliance; $/;"	m	struct:_tag_BCImageInfoType_2
+captureEquipmentCompliance	../inc/bclib.h	/^  uint32   captureEquipmentCompliance; $/;"	m	struct:_tag_BCTemplateInfoType_1
+captureEquipmentCompliance	../inc/bclib.h	/^  uint32   captureEquipmentCompliance; $/;"	m	struct:_tag_BCTemplateInfoType_2
+captureEquipmentId	../inc/bclib.h	/^  uint32   captureEquipmentId; $/;"	m	struct:_tag_BCImageInfoType_1
+captureEquipmentId	../inc/bclib.h	/^  uint32   captureEquipmentId; $/;"	m	struct:_tag_BCImageInfoType_2
+captureEquipmentId	../inc/bclib.h	/^  uint32   captureEquipmentId; $/;"	m	struct:_tag_BCTemplateInfoType_1
+captureEquipmentId	../inc/bclib.h	/^  uint32   captureEquipmentId; $/;"	m	struct:_tag_BCTemplateInfoType_2
+capture_device_id	../inc/dpfj.h	/^		unsigned int capture_device_id;    \/**< vendor specified *\/$/;"	m	struct:dpfj_fid_record_params
+capture_equipment_comp	../inc/dpfj.h	/^		unsigned int capture_equipment_comp;  \/**< 4 bits: compliance;  *\/$/;"	m	struct:dpfj_fmd_record_params
+capture_equipment_id	../inc/dpfj.h	/^		unsigned int capture_equipment_id;    \/**< 12 bits: capture device id, vendor specified *\/$/;"	m	struct:dpfj_fmd_record_params
+capture_parm	../inc/dpfpdd.h	/^	DPFPDD_CAPTURE_PARAM  capture_parm;    \/**< capture parameters passed to dpfpdd_capture_async *\/$/;"	m	struct:dpfpdd_capture_callback_data_0
+capture_result	../inc/dpfpdd.h	/^	DPFPDD_CAPTURE_RESULT capture_result;  \/**< result of the capture operation *\/ $/;"	m	struct:dpfpdd_capture_callback_data_0
+cbeff_id	../inc/dpfj.h	/^		unsigned int cbeff_id;                \/**< CBEFF product identifier *\/$/;"	m	struct:dpfj_fmd_record_params
+cbeff_id	../inc/dpfj.h	/^		unsigned int cbeff_id;             \/**< CBEFF product identifier *\/$/;"	m	struct:dpfj_fid_record_params
+cfgLen	../inc/header.h	/^PT_WORD cfgLen;$/;"	v
+colorDepth	../inc/bclib.h	/^  sint32   colorDepth; $/;"	m	struct:_tag_BCImageInfoType_1
+colorDepth	../inc/bclib.h	/^  sint32   colorDepth; $/;"	m	struct:_tag_BCImageInfoType_2
+compression	../inc/bclib.h	/^  BCImageCompressionType   compression; $/;"	m	struct:_tag_BCImageInfoType_1
+compression	../inc/bclib.h	/^  BCImageCompressionType   compression; $/;"	m	struct:_tag_BCImageInfoType_2
+compression	../inc/dpfj.h	/^		unsigned int compression;          \/**< from Table 3 in "ANSI INSITS 381-2004" *\/$/;"	m	struct:dpfj_fid_record_params
+data	../inc/dpfpdd.h	/^	unsigned char data[1];         \/**< additional vendor-specific data which may be passed by the driver *\/$/;"	m	struct:dpfpdd_dev_status
+data_length	../inc/dpfj.h	/^		unsigned int         data_length;     \/**< total length of the finger data including header *\/$/;"	m	struct:dpfj_fid_view_params
+deinit_FM	../src/deinit_fp.c	/^int deinit_FM(PT_CONNECTION handle)$/;"	f
+delete_by_scan	../src/enroll.c	/^int delete_by_scan(USER **start, USER *head)$/;"	f
+delete_by_userid	../src/enroll.c	/^int delete_by_userid(unsigned long userid, USER **start, USER *head,int security)$/;"	f
+descr	../inc/dpfpdd.h	/^	DPFPDD_HW_DESCR	     descr;       \/**< displayable information about reader *\/$/;"	m	struct:dpfpdd_dev_info
+dpfj_candidate	../inc/dpfj.h	/^typedef struct dpfj_candidate{$/;"	s
+dpfj_fid_record_params	../inc/dpfj.h	/^	typedef struct dpfj_fid_record_params{$/;"	s
+dpfj_fid_view_params	../inc/dpfj.h	/^	typedef struct dpfj_fid_view_params{$/;"	s
+dpfj_fmd_record_params	../inc/dpfj.h	/^	typedef struct dpfj_fmd_record_params{$/;"	s
+dpfj_fmd_view_params	../inc/dpfj.h	/^	typedef struct dpfj_fmd_view_params{$/;"	s
+dpfj_ver_info	../inc/dpfj.h	/^typedef struct dpfj_ver_info {$/;"	s
+dpfj_version	../inc/dpfj.h	/^typedef struct dpfj_version {$/;"	s
+dpfpdd_capture_callback_data_0	../inc/dpfpdd.h	/^typedef struct dpfpdd_capture_callback_data_0{$/;"	s
+dpfpdd_capture_param	../inc/dpfpdd.h	/^typedef struct dpfpdd_capture_param {$/;"	s
+dpfpdd_capture_result	../inc/dpfpdd.h	/^typedef struct dpfpdd_capture_result{$/;"	s
+dpfpdd_dev_caps	../inc/dpfpdd.h	/^typedef struct dpfpdd_dev_caps {$/;"	s
+dpfpdd_dev_info	../inc/dpfpdd.h	/^typedef struct dpfpdd_dev_info {$/;"	s
+dpfpdd_dev_status	../inc/dpfpdd.h	/^typedef struct  dpfpdd_dev_status {$/;"	s
+dpfpdd_hw_descr	../inc/dpfpdd.h	/^typedef struct dpfpdd_hw_descr {$/;"	s
+dpfpdd_hw_id	../inc/dpfpdd.h	/^typedef struct dpfpdd_hw_id {$/;"	s
+dpfpdd_hw_version	../inc/dpfpdd.h	/^typedef struct dpfpdd_hw_version {$/;"	s
+dpfpdd_image_info	../inc/dpfpdd.h	/^typedef struct dpfpdd_image_info {$/;"	s
+dpfpdd_iomap	../inc/dpfpdd.h	/^typedef struct dpfpdd_iomap {$/;"	s
+dpfpdd_ver_info	../inc/dpfpdd.h	/^typedef struct dpfpdd_ver_info {$/;"	s
+dpfpdd_version	../inc/dpfpdd.h	/^typedef struct dpfpdd_version {$/;"	s
+dpiConversionSwitch	../inc/bclib.h	/^  uint32   dpiConversionSwitch; $/;"	m	struct:_tag_BCTemplateInfoType_2
+dsn	../inc/header.h	/^PT_CHAR dsn[26];$/;"	v
+dx	../inc/tfmtypes.h	/^  PT_SHORT dx; 	\/\/\/< Delta X since the last navigation data$/;"	m	struct:pt_navigation_data
+dy	../inc/tfmtypes.h	/^  PT_SHORT dy; 	\/\/\/< Delta Y since the last navigation data$/;"	m	struct:pt_navigation_data
+enroll_by_scan	../src/enroll.c	/^int enroll_by_scan(PT_CONNECTION handle, unsigned long userid, char *username, int timeout, USER **start, USER *head)$/;"	f
+enroll_user	../src/enroll.c	/^USER *enroll_user(unsigned long userid, char *username, USER *head)$/;"	f
+error	../inc/dpfpdd.h	/^	int                   error;           \/**< error code *\/$/;"	m	struct:dpfpdd_capture_callback_data_0
+ext_block	../inc/dpfj.h	/^		unsigned char*       ext_block;        \/**< pointer to the extended data block *\/$/;"	m	struct:dpfj_fmd_view_params
+ext_block_length	../inc/dpfj.h	/^		unsigned int         ext_block_length; \/**< length of the extended data block, in bytes *\/$/;"	m	struct:dpfj_fmd_view_params
+fingerPosition	../inc/bclib.h	/^  uint32   fingerPosition; $/;"	m	struct:_tag_BCTemplateInfoType_1
+fingerPosition	../inc/bclib.h	/^  uint32   fingerPosition; $/;"	m	struct:_tag_BCTemplateInfoType_2
+fingerQuality	../inc/bclib.h	/^  uint32   fingerQuality; $/;"	m	struct:_tag_BCTemplateInfoType_2
+finger_cnt	../inc/dpfj.h	/^		unsigned int finger_cnt;           \/**< total number of fingerprints in the record, must be greater or equal to 1 *\/$/;"	m	struct:dpfj_fid_record_params
+finger_detected	../inc/dpfpdd.h	/^	int           finger_detected; \/**< flag: finger detected on the reader *\/$/;"	m	struct:dpfpdd_dev_status
+finger_position	../inc/dpfj.h	/^		DPFJ_FINGER_POSITION finger_position;  \/**< 0 - 10, from Table 5 in "ANSI INSITS 381-2004" *\/$/;"	m	struct:dpfj_fmd_view_params
+finger_position	../inc/dpfj.h	/^		DPFJ_FINGER_POSITION finger_position; \/**< finger position  *\/$/;"	m	struct:dpfj_fid_view_params
+float32	../inc/bclib.h	/^typedef float               float32;$/;"	t
+fmd_idx	../inc/dpfj.h	/^	unsigned int fmd_idx;  \/**< index of the FMD in the input array *\/$/;"	m	struct:dpfj_candidate
+fw_ver	../inc/dpfpdd.h	/^ 	DPFPDD_VER_INFO fw_ver; \/**< firmware version *\/$/;"	m	struct:dpfpdd_hw_version
+handle	../inc/header.h	/^PT_CONNECTION handle;$/;"	v
+has_calibration	../inc/dpfpdd.h	/^	int          has_calibration;       \/**< flag: reader can be calibrated *\/$/;"	m	struct:dpfpdd_dev_caps
+has_fp_storage	../inc/dpfpdd.h	/^	int          has_fp_storage;        \/**< flag: reader has storage for fingerprint features data *\/$/;"	m	struct:dpfpdd_dev_caps
+has_pwr_mgmt	../inc/dpfpdd.h	/^	int          has_pwr_mgmt;          \/**< flag: power mode of the reader can be controlled  *\/$/;"	m	struct:dpfpdd_dev_caps
+height	../inc/bclib.h	/^  sint32   height; $/;"	m	struct:_tag_BCImageInfoType_1
+height	../inc/bclib.h	/^  sint32   height; $/;"	m	struct:_tag_BCImageInfoType_2
+height	../inc/dpfj.h	/^		unsigned int         height;          \/**< height of the fingerprint view, in pixels *\/$/;"	m	struct:dpfj_fid_view_params
+height	../inc/dpfj.h	/^		unsigned int height;                  \/**< height of the fingerprint image, in pixels *\/$/;"	m	struct:dpfj_fmd_record_params
+height	../inc/dpfpdd.h	/^	unsigned int height;  \/**< height of the captured image *\/$/;"	m	struct:dpfpdd_image_info
+horizontalImageResolution	../inc/bclib.h	/^  sint32   horizontalImageResolution; $/;"	m	struct:_tag_BCImageInfoType_1
+horizontalImageResolution	../inc/bclib.h	/^  sint32   horizontalImageResolution; $/;"	m	struct:_tag_BCImageInfoType_2
+horizontalScanResolution	../inc/bclib.h	/^  sint32   horizontalScanResolution; $/;"	m	struct:_tag_BCImageInfoType_1
+horizontalScanResolution	../inc/bclib.h	/^  sint32   horizontalScanResolution; $/;"	m	struct:_tag_BCImageInfoType_2
+hw_ver	../inc/dpfpdd.h	/^ 	DPFPDD_VER_INFO hw_ver; \/**< hardware version *\/$/;"	m	struct:dpfpdd_hw_version
+id	../inc/dpfpdd.h	/^	DPFPDD_HW_ID         id;          \/**< USB ID *\/$/;"	m	struct:dpfpdd_dev_info
+identify_by_scan_iso	../src/enroll.c	/^unsigned long identify_by_scan_iso(PT_CONNECTION handle, USER *head, int flag)$/;"	f
+iengine_minutiae	../inc/iengine_ansi_iso.h	/^typedef struct iengine_minutiae$/;"	s
+iengine_version	../inc/iengine_ansi_iso.h	/^typedef struct iengine_version $/;"	s
+imageHeight	../inc/bclib.h	/^  uint32   imageHeight; $/;"	m	struct:_tag_BCTemplateInfoType_1
+imageHeight	../inc/bclib.h	/^  uint32   imageHeight; $/;"	m	struct:_tag_BCTemplateInfoType_2
+imageHorizontalResolution	../inc/bclib.h	/^  uint32   imageHorizontalResolution; $/;"	m	struct:_tag_BCTemplateInfoType_1
+imageHorizontalResolution	../inc/bclib.h	/^  uint32   imageHorizontalResolution; $/;"	m	struct:_tag_BCTemplateInfoType_2
+imageType	../inc/bclib.h	/^  BCImageType   imageType; $/;"	m	struct:_tag_BCImageInfoType_1
+imageType	../inc/bclib.h	/^  BCImageType   imageType; $/;"	m	struct:_tag_BCImageInfoType_2
+imageVerticalResolution	../inc/bclib.h	/^  uint32   imageVerticalResolution; $/;"	m	struct:_tag_BCTemplateInfoType_1
+imageVerticalResolution	../inc/bclib.h	/^  uint32   imageVerticalResolution; $/;"	m	struct:_tag_BCTemplateInfoType_2
+imageWidth	../inc/bclib.h	/^  uint32   imageWidth; $/;"	m	struct:_tag_BCTemplateInfoType_1
+imageWidth	../inc/bclib.h	/^  uint32   imageWidth; $/;"	m	struct:_tag_BCTemplateInfoType_2
+image_data	../inc/dpfpdd.h	/^	unsigned char*        image_data;      \/**< image data *\/$/;"	m	struct:dpfpdd_capture_callback_data_0
+image_fmt	../inc/dpfpdd.h	/^ 	DPFPDD_IMAGE_FMT  image_fmt;  \/**< format of the image *\/$/;"	m	struct:dpfpdd_capture_param
+image_proc	../inc/dpfpdd.h	/^	DPFPDD_IMAGE_PROC image_proc; \/**< processing of the image *\/$/;"	m	struct:dpfpdd_capture_param
+image_res	../inc/dpfj.h	/^		unsigned int image_res;            \/**< image resolution *\/$/;"	m	struct:dpfj_fid_record_params
+image_res	../inc/dpfpdd.h	/^ 	unsigned int      image_res;  \/**< resolution of the image *\/$/;"	m	struct:dpfpdd_capture_param
+image_size	../inc/dpfpdd.h	/^	unsigned int          image_size;      \/**< size of the image data *\/$/;"	m	struct:dpfpdd_capture_callback_data_0
+impressionType	../inc/bclib.h	/^  uint32   impressionType; $/;"	m	struct:_tag_BCTemplateInfoType_2
+impression_type	../inc/dpfj.h	/^		DPFJ_SCAN_TYPE       impression_type;  \/**< Table 2 in "ANSI INSITS 378-2004" *\/$/;"	m	struct:dpfj_fmd_view_params
+impression_type	../inc/dpfj.h	/^		DPFJ_SCAN_TYPE       impression_type; \/**< impression type *\/$/;"	m	struct:dpfj_fid_view_params
+indicator_type	../inc/dpfpdd.h	/^	unsigned int indicator_type;        \/**< bitmask: existing LEDs *\/$/;"	m	struct:dpfpdd_dev_caps
+info	../inc/dpfpdd.h	/^	DPFPDD_IMAGE_INFO info;    \/**< image info *\/$/;"	m	struct:dpfpdd_capture_result
+init_FM	../src/init_fp.c	/^int init_FM(PT_CONNECTION handle)$/;"	f
+iodev_op	../src/iodev.c	/^int iodev_op(int op)$/;"	f
+lSlotNr	../inc/tfmtypes.h	/^		PT_LONG lSlotNr; \/\/\/< Used when byForm = PT_SLOT_INPUT *\/$/;"	m	union:pt_input_bir::__anon6
+len	../inc/dpfpdd.h	/^	unsigned short	len;	 \/**< size size of the data buffer *\/$/;"	m	struct:dpfpdd_iomap
+lib_ver	../inc/dpfj.h	/^	DPFJ_VER_INFO lib_ver; \/**< file version of the library\/SDK *\/$/;"	m	struct:dpfj_version
+lib_ver	../inc/dpfpdd.h	/^	DPFPDD_VER_INFO lib_ver; \/**< file version of the SDK\/library *\/$/;"	m	struct:dpfpdd_version
+main	../src/main.c	/^int main()$/;"	f
+maintenance	../inc/dpfj.h	/^	int maintenance; \/**< maintenance or revision number *\/$/;"	m	struct:dpfj_ver_info
+maintenance	../inc/dpfpdd.h	/^	int maintenance; \/**< maintenance or revision number *\/$/;"	m	struct:dpfpdd_ver_info
+major	../inc/dpfj.h	/^	int major;       \/**< major version number *\/$/;"	m	struct:dpfj_ver_info
+major	../inc/dpfpdd.h	/^	int major;       \/**< major version number *\/$/;"	m	struct:dpfpdd_ver_info
+minor	../inc/dpfj.h	/^	int minor;       \/**< minor version number *\/$/;"	m	struct:dpfj_ver_info
+minor	../inc/dpfpdd.h	/^	int minor;       \/**< minor version number *\/$/;"	m	struct:dpfpdd_ver_info
+minutia_cnt	../inc/dpfj.h	/^		unsigned int         minutia_cnt;      \/**< number of minutiae *\/$/;"	m	struct:dpfj_fmd_view_params
+mlen	../inc/header.h	/^int mlen;$/;"	v
+modality	../inc/dpfpdd.h	/^ 	DPFPDD_HW_MODALITY   modality;    \/**< reader modality *\/$/;"	m	struct:dpfpdd_dev_info
+myiso	../inc/header.h	/^unsigned char myiso[1556];$/;"	v
+name	../inc/dpfpdd.h	/^	char                 name[MAX_DEVICE_NAME_LENGTH]; \/**< unique name of the reader *\/$/;"	m	struct:dpfpdd_dev_info
+optcap_op	../src/optcap.c	/^int optcap_op(int op)$/;"	f
+outputWsqBitRate	../inc/bclib.h	/^  float32   outputWsqBitRate; $/;"	m	struct:_tag_BCImageInfoType_2
+pBIR	../inc/tfmtypes.h	/^		PT_BIR *pBIR; \/\/\/< Used when byForm = PT_FULLBIR_INPUT *\/$/;"	m	union:pt_input_bir::__anon6
+pCapturedTemplate	../inc/header.h	/^PT_INPUT_BIR pStoredTemplate,pCapturedTemplate;$/;"	v
+pCfg	../inc/header.h	/^PT_SESSION_CFG_V5 *pCfg;$/;"	v
+pStoredTemplate	../inc/header.h	/^PT_INPUT_BIR pStoredTemplate,pCapturedTemplate;$/;"	v
+pViewTemplate	../inc/bclib.h	/^  void *   pViewTemplate; $/;"	m	struct:_tag_BCTemplateViewInfoType_1
+pboResult	../inc/header.h	/^PT_BOOL pboResult;$/;"	v
+pfnFree	../inc/tfmtypes.h	/^  PT_FREE pfnFree; 	\/\/\/< Memory freeing function$/;"	m	struct:pt_memory_funcs
+pfnMalloc	../inc/tfmtypes.h	/^  PT_MALLOC pfnMalloc; 	\/\/\/< Memory allocating function$/;"	m	struct:pt_memory_funcs
+pinfo	../inc/header.h	/^PT_INFO *pinfo;$/;"	v
+piv_compliant	../inc/dpfpdd.h	/^	int          piv_compliant;         \/**< flag: can produce PIV compliant images *\/$/;"	m	struct:dpfpdd_dev_caps
+ppCapturedTemplate	../inc/header.h	/^PT_BIR *ppCapturedTemplate;$/;"	v
+ppGlobalInfo	../inc/header.h	/^PT_GLOBAL_INFO *ppGlobalInfo;$/;"	v
+printuser	../src/enroll.c	/^void printuser(USER *head)$/;"	f
+product_id	../inc/dpfpdd.h	/^	unsigned short  product_id; \/**< product ID (USB PID) *\/$/;"	m	struct:dpfpdd_hw_id
+product_name	../inc/dpfpdd.h	/^	char product_name[MAX_STR_LENGTH]; \/**< name of the product *\/$/;"	m	struct:dpfpdd_hw_descr
+pt_bir	../inc/tfmtypes.h	/^typedef struct pt_bir {$/;"	s
+pt_bir_header	../inc/tfmtypes.h	/^typedef struct pt_bir_header {$/;"	s
+pt_data	../inc/tfmtypes.h	/^typedef struct pt_data {$/;"	s
+pt_device_list	../inc/tfmtypes.h	/^typedef struct pt_device_list {$/;"	s
+pt_device_list_item	../inc/tfmtypes.h	/^typedef struct pt_device_list_item {$/;"	s
+pt_dif_header	../inc/tfmtypes.h	/^typedef struct pt_dif_header {$/;"	s
+pt_dif_section_gradient	../inc/tfmtypes.h	/^typedef struct pt_dif_section_gradient {$/;"	s
+pt_dif_section_header	../inc/tfmtypes.h	/^typedef struct pt_dif_section_header {$/;"	s
+pt_dif_section_image_data	../inc/tfmtypes.h	/^typedef struct pt_dif_section_image_data {$/;"	s
+pt_dif_section_image_header	../inc/tfmtypes.h	/^typedef struct pt_dif_section_image_header {$/;"	s
+pt_dif_section_native	../inc/tfmtypes.h	/^typedef struct pt_dif_section_native {$/;"	s
+pt_dif_section_skew	../inc/tfmtypes.h	/^typedef struct pt_dif_section_skew {$/;"	s
+pt_dif_section_speed	../inc/tfmtypes.h	/^typedef struct pt_dif_section_speed {$/;"	s
+pt_dif_section_striation_removal	../inc/tfmtypes.h	/^typedef struct pt_dif_section_striation_removal {$/;"	s
+pt_extended_info_v1	../inc/tfmtypes.h	/^typedef struct pt_extended_info_v1 {$/;"	s
+pt_extended_info_v2	../inc/tfmtypes.h	/^typedef struct pt_extended_info_v2 {$/;"	s
+pt_extrtmpl_imginfo	../inc/tfmtypes.h	/^typedef struct pt_extrtmpl_imginfo {$/;"	s
+pt_extrtmpl_tmplinfo	../inc/tfmtypes.h	/^typedef struct pt_extrtmpl_tmplinfo {$/;"	s
+pt_finger_list	../inc/tfmtypes.h	/^typedef struct pt_finger_list {$/;"	s
+pt_finger_list_item	../inc/tfmtypes.h	/^typedef struct pt_finger_list_item {$/;"	s
+pt_global_info	../inc/tfmtypes.h	/^typedef struct pt_global_info {$/;"	s
+pt_gui_sample_image	../inc/tfmtypes.h	/^typedef struct pt_gui_sample_image {$/;"	s
+pt_imgformat	../inc/tfmtypes.h	/^typedef struct pt_imgformat {$/;"	s
+pt_imgformat_list	../inc/tfmtypes.h	/^typedef struct pt_imgformat_list {$/;"	s
+pt_imgformat_list_item	../inc/tfmtypes.h	/^typedef struct pt_imgformat_list_item {$/;"	s
+pt_info	../inc/tfmtypes.h	/^typedef struct pt_info {$/;"	s
+pt_input_bir	../inc/tfmtypes.h	/^typedef struct pt_input_bir {$/;"	s
+pt_led_params_manual	../inc/tfmtypes.h	/^typedef struct pt_led_params_manual {$/;"	s
+pt_led_params_manual2	../inc/tfmtypes.h	/^typedef struct pt_led_params_manual2 {$/;"	s
+pt_led_params_reader	../inc/tfmtypes.h	/^typedef struct pt_led_params_reader {$/;"	s
+pt_match_on_host_params	../inc/tfmtypes.h	/^typedef struct pt_match_on_host_params {$/;"	s
+pt_memory_funcs	../inc/tfmtypes.h	/^typedef struct pt_memory_funcs {$/;"	s
+pt_navigation_data	../inc/tfmtypes.h	/^typedef struct pt_navigation_data {$/;"	s
+pt_session_cfg_v1	../inc/tfmtypes.h	/^typedef struct pt_session_cfg_v1 {$/;"	s
+pt_session_cfg_v2	../inc/tfmtypes.h	/^typedef struct pt_session_cfg_v2 {$/;"	s
+pt_session_cfg_v3	../inc/tfmtypes.h	/^typedef struct pt_session_cfg_v3 {$/;"	s
+pt_session_cfg_v4	../inc/tfmtypes.h	/^typedef struct pt_session_cfg_v4 {$/;"	s
+pt_session_cfg_v5	../inc/tfmtypes.h	/^typedef struct pt_session_cfg_v5 {$/;"	s
+pt_swipe_info	../inc/tfmtypes.h	/^typedef struct pt_swipe_info {$/;"	s
+quality	../inc/bclib.h	/^  sint32   quality; $/;"	m	struct:_tag_BCImageInfoType_1
+quality	../inc/bclib.h	/^  sint32   quality; $/;"	m	struct:_tag_BCImageInfoType_2
+quality	../inc/dpfj.h	/^		unsigned int         quality;          \/**< 1 - 100  *\/$/;"	m	struct:dpfj_fmd_view_params
+quality	../inc/dpfj.h	/^		unsigned int         quality;         \/**< 1 - 100 for ISO; 1 - 100, 254 for ANSI *\/$/;"	m	struct:dpfj_fid_view_params
+quality	../inc/dpfpdd.h	/^	DPFPDD_QUALITY    quality; \/**< image quality *\/$/;"	m	struct:dpfpdd_capture_result
+record_length	../inc/dpfj.h	/^		unsigned int record_length;           \/**< total length of the image, including headers and all views *\/$/;"	m	struct:dpfj_fmd_record_params
+record_length	../inc/dpfj.h	/^		unsigned int record_length;        \/**< total length of the image, including headers and all views *\/$/;"	m	struct:dpfj_fid_record_params
+res	../inc/dpfpdd.h	/^	unsigned int res;     \/**< resolution of the captured image *\/$/;"	m	struct:dpfpdd_image_info
+reserve	../inc/tfmtypes.h	/^  PT_BYTE reserve[7]; 	\/\/\/< Reserve, currently set to 0.$/;"	m	struct:pt_extended_info_v2
+reserve1	../inc/tfmtypes.h	/^  PT_BYTE reserve1[2]; 	\/\/\/< Not used$/;"	m	struct:pt_session_cfg_v3
+reserve1	../inc/tfmtypes.h	/^  PT_BYTE reserve1[3]; 	\/\/\/< Not used$/;"	m	struct:pt_session_cfg_v2
+reserve2	../inc/tfmtypes.h	/^  PT_BYTE reserve2[2]; 	\/\/\/< Not used$/;"	m	struct:pt_session_cfg_v2
+reserve2	../inc/tfmtypes.h	/^  PT_BYTE reserve2[2]; 	\/\/\/< Not used$/;"	m	struct:pt_session_cfg_v3
+reserved	../inc/tfmtypes.h	/^  PT_BYTE reserved[14]; 	\/\/\/< Reserved, set to 0$/;"	m	struct:pt_extrtmpl_imginfo
+reserved	../inc/tfmtypes.h	/^  PT_BYTE reserved[28]; 	\/\/\/< Reserved for future use$/;"	m	struct:pt_device_list_item
+reserved	../inc/tfmtypes.h	/^  PT_BYTE reserved[28]; 	\/\/\/< Reserved, set to 0$/;"	m	struct:pt_extrtmpl_tmplinfo
+reserved	../inc/tfmtypes.h	/^  PT_BYTE reserved[3]; 	\/\/\/< Reserved, set to 0$/;"	m	struct:pt_match_on_host_params
+reserved	../inc/tfmtypes.h	/^  PT_BYTE reserved[4]; 	\/\/\/< Reserved for future use.$/;"	m	struct:pt_dif_section_image_header
+reserved	../inc/tfmtypes.h	/^  PT_BYTE reserved[8]; 	\/\/\/< Reserved.$/;"	m	struct:pt_swipe_info
+reserved1	../inc/tfmtypes.h	/^  PT_BYTE reserved1[4]; 	\/\/\/< Not used.$/;"	m	struct:pt_session_cfg_v5
+reserved2	../inc/tfmtypes.h	/^  PT_BYTE reserved2[8]; 	\/\/\/< Not used.$/;"	m	struct:pt_session_cfg_v5
+reserved3	../inc/tfmtypes.h	/^  PT_BYTE reserved3[9]; 	\/\/\/< Not used$/;"	m	struct:pt_session_cfg_v5
+reserved4	../inc/tfmtypes.h	/^  PT_BYTE reserved4[14]; 	\/\/\/< Not used.$/;"	m	struct:pt_session_cfg_v5
+resolution	../inc/dpfj.h	/^		unsigned int resolution;              \/**< resolution of the fingerprint image *\/$/;"	m	struct:dpfj_fmd_record_params
+resolution_cnt	../inc/dpfpdd.h	/^	unsigned int resolution_cnt;        \/**< counter: number of the image resolutions reader can produce *\/$/;"	m	struct:dpfpdd_dev_caps
+resolutions	../inc/dpfpdd.h	/^	unsigned int resolutions[1];        \/**< array: available resolutions *\/$/;"	m	struct:dpfpdd_dev_caps
+scale_units	../inc/dpfj.h	/^		unsigned int scale_units;          \/**< pixels\/cm (2) or pixels\/inch (1) *\/$/;"	m	struct:dpfj_fid_record_params
+scan_res	../inc/dpfj.h	/^		unsigned int scan_res;             \/**< scan resolution *\/$/;"	m	struct:dpfj_fid_record_params
+score	../inc/dpfpdd.h	/^	unsigned int      score;   \/**< image score *\/$/;"	m	struct:dpfpdd_capture_result
+search_user	../src/enroll.c	/^int search_user(USER *head, unsigned long userid, char *username)$/;"	f
+serial_num	../inc/dpfpdd.h	/^	char serial_num[MAX_STR_LENGTH];   \/**< serial number *\/$/;"	m	struct:dpfpdd_hw_descr
+signalBits	../inc/tfmtypes.h	/^  PT_WORD signalBits; 	\/\/\/< Information bitmask, see PT_NAVIGBITS_xxxx$/;"	m	struct:pt_navigation_data
+sint16	../inc/bclib.h	/^typedef signed short        sint16;$/;"	t
+sint32	../inc/bclib.h	/^typedef signed int          sint32;$/;"	t
+sint32	../inc/bclib.h	/^typedef signed long         sint32;$/;"	t
+size	../inc/dpfj.h	/^	unsigned int    size;  \/**< Size of the structure, in bytes *\/	$/;"	m	struct:dpfj_version
+size	../inc/dpfj.h	/^ 	unsigned int size;     \/**< size of the structure, in bytes *\/$/;"	m	struct:dpfj_candidate
+size	../inc/dpfpdd.h	/^	unsigned int          size;            \/**< size of the structure *\/$/;"	m	struct:dpfpdd_capture_callback_data_0
+size	../inc/dpfpdd.h	/^	unsigned int         size; \/**< size of the structure *\/$/;"	m	struct:dpfpdd_dev_info
+size	../inc/dpfpdd.h	/^	unsigned int      size;    \/**< size of the structure *\/$/;"	m	struct:dpfpdd_capture_result
+size	../inc/dpfpdd.h	/^	unsigned int    size;    \/**< size of the structure, in bytes	*\/		$/;"	m	struct:dpfpdd_version
+size	../inc/dpfpdd.h	/^	unsigned int  size;            \/**< total size of the allocated memory including size of additional data *\/$/;"	m	struct:dpfpdd_dev_status
+size	../inc/dpfpdd.h	/^	unsigned int size;    \/**< size of the structure *\/$/;"	m	struct:dpfpdd_image_info
+size	../inc/dpfpdd.h	/^ 	unsigned int      size;       \/**< size of the structure *\/$/;"	m	struct:dpfpdd_capture_param
+size	../inc/dpfpdd.h	/^ 	unsigned int size; \/**< size of the structure *\/$/;"	m	struct:dpfpdd_dev_caps
+status	../inc/dpfpdd.h	/^	DPFPDD_STATUS status;          \/**< reader status *\/$/;"	m	struct:dpfpdd_dev_status
+success	../inc/dpfpdd.h	/^	int               success; \/**< success flag; 0: capture failed, 1: capture succeeded, image is good *\/$/;"	m	struct:dpfpdd_capture_result
+technology	../inc/dpfpdd.h	/^ 	DPFPDD_HW_TECHNOLOGY technology;  \/**< reader technology *\/$/;"	m	struct:dpfpdd_dev_info
+tfmtypes_h	../inc/tfmtypes.h	10;"	d
+type	../inc/iengine_ansi_iso.h	/^	unsigned char type;$/;"	m	struct:iengine_minutiae
+uint16	../inc/bclib.h	/^typedef unsigned short      uint16;$/;"	t
+uint32	../inc/bclib.h	/^typedef unsigned int        uint32;$/;"	t
+uint32	../inc/bclib.h	/^typedef unsigned long       uint32;$/;"	t
+vendor_id	../inc/dpfpdd.h	/^	unsigned short  vendor_id;  \/**< vendor ID (USB VID) *\/$/;"	m	struct:dpfpdd_hw_id
+vendor_name	../inc/dpfpdd.h	/^	char vendor_name[MAX_STR_LENGTH];  \/**< name of the vendor *\/$/;"	m	struct:dpfpdd_hw_descr
+ver	../inc/dpfpdd.h	/^	DPFPDD_HW_VERSION    ver;         \/**< reader hardware version information *\/$/;"	m	struct:dpfpdd_dev_info
+version	../inc/bclib.h	/^  sint32   version; $/;"	m	struct:_tag_BCImageInfoType_1
+version	../inc/bclib.h	/^  sint32   version; $/;"	m	struct:_tag_BCImageInfoType_2
+version	../inc/bclib.h	/^  uint32   version; $/;"	m	struct:_tag_BCTemplateInfoType_1
+version	../inc/bclib.h	/^  uint32   version; $/;"	m	struct:_tag_BCTemplateInfoType_2
+verticalImageResolution	../inc/bclib.h	/^  sint32   verticalImageResolution; $/;"	m	struct:_tag_BCImageInfoType_1
+verticalImageResolution	../inc/bclib.h	/^  sint32   verticalImageResolution; $/;"	m	struct:_tag_BCImageInfoType_2
+verticalScanResolution	../inc/bclib.h	/^  sint32   verticalScanResolution; $/;"	m	struct:_tag_BCImageInfoType_1
+verticalScanResolution	../inc/bclib.h	/^  sint32   verticalScanResolution; $/;"	m	struct:_tag_BCImageInfoType_2
+viewTemplateLength	../inc/bclib.h	/^  uint32   viewTemplateLength; $/;"	m	struct:_tag_BCTemplateViewInfoType_1
+view_cnt	../inc/dpfj.h	/^		unsigned int         view_cnt;        \/**< number of views associated with this finger, must be greater or equal to 1 *\/$/;"	m	struct:dpfj_fid_view_params
+view_cnt	../inc/dpfj.h	/^		unsigned int view_cnt;                \/**< number of views *\/$/;"	m	struct:dpfj_fmd_record_params
+view_data	../inc/dpfj.h	/^		unsigned char*       view_data;       \/**< pointer to the view data *\/$/;"	m	struct:dpfj_fid_view_params
+view_idx	../inc/dpfj.h	/^	unsigned int view_idx; \/**< index of the view in the FMD *\/$/;"	m	struct:dpfj_candidate
+view_number	../inc/dpfj.h	/^		unsigned int         view_number;      \/**< 0 - 15 *\/$/;"	m	struct:dpfj_fmd_view_params
+view_number	../inc/dpfj.h	/^		unsigned int         view_number;     \/**< 1 - 256 *\/$/;"	m	struct:dpfj_fid_view_params
+width	../inc/bclib.h	/^  sint32   width; $/;"	m	struct:_tag_BCImageInfoType_1
+width	../inc/bclib.h	/^  sint32   width; $/;"	m	struct:_tag_BCImageInfoType_2
+width	../inc/dpfj.h	/^		unsigned int         width;           \/**< width of the fingerprint view, in pixels *\/$/;"	m	struct:dpfj_fid_view_params
+width	../inc/dpfj.h	/^		unsigned int width;                   \/**< width of the fingerprint image, in pixels *\/$/;"	m	struct:dpfj_fmd_record_params
+width	../inc/dpfpdd.h	/^	unsigned int width;   \/**< width of the captured image *\/$/;"	m	struct:dpfpdd_image_info
+x	../inc/iengine_ansi_iso.h	/^	unsigned short x;$/;"	m	struct:iengine_minutiae
+y	../inc/iengine_ansi_iso.h	/^	unsigned short y;$/;"	m	struct:iengine_minutiae
